@@ -1,5 +1,5 @@
 {
-  "_header": "Produced by: python scripts/04_train.py --model w1 | commit 0010a1b+uncommitted | splits used: ('train', 'val')",
+  "_header": "Produced by: python scripts/04_train.py --model w1 | commit 7166c7c | splits used: ('train', 'val')",
   "model": "w1",
   "n_bins": 12,
   "L_s": 30,
