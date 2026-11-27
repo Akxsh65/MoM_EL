@@ -1,0 +1,18 @@
+[project]
+name = "raga-tracking"
+version = "0.1.0"
+description = "Time-resolved Carnatic raga recognition and ragamalika segmentation"
+requires-python = ">=3.10"
+dependencies = ["numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "pyyaml",
+                "joblib", "mirdata", "mir_eval", "librosa", "torch", "tqdm", "pytest"]
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
