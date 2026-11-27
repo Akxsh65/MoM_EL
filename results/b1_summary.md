@@ -1,6 +1,6 @@
 # B1 summary (T8)
 
-Produced by: `python scripts/08_build_b1.py --hard_min 6` | commit 3953350+uncommitted
+Produced by: `python scripts/08_build_b1.py --hard_min 6` | commit 4c60f6d+uncommitted
 
 | split | label | sequences | mean excerpts | mean duration (min) | concerts |
 |---|---|---|---|---|---|

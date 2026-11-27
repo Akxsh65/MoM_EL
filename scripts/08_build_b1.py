@@ -51,6 +51,8 @@ def main() -> None:
             "min_voiced": 0.6, "scales_sha256": hashlib.sha256(sc).hexdigest(),
             "n_scales_unverified": sum(1 for v in yaml.safe_load(open(f"{ROOT}/configs/scales.yaml")).values() if isinstance(v, dict) and v.get("verify"))}
     save_manifest(allseq, f"{out_dir}/b1_manifest.json", meta)
+    os.makedirs(f"{ROOT}/manifests", exist_ok=True)
+    save_manifest(allseq, f"{ROOT}/manifests/b1_manifest.json", meta)  # tracked copy: IDs and cut times only
     # summary for results/
     L = ["# B1 summary (T8)", "", f"Produced by: `python scripts/08_build_b1.py --hard_min {a.hard_min}` | commit {git_hash()}", "",
          "| split | label | sequences | mean excerpts | mean duration (min) | concerts |", "|---|---|---|---|---|---|"]
