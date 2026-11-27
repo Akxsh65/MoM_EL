@@ -1,0 +1,82 @@
+{
+  "_header": "Produced by: python scripts/04_train.py --model w1 | commit 0010a1b+uncommitted | splits used: ('train', 'val')",
+  "model": "w1",
+  "n_bins": 24,
+  "L_s": 30,
+  "hop_s": 5,
+  "K": 40,
+  "chance": 0.025,
+  "best_C": 0.1,
+  "class_weight": null,
+  "C_grid": [
+    {
+      "C": 0.01,
+      "val_window_acc": 0.4503671706263499
+    },
+    {
+      "C": 0.1,
+      "val_window_acc": 0.4679913606911447
+    },
+    {
+      "C": 1,
+      "val_window_acc": 0.4658315334773218
+    },
+    {
+      "C": 10,
+      "val_window_acc": 0.46427645788336935
+    },
+    {
+      "C": 100,
+      "val_window_acc": 0.46332613390928723
+    }
+  ],
+  "val_window_acc": 0.4679913606911447,
+  "val_macro_f1": 0.42018491787687806,
+  "val_recording_majority_acc": 0.5851063829787234,
+  "n_train_windows": 39587,
+  "n_val_windows": 11575,
+  "n_val_recordings": 94,
+  "per_raga_recall_val": {
+    "anandabhairavi": 0.48484848484848486,
+    "atana": 0.16071428571428573,
+    "begada": 0.31843575418994413,
+    "behag": 0.4745762711864407,
+    "bhairavi": 0.6483300589390962,
+    "bilahari": 0.5306122448979592,
+    "devagandhari": 0.2986111111111111,
+    "dhanyasi": 0.425,
+    "gaula": 0.8823529411764706,
+    "harikambhoji": 0.09583333333333334,
+    "husseni": 0.10069444444444445,
+    "kalyani": 0.562962962962963,
+    "kamas": 0.05303030303030303,
+    "kamavardani": 0.9665271966527197,
+    "kambhoji": 0.05115712545676005,
+    "kanada": 0.03765690376569038,
+    "kapi": 0.19230769230769232,
+    "karaharapriya": 0.6716666666666666,
+    "kedaragaula": 0.3584905660377358,
+    "madhyamavati": 0.0,
+    "mayamalavagaula": 0.7912844036697247,
+    "mohanam": 0.45517241379310347,
+    "mukhari": 0.615819209039548,
+    "nata": 0.9657534246575342,
+    "natakurinji": 0.5777777777777777,
+    "purvikalyani": 0.8916666666666667,
+    "ritigaula": 0.0,
+    "sahana": 0.515625,
+    "sama": 0.23157894736842105,
+    "sankarabharanam": 0.3220640569395018,
+    "saveri": 0.8369565217391305,
+    "sencurutti": 0.34523809523809523,
+    "shanmukhapriya": 0.2916666666666667,
+    "sindhubhairavi": 0.5057471264367817,
+    "sri": 0.16887417218543047,
+    "sriranjani": 0.5026178010471204,
+    "surati": 0.6423357664233577,
+    "todi": 0.66,
+    "varali": 0.6755162241887905,
+    "yadukulakamboji": 0.24354243542435425
+  },
+  "min_raga_recall": 0.0
+}

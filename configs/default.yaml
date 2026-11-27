@@ -21,7 +21,8 @@ splits:
   min_test_concerts: 8
   min_val_concerts: 4
   min_inset_items_per_concert: 3
-w1: {n_bins: 24, C_grid: [0.01, 0.1, 1, 10, 100], max_windows_per_rec: 200}
+w1: {n_bins: 12, class_weight: balanced,  # val-selected in T4 (24 bins failed the >=60% recording-majority check)
+      C_grid: [0.01, 0.1, 1, 10, 100], max_windows_per_rec: 200}
 decoder:
   d1_width: 5
   d2_k: 3
