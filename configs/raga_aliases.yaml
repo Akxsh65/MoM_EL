@@ -1,0 +1,16 @@
+# Raga name normalisation (T1). Key = canonical; values = spelling variants seen in CMD/Saraga.
+# Matching is on lowercase ASCII with diacritics and non-alphanumerics removed (see scripts/01_inventory.py: norm()),
+# so only genuinely different spellings are listed. Reviewed by hand: no two different ragas are merged.
+# Deliberately NOT merged: devagandhari vs karnatakadevagandhari (distinct ragas); saveri vs suddasaveri;
+# dhanyasi vs shuddhadhanyasi; harikambhoji vs kambhoji vs yadukulakamboji.
+todi: [thodi]
+saurashtram: [saurastram]
+shanmukhapriya: [sanmukhapriya]
+sriranjani: [shriranjani]
+madhyamavati: [madyamavati]
+husseni: [huseni]
+jaunpuri: [jonpuri]
+lalitha: [lalita]
+purnachandrika: [purnacandrika]
+amritavarshini: [amrtavarsini]
+kamavardani: [pantuvarali]      # same raga, older/newer name (Saraga lists "Kamavardani/Pantuvarali")
