@@ -46,6 +46,19 @@ def frame_accuracy(ref_iv, ref_lab, est_iv, est_lab, step: float = 1.0, skip: tu
     return int((r[keep] == e[keep]).sum()), int(keep.sum())
 
 
+def segment_accuracy_counts(ref_iv, ref_lab, est_iv, est_lab, skip: tuple = ("other",)) -> tuple[int, int]:
+    """(correct, total) reference segments (not in `skip`) whose most-overlapping estimated segment has the same label."""
+    ref_iv, est_iv = np.asarray(ref_iv, float), np.asarray(est_iv, float)
+    ok = tot = 0
+    for (a, b), lab in zip(ref_iv, ref_lab):
+        if lab in skip:
+            continue
+        ov = np.clip(np.minimum(est_iv[:, 1], b) - np.maximum(est_iv[:, 0], a), 0, None)
+        tot += 1
+        ok += int(ov.sum() > 0 and est_lab[int(ov.argmax())] == lab)
+    return ok, tot
+
+
 def false_switches_per_10min(ref_iv, est_iv, window: float, duration_s: float) -> float:
     """Estimated boundaries with no reference boundary within +-window, per 10 minutes."""
     tp, ne, _ = boundary_counts(ref_iv, est_iv, window)

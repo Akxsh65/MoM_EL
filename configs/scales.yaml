@@ -1,48 +1,51 @@
 # Svarasthana set per raga (arohana U avarohana) as 12-position indices above Sa.
 # Index key: 0 S | 1 R1 | 2 R2(=G1) | 3 R3(=G2) | 4 G3 | 5 M1 | 6 M2 | 7 P | 8 D1 | 9 D2(=N1) | 10 D3(=N2) | 11 N3
 #
-# SOURCE AND STATUS (read this): written from the standard Carnatic scale descriptions (melakarta/janya tables as given on
-# karnatik.com and Wikipedia raga pages, which follow Sangita Sampradaya Pradarshini). They were NOT machine-checked
-# against those pages in this session. Entries marked `verify: true` are ones I am less sure of (vakra/anya-svara details).
-# They only drive the easy (<=4 shared svaras) / hard (>=6 shared) labelling of neighbouring ragas in B1, so a human
-# (the team, ideally someone who knows the ragas) should check them before the B1 labels are frozen.
-kamas:            {svaras: [0, 2, 4, 5, 7, 9, 11], verify: true}
-todi:             {svaras: [0, 1, 3, 5, 7, 8, 10]}
-behag:            {svaras: [0, 2, 4, 5, 6, 7, 9, 10], verify: true}
-begada:           {svaras: [0, 2, 4, 5, 7, 9, 11]}
-bhairavi:         {svaras: [0, 2, 3, 5, 7, 8, 10], verify: true}
-shanmukhapriya:   {svaras: [0, 2, 3, 6, 7, 8, 10]}
-surati:           {svaras: [0, 2, 4, 5, 7, 10], verify: true}
-saveri:           {svaras: [0, 1, 4, 5, 7, 8, 11], verify: true}
-sahana:           {svaras: [0, 2, 4, 5, 7, 9, 10]}
-kambhoji:         {svaras: [0, 2, 4, 5, 7, 9, 10]}
-mohanam:          {svaras: [0, 2, 4, 7, 9]}
-kanada:           {svaras: [0, 2, 3, 5, 7, 9, 10], verify: true}
-sankarabharanam:  {svaras: [0, 2, 4, 5, 7, 9, 11]}
-harikambhoji:     {svaras: [0, 2, 4, 5, 7, 9, 10]}
-kalyani:          {svaras: [0, 2, 4, 6, 7, 9, 11]}
-purvikalyani:     {svaras: [0, 1, 4, 6, 7, 9, 11], verify: true}
-nata:             {svaras: [0, 3, 4, 5, 7, 11], verify: true}
-kamavardani:      {svaras: [0, 1, 4, 6, 7, 8, 11]}
-sencurutti:       {svaras: [0, 2, 4, 5, 7, 9, 10], verify: true}
-ritigaula:        {svaras: [0, 2, 3, 5, 9, 10], verify: true}
-karaharapriya:    {svaras: [0, 2, 3, 5, 7, 9, 10]}
-kapi:             {svaras: [0, 2, 3, 5, 7, 9, 10, 11], verify: true}
-varali:           {svaras: [0, 1, 3, 6, 7, 8, 11], verify: true}
-sri:              {svaras: [0, 2, 3, 5, 7, 10]}
-gaula:            {svaras: [0, 1, 4, 5, 7, 11], verify: true}
-atana:            {svaras: [0, 2, 4, 5, 7, 9, 11], verify: true}
-devagandhari:     {svaras: [0, 2, 4, 5, 7, 9, 11], verify: true}
-husseni:          {svaras: [0, 2, 4, 5, 7, 9, 10], verify: true}
-anandabhairavi:   {svaras: [0, 2, 3, 5, 7, 8, 9, 10], verify: true}
-sama:             {svaras: [0, 2, 5, 7, 9, 10], verify: true}
-sindhubhairavi:   {svaras: [0, 1, 2, 3, 5, 7, 8, 9, 10], verify: true}
-yadukulakamboji:  {svaras: [0, 2, 5, 7, 9, 10], verify: true}
-sriranjani:       {svaras: [0, 2, 3, 5, 9, 10]}
-kedaragaula:      {svaras: [0, 2, 4, 5, 7, 9, 10], verify: true}
-mukhari:          {svaras: [0, 1, 2, 3, 5, 7, 8, 10], verify: true}
-dhanyasi:         {svaras: [0, 1, 3, 5, 7, 10]}
-bilahari:         {svaras: [0, 2, 4, 7, 9, 11]}
-madhyamavati:     {svaras: [0, 2, 5, 7, 10]}
-natakurinji:      {svaras: [0, 2, 3, 5, 9, 10], verify: true}
-mayamalavagaula:  {svaras: [0, 1, 4, 5, 7, 8, 11]}
+# VERIFIED 2026-11-28 against external pages (replaces the from-memory table of 2026-11-27, which had 16 wrong entries).
+# Rule: union of the printed arohana and avarohana. Anya (occasional foreign) svaras that a page names separately are NOT
+# counted (Kamas N3, Atana G2/N2, Bilahari N2, Anandabhairavi G3/D1/N3, Devagandhari's N2 IS in the printed avarohana so it is).
+# Sources: W = English Wikipedia raga page; R = ragasurabhi.com raga page (carnatic-music/raga/raga--<name>.html);
+# M = Medium "Ragapedia" (Konjam Karnatik); N = NIOS Carnatic Music course book KCM-5 (Kamas). "W+R" = two sources agree.
+# `verify: true` marks entries backed by ONE source only, or where sources conflict. They still drive B1 labels, so a person
+# who knows the ragas should look at them; each one is listed in docs/decisions.md.
+# These sets only drive the easy (<=4 shared svaras) / hard (>=6 shared) labelling of neighbouring ragas in B1.
+kamas:            {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W+N; N3 is an occasional anya svara"}
+todi:             {svaras: [0, 1, 3, 5, 7, 8, 10], src: "W (Hanumatodi)"}
+behag:            {svaras: [0, 2, 4, 5, 6, 7, 9, 11], src: "R+M; M2 only in avarohana"}
+begada:           {svaras: [0, 2, 4, 5, 7, 9, 11], src: "R"}
+bhairavi:         {svaras: [0, 2, 3, 5, 7, 8, 9, 10], src: "W+R; D2 in arohana, D1 in avarohana"}
+shanmukhapriya:   {svaras: [0, 2, 3, 6, 7, 8, 10], src: "W"}
+surati:           {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W+R (Surutti)"}
+saveri:           {svaras: [0, 1, 4, 5, 7, 8, 11], src: "W"}
+sahana:           {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W"}
+kambhoji:         {svaras: [0, 2, 4, 5, 7, 9, 10], src: "R"}
+mohanam:          {svaras: [0, 2, 4, 7, 9], src: "W"}
+kanada:           {svaras: [0, 2, 3, 5, 7, 9, 10], src: "R", verify: true}
+sankarabharanam:  {svaras: [0, 2, 4, 5, 7, 9, 11], src: "W"}
+harikambhoji:     {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W"}
+kalyani:          {svaras: [0, 2, 4, 6, 7, 9, 11], src: "W"}
+purvikalyani:     {svaras: [0, 1, 4, 6, 7, 9, 11], src: "R+M"}
+nata:             {svaras: [0, 3, 4, 5, 7, 10, 11], src: "W (janya of Chalanata)", verify: true}
+kamavardani:      {svaras: [0, 1, 4, 6, 7, 8, 11], src: "W (Kamavardhani/Pantuvarali)"}
+sencurutti:       {svaras: [0, 2, 4, 5, 7, 9, 10], src: "UNRESOLVED: janya of Harikambhoji; no page prints a scale; sources mention kakali nishada and sadharana gandhara in some phrases. Parent set used.", verify: true}
+ritigaula:        {svaras: [0, 2, 3, 5, 7, 9, 10], src: "W+R; a Wikipedia body line shows D1, its table D2", verify: true}
+karaharapriya:    {svaras: [0, 2, 3, 5, 7, 9, 10], src: "W"}
+kapi:             {svaras: [0, 2, 3, 5, 7, 9, 10, 11], src: "W", verify: true}
+varali:           {svaras: [0, 1, 2, 6, 7, 8, 11], src: "W+R (G1 = index 2; janya of Jhalavarali)"}
+sri:              {svaras: [0, 2, 3, 5, 7, 10], src: "W (Shree)"}
+gaula:            {svaras: [0, 1, 4, 5, 7, 11], src: "W", verify: true}
+atana:            {svaras: [0, 2, 4, 5, 7, 9, 11], src: "W; anya G2, N2 not counted", verify: true}
+devagandhari:     {svaras: [0, 2, 4, 5, 7, 9, 10, 11], src: "W+R; N2 appears in the vakra avarohana"}
+husseni:          {svaras: [0, 2, 3, 5, 7, 8, 9, 10], src: "R (huseni, janya of Kharaharapriya)", verify: true}
+anandabhairavi:   {svaras: [0, 2, 3, 5, 7, 9, 10], src: "W+R; anya G3, D1, N3 not counted"}
+sama:             {svaras: [0, 2, 4, 5, 7, 9], src: "R", verify: true}
+sindhubhairavi:   {svaras: [0, 1, 3, 5, 7, 8, 10], src: "W+R core scale; the raga is bhashanga and uses many more notes in practice, so its true overlap with neighbours is larger"}
+yadukulakamboji:  {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W", verify: true}
+sriranjani:       {svaras: [0, 2, 3, 5, 9, 10], src: "R"}
+kedaragaula:      {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W"}
+mukhari:          {svaras: [0, 2, 3, 5, 7, 8, 9, 10], src: "W+R"}
+dhanyasi:         {svaras: [0, 1, 3, 5, 7, 8, 10], src: "W body text (infobox uses an inconsistent notation)"}
+bilahari:         {svaras: [0, 2, 4, 5, 7, 9, 11], src: "W+R; N2 anya not counted"}
+madhyamavati:     {svaras: [0, 2, 5, 7, 10], src: "W"}
+natakurinji:      {svaras: [0, 2, 4, 5, 7, 9, 10], src: "W (Nattakurinji, janya of Harikambhoji)", verify: true}
+mayamalavagaula:  {svaras: [0, 1, 4, 5, 7, 8, 11], src: "W"}
