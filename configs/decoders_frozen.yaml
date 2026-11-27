@@ -1,0 +1,22 @@
+_header: 'Produced by: python scripts/10_tune_decoders.py | commit 073467e+uncommitted
+  | tuned on B1-val only'
+w1:
+  d1_width: 5
+  d2:
+    k: 3
+    thr: 0.2
+  d3:
+    eps: 0.001
+    min_dur_s: 60
+    beta: 0.5
+    prior: uniform
+w2:
+  d1_width: 5
+  d2:
+    k: 3
+    thr: 0.2
+  d3:
+    eps: 0.01
+    min_dur_s: 60
+    beta: 0.25
+    prior: uniform
