@@ -1,0 +1,8 @@
+excluded:
+- cmd:3af5a361:Aruna_Sairam:December_Season_2001:Valli_Kanavan
+- cmd:3af5a361:D__K__Jayaraman:Paddhatti_Live_In_Concert_1990:Enadu_Ullame
+- cmd:98d46d9e:T__M__Krishna:December_Season_2000:Nath_Hare
+- sar:47099770-87c1-4810-a8d7-d2e51906fc10
+- sar:7116a2c8-1659-4203-93c1-ace0720c4033
+- sar:d872ffdd-b4c4-40df-be2a-e257a34d56f0
+rule: sa_mass(+-40c) < 0.07 after tonicFine (no evidence of a tonic)

@@ -27,6 +27,9 @@ def load() -> pd.DataFrame:
     gm = {norm(k): norm(v) for k, v in groups.items()}
     d["group"] = d.artist_key.map(lambda k: gm.get(k, k))
     d["usable"] = d.has_pitch & d.has_tonic & (d.raga != "")
+    ex = f"{ROOT}/configs/excluded_recordings.yaml"
+    excluded = set((yaml.safe_load(open(ex)) or {}).get("excluded", [])) if os.path.exists(ex) else set()
+    d["usable"] &= ~d.rec_id.isin(excluded)
     d["dup"] = False
     # CMD copy of a recording that also exists in Saraga is the duplicate
     sar = set(d[(d.source == "saraga") & (d.mbid != "")].mbid)
