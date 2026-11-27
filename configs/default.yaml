@@ -28,3 +28,12 @@ decoder:
   d2_k: 3
   d3_eps_grid: [0.0001, 0.001, 0.01, 0.05, 0.1]
   d3_min_dur_grid: [30, 45, 60, 90]
+w2:  # TDMS (Gulati et al. 2016 used 120 bins, tau 0.3 s, alpha 0.75, sigma 2 bins; see docs/decisions.md)
+  tau_s: 0.3
+  n_bins: 24   # val-selected in T5 (was 40)
+  alpha: 0.75
+  sigma: 1.0
+  tau_grid: [0.2, 0.3, 0.5]
+  bins_grid: [24, 40, 60]
+  C_grid: [0.01, 0.03, 0.1, 1, 10, 100]  # 0.01/0.03 added after best C hit the lower edge (T5)
+  C_stage1: 1.0
