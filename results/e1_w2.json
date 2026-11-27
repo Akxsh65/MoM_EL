@@ -1,5 +1,5 @@
 {
-  "_header": "Produced by: python scripts/05_train_w2.py --fix 0.3,24 | commit 2465639+uncommitted | splits used: ('train', 'val')",
+  "_header": "Produced by: python scripts/05_train_w2.py --fix 0.3,24 | commit ea0f54f+uncommitted | splits used: ('train', 'val')",
   "model": "w2",
   "tau_s": 0.3,
   "n_bins": 24,
