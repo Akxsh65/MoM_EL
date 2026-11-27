@@ -76,7 +76,21 @@ def cmd_rows() -> list[dict]:
     return rows
 
 
+def mb_order() -> dict[str, int]:
+    """recording mbid -> 1-based track position in its MusicBrainz release (cached by 01b_fetch_item_order.py)."""
+    out = {}
+    for f in glob.glob(f"{ROOT}/data/raw/musicbrainz/*.json"):
+        r = json.load(open(f, encoding="utf8"))
+        n = 0
+        for m in r.get("media", []):
+            for t in m.get("tracks", []):
+                n += 1
+                out[t["recording"]["id"]] = n
+    return out
+
+
 def saraga_rows() -> list[dict]:
+    order = mb_order()
     rows = []
     for j in sorted(glob.glob(f"{SAR}/*/*/*.json")):
         d = json.load(open(j, encoding="utf8"))
@@ -90,7 +104,7 @@ def saraga_rows() -> list[dict]:
         rows.append(dict(
             rec_id=f"sar:{d['mbid']}", source="saraga", artist=artists[0] if artists else "",
             concert=(d.get("concert") or [{}])[0].get("title", os.path.basename(os.path.dirname(os.path.dirname(j)))),
-            item_order=np.nan, raga_raw="|".join(ragas), n_ragas=len(ragas),
+            item_order=order.get(d["mbid"], np.nan), raga_raw="|".join(ragas), n_ragas=len(ragas),
             duration_s=pr[0] if pr else d.get("length", 0) / 1000.0, hop_s=pr[1] if pr else np.nan,
             has_pitch=pr is not None, has_tonic=os.path.exists(base + ".ctonic.txt"),
             has_sections=bool(secs), mbid=d["mbid"],
