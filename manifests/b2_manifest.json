@@ -1,0 +1,1696 @@
+{
+ "meta": {
+  "_header": "Produced by: python scripts/09_build_b2.py | commit 35320b9+uncommitted",
+  "split": "test",
+  "dropped_items": [
+   {
+    "rec_id": "sar:9ab5de50-9a19-46cc-93d7-867f0ebb0da4",
+    "concert": "Chaitra Sairam at Arkay",
+    "order": 2,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:b584e95d-ec72-4467-abb5-bd18e7a55ae7",
+    "concert": "Chaitra Sairam at Arkay",
+    "order": 7,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:a05b885f-59af-4766-a82e-2fea4578cf08",
+    "concert": "Cherthala Ranganatha Sharma at Arkay",
+    "order": 1,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:bac323dc-28a5-4ac9-8133-a3696c0f7442",
+    "concert": "Kuldeep Pai at Arkay",
+    "order": 5,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:4c69f425-c6ad-46c8-81f2-e9c3a201ee1f",
+    "concert": "Kuldeep Pai at Arkay",
+    "order": 7,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:e821bfa1-852a-4547-b003-9293a1e57b85",
+    "concert": "Sanjay at Sastri Hall",
+    "order": 15,
+    "why": "no raga in metadata"
+   },
+   {
+    "rec_id": "sar:47099770-87c1-4810-a8d7-d2e51906fc10",
+    "concert": "Srividya Janakiraman at Arkay",
+    "order": 4,
+    "why": "excluded recording (tonic)"
+   }
+  ],
+  "order_source": "MusicBrainz release track position (docs/decisions.md)",
+  "total_boundaries": 53
+ },
+ "concerts": [
+  {
+   "concert": "Chaitra Sairam at Arkay",
+   "items": [
+    {
+     "rec_id": "sar:0a1c2ae7-e933-458d-afac-fa081338d5de",
+     "order": 1,
+     "label": "mohanam",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       419.53
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:a8ecff2f-f2ce-406f-a7a9-a5976b99521c",
+     "order": 3,
+     "label": "anandabhairavi",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       662.86
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:833331e9-7907-4e28-b60d-8c8186931dfd",
+     "order": 4,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       402.5
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:93f38e28-f411-4b06-9494-91232649a635",
+     "order": 5,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.11,
+       332.55
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:ba04f4c1-28cb-4e22-b6c8-cb949426ad0b",
+     "order": 6,
+     "label": "kambhoji",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       2574.6
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:1c474824-d8a9-43c8-8c2d-6b59e945e3a6",
+     "order": 8,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       270.97
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "e8ed679799d31612ce7d7bfa668560762b1b3d5005ddeaab79bb1ab153e6b7f4",
+   "n_boundaries": 4,
+   "duration_s": 4662.9,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 419.53,
+     "label": "mohanam"
+    },
+    {
+     "start": 419.53,
+     "end": 1082.39,
+     "label": "anandabhairavi"
+    },
+    {
+     "start": 1082.39,
+     "end": 1817.33,
+     "label": "other"
+    },
+    {
+     "start": 1817.33,
+     "end": 4391.93,
+     "label": "kambhoji"
+    },
+    {
+     "start": 4391.93,
+     "end": 4662.9,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "Cherthala Ranganatha Sharma at Arkay",
+   "items": [
+    {
+     "rec_id": "sar:9f5a5452-14cb-4af0-9289-4833854ee60d",
+     "order": 2,
+     "label": "sriranjani",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       309.35
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:26ff1e93-2c1b-47dc-b40a-7f64504232a0",
+     "order": 3,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       734.26
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:99ef06f0-38cf-456c-9541-a8a04edaae5f",
+     "order": 4,
+     "label": "todi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       1642.77
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:cc4199f2-ecf3-4d93-b628-65f2caacc6f8",
+     "order": 5,
+     "label": "kedaragaula",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       590.9
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:2badb85a-4f7c-4933-9910-ff01a3968d08",
+     "order": 6,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       3608.51
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:7e1e3421-8735-4df8-8075-a6553f2588ed",
+     "order": 7,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       487.97
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:af4fec6b-6689-429e-8f65-b9ca958fb543",
+     "order": 8,
+     "label": "behag",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       342.89
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:ac58786c-3938-4d93-9e9f-bbc3a56265fa",
+     "order": 9,
+     "label": "madhyamavati",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       92.82
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "8c7fe3fc53f3a2b2e3671899fb144f2549e17fb9422a9038a8aaab8b865a39e7",
+   "n_boundaries": 6,
+   "duration_s": 7809.47,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 309.35,
+     "label": "sriranjani"
+    },
+    {
+     "start": 309.35,
+     "end": 1043.61,
+     "label": "other"
+    },
+    {
+     "start": 1043.61,
+     "end": 2686.38,
+     "label": "todi"
+    },
+    {
+     "start": 2686.38,
+     "end": 3277.28,
+     "label": "kedaragaula"
+    },
+    {
+     "start": 3277.28,
+     "end": 7373.76,
+     "label": "other"
+    },
+    {
+     "start": 7373.76,
+     "end": 7716.65,
+     "label": "behag"
+    },
+    {
+     "start": 7716.65,
+     "end": 7809.47,
+     "label": "madhyamavati"
+    }
+   ]
+  },
+  {
+   "concert": "Kuldeep Pai at Arkay",
+   "items": [
+    {
+     "rec_id": "sar:9bac6a08-158e-42eb-8a9b-4ad5b90a6e1a",
+     "order": 1,
+     "label": "saveri",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       9.43,
+       488.71
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:08c1602c-0c20-41b2-afa5-a845635e92d1",
+     "order": 2,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       793.66
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:7a9eb235-f59f-4ef4-9507-4b9561f63bbe",
+     "order": 3,
+     "label": "kamas",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       575.34
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:79d502f1-2fbb-4c5e-bf2c-8eb2a452730c",
+     "order": 4,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       1589.9
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:d04c37a2-732d-4484-ad4f-a5aa76237940",
+     "order": 6,
+     "label": "todi",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       2235.85
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:7dae71c1-c921-424d-88d2-0547d7a0b377",
+     "order": 8,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       342.32
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "ae73dd2a0dde99734504515264563d4e33b2166bd273234627656c97c4e9bc9f",
+   "n_boundaries": 5,
+   "duration_s": 6016.35,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 479.28,
+     "label": "saveri"
+    },
+    {
+     "start": 479.28,
+     "end": 1272.94,
+     "label": "other"
+    },
+    {
+     "start": 1272.94,
+     "end": 1848.28,
+     "label": "kamas"
+    },
+    {
+     "start": 1848.28,
+     "end": 3438.18,
+     "label": "other"
+    },
+    {
+     "start": 3438.18,
+     "end": 5674.03,
+     "label": "todi"
+    },
+    {
+     "start": 5674.03,
+     "end": 6016.35,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "Live at Kamarajar Hall",
+   "items": [
+    {
+     "rec_id": "sar:b8bf8bff-7570-4591-b819-e3182ea45515",
+     "order": 1,
+     "label": "sankarabharanam",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.26,
+       228.17
+      ],
+      [
+       310.96,
+       518.7
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e5022fc3-f0ba-40a2-9706-2b8fdbe484b8",
+     "order": 2,
+     "label": "purvikalyani",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.49,
+       140.66
+      ],
+      [
+       141.79,
+       225.54
+      ],
+      [
+       229.46,
+       366.29
+      ],
+      [
+       366.99,
+       605.76
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:32806112-2104-4df2-972e-a527be20e82a",
+     "order": 3,
+     "label": "bhairavi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.34,
+       1194.22
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e7776320-8766-4568-9b08-05369bf2ad64",
+     "order": 4,
+     "label": "harikambhoji",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.08,
+       597.64
+      ],
+      [
+       598.66,
+       914.91
+      ],
+      [
+       920.35,
+       1042.2
+      ],
+      [
+       1051.59,
+       2582.73
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:84bc41f0-7301-4206-86c4-88f2aa59bc53",
+     "order": 5,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       3.84,
+       197.0
+      ],
+      [
+       200.08,
+       395.98
+      ],
+      [
+       396.77,
+       570.32
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:8b7dddb1-0dec-434d-b461-153b8af03be9",
+     "order": 6,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.35,
+       300.6
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:ca0ab807-3c90-4fde-8612-260729350a69",
+     "order": 7,
+     "label": "kapi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.28,
+       736.62
+      ],
+      [
+       740.34,
+       1162.38
+      ],
+      [
+       1174.73,
+       1758.82
+      ],
+      [
+       1759.38,
+       2708.83
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:cc475479-1358-41de-a76a-5f792b89a02d",
+     "order": 8,
+     "label": "sindhubhairavi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.17,
+       65.82
+      ],
+      [
+       68.36,
+       290.38
+      ],
+      [
+       291.0,
+       359.28
+      ],
+      [
+       363.71,
+       447.83
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:46b47787-9c78-4e7a-b608-66fdac079866",
+     "order": 9,
+     "label": "kamas",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       113.25
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:1e6e54c5-1a73-4498-a296-0e6dd70ccc2f",
+     "order": 10,
+     "label": "kamas",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.21,
+       302.78
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:501f50aa-891c-4ab5-9dca-1fac271a33ae",
+     "order": 11,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.33,
+       41.84
+      ],
+      [
+       43.84,
+       88.24
+      ],
+      [
+       89.77,
+       161.8
+      ],
+      [
+       162.49,
+       249.48
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:2bb36f85-b493-4b9b-aeb0-5848a9163cce",
+     "order": 12,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.46,
+       41.93
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "15c936a5c65dbf88f2ce186b65f3eb0bc98fd5e0bf4328a2861607942e1ae567",
+   "n_boundaries": 8,
+   "duration_s": 9492.92,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 435.65,
+     "label": "sankarabharanam"
+    },
+    {
+     "start": 435.65,
+     "end": 1035.17,
+     "label": "purvikalyani"
+    },
+    {
+     "start": 1035.17,
+     "end": 2229.05,
+     "label": "bhairavi"
+    },
+    {
+     "start": 2229.05,
+     "end": 4795.85,
+     "label": "harikambhoji"
+    },
+    {
+     "start": 4795.85,
+     "end": 5658.71,
+     "label": "other"
+    },
+    {
+     "start": 5658.71,
+     "end": 8350.63,
+     "label": "kapi"
+    },
+    {
+     "start": 8350.63,
+     "end": 8790.7,
+     "label": "sindhubhairavi"
+    },
+    {
+     "start": 8790.7,
+     "end": 9206.52,
+     "label": "kamas"
+    },
+    {
+     "start": 9206.52,
+     "end": 9492.92,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "Live at Vani Mahal",
+   "items": [
+    {
+     "rec_id": "sar:0d9bce97-35e0-4896-b6d1-bf2e89ac02fa",
+     "order": 1,
+     "label": "todi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.24,
+       124.49
+      ],
+      [
+       180.24,
+       386.32
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:9db9ebab-4238-4776-8531-6221547e2cb5",
+     "order": 2,
+     "label": "sankarabharanam",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.37,
+       337.63
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:9687ecc8-1526-4eb2-86d7-4d81dfce803b",
+     "order": 3,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.12,
+       295.85
+      ],
+      [
+       297.05,
+       430.71
+      ],
+      [
+       431.89,
+       526.54
+      ],
+      [
+       527.12,
+       1336.35
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:1eb34c3e-fc59-460f-972b-7a47051863c4",
+     "order": 4,
+     "label": "kambhoji",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.07,
+       75.64
+      ],
+      [
+       76.42,
+       848.67
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:7afd0d40-c385-4762-82e3-74e14491c615",
+     "order": 5,
+     "label": "bhairavi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.08,
+       91.17
+      ],
+      [
+       92.46,
+       160.75
+      ],
+      [
+       163.51,
+       253.16
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:53fa9f24-db5b-4419-b0db-79586b1c3f7d",
+     "order": 6,
+     "label": "kamas",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.39,
+       584.12
+      ],
+      [
+       588.58,
+       833.04
+      ],
+      [
+       851.89,
+       980.84
+      ],
+      [
+       986.66,
+       1142.97
+      ],
+      [
+       1145.87,
+       1962.75
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:30ed13b0-58ac-48af-b8ac-f2c14ddbd71a",
+     "order": 7,
+     "label": "kalyani",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.18,
+       79.55
+      ],
+      [
+       83.14,
+       341.9
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:3fb546e4-a108-4b86-a368-02e3a5b9e96d",
+     "order": 8,
+     "label": "shanmukhapriya",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.33,
+       998.82
+      ],
+      [
+       1007.98,
+       1348.84
+      ],
+      [
+       1354.26,
+       2273.08
+      ],
+      [
+       2302.33,
+       3781.35
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:492da8b2-c67b-451e-96e9-6956870a0049",
+     "order": 9,
+     "label": "shanmukhapriya",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.23,
+       172.92
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:c872989e-4edd-4509-912b-f228198245f7",
+     "order": 10,
+     "label": "other",
+     "ragamalika": true,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       488.21
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e47ca591-9257-4a4b-97b9-67911395f70f",
+     "order": 11,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.25,
+       57.93
+      ],
+      [
+       58.65,
+       184.47
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:59d56022-1617-443d-9e92-e21257958883",
+     "order": 12,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.2,
+       40.45
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "a21d5cd9a39601b5ea42c3f5862bd1b623f7228ae0173fdae9638e5db83ed4d6",
+   "n_boundaries": 8,
+   "duration_s": 9988.01,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 330.33,
+     "label": "todi"
+    },
+    {
+     "start": 330.33,
+     "end": 667.59,
+     "label": "sankarabharanam"
+    },
+    {
+     "start": 667.59,
+     "end": 2000.86,
+     "label": "other"
+    },
+    {
+     "start": 2000.86,
+     "end": 2848.68,
+     "label": "kambhoji"
+    },
+    {
+     "start": 2848.68,
+     "end": 3097.71,
+     "label": "bhairavi"
+    },
+    {
+     "start": 3097.71,
+     "end": 5028.04,
+     "label": "kamas"
+    },
+    {
+     "start": 5028.04,
+     "end": 5366.17,
+     "label": "kalyani"
+    },
+    {
+     "start": 5366.17,
+     "end": 9276.05,
+     "label": "shanmukhapriya"
+    },
+    {
+     "start": 9276.05,
+     "end": 9988.01,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "Sanjay at Sastri Hall",
+   "items": [
+    {
+     "rec_id": "sar:ae79b563-7d5e-4c31-b2f9-7cf7db1da1c1",
+     "order": 1,
+     "label": "kalyani",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.36,
+       253.94
+      ],
+      [
+       336.07,
+       534.37
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:0f2006e9-ce85-47c2-a45b-de3586662d99",
+     "order": 2,
+     "label": "gaula",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.36,
+       18.0
+      ],
+      [
+       18.55,
+       160.69
+      ],
+      [
+       161.27,
+       257.82
+      ],
+      [
+       258.55,
+       739.83
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:fa539372-1c38-41a9-8790-91354ece9135",
+     "order": 3,
+     "label": "begada",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.76,
+       181.6
+      ],
+      [
+       182.44,
+       524.7
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:21f72d0f-5167-4c89-b312-84574b65613b",
+     "order": 4,
+     "label": "ritigaula",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.1,
+       321.0
+      ],
+      [
+       324.99,
+       556.78
+      ],
+      [
+       580.18,
+       755.68
+      ],
+      [
+       756.39,
+       963.09
+      ],
+      [
+       971.23,
+       1300.51
+      ],
+      [
+       1312.94,
+       1471.55
+      ],
+      [
+       1481.46,
+       1684.11
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:ba5d37a3-63f9-4ac0-85a4-c07d2a671058",
+     "order": 5,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.6,
+       356.77
+      ],
+      [
+       360.66,
+       529.6
+      ],
+      [
+       533.31,
+       655.18
+      ],
+      [
+       655.68,
+       815.09
+      ],
+      [
+       815.73,
+       917.09
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:01177df7-52d4-417f-b142-3761c209707a",
+     "order": 6,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.33,
+       235.91
+      ],
+      [
+       237.82,
+       375.98
+      ],
+      [
+       376.53,
+       425.02
+      ],
+      [
+       426.41,
+       644.96
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:8aab81e8-a930-4e10-a685-06a607bb2891",
+     "order": 7,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.15,
+       41.89
+      ],
+      [
+       42.39,
+       229.03
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:1520c037-248b-46c8-8eab-65e31d3f3b08",
+     "order": 8,
+     "label": "kambhoji",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.29,
+       997.22
+      ],
+      [
+       1017.55,
+       1636.47
+      ],
+      [
+       1651.1,
+       1907.97
+      ],
+      [
+       1914.47,
+       2059.72
+      ],
+      [
+       2072.03,
+       2349.03
+      ],
+      [
+       2350.37,
+       3301.32
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e26cf70c-ce6c-47c2-b7bf-199f2cdd5a62",
+     "order": 9,
+     "label": "kanada",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.16,
+       26.85
+      ],
+      [
+       28.02,
+       85.91
+      ],
+      [
+       86.55,
+       223.92
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:825f48e3-8323-40d9-bc47-d29de805b8b1",
+     "order": 10,
+     "label": "kanada",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       92.93
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:574c2aec-15da-4cd7-95db-b2eb339623ad",
+     "order": 11,
+     "label": "behag",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.13,
+       301.57
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:06e944ea-ef9d-4cfc-abc7-daf20fe2f872",
+     "order": 12,
+     "label": "behag",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       48.1
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:5f270bdb-4df2-4cb2-8c1a-31675de3593f",
+     "order": 13,
+     "label": "kamas",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.02,
+       73.09
+      ],
+      [
+       75.1,
+       261.44
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:1e325d45-1615-45ec-b81a-47df85ca72aa",
+     "order": 14,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       1.29,
+       62.37
+      ],
+      [
+       63.04,
+       150.79
+      ],
+      [
+       151.53,
+       251.89
+      ],
+      [
+       252.91,
+       357.4
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:d1c219f3-5aa0-481a-8ba2-ba3962b4f672",
+     "order": 16,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.16,
+       359.99
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:a91ca01b-3338-4968-815a-6ae61644ccb5",
+     "order": 17,
+     "label": "kapi",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.05,
+       167.97
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:f2237ae1-a29c-4ac6-9bea-b7e65ec8aaf7",
+     "order": 18,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.4,
+       55.29
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "176c40ec1b2eccd1440e239b87204a678cd136dd9164f365e3e9d5aa9defe58f",
+   "n_boundaries": 11,
+   "duration_s": 10221.0,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 451.88,
+     "label": "kalyani"
+    },
+    {
+     "start": 451.88,
+     "end": 1189.49,
+     "label": "gaula"
+    },
+    {
+     "start": 1189.49,
+     "end": 1712.59,
+     "label": "begada"
+    },
+    {
+     "start": 1712.59,
+     "end": 3338.02,
+     "label": "ritigaula"
+    },
+    {
+     "start": 3338.02,
+     "end": 5114.93,
+     "label": "other"
+    },
+    {
+     "start": 5114.93,
+     "end": 8360.85,
+     "label": "kambhoji"
+    },
+    {
+     "start": 8360.85,
+     "end": 8675.73,
+     "label": "kanada"
+    },
+    {
+     "start": 8675.73,
+     "end": 9025.27,
+     "label": "behag"
+    },
+    {
+     "start": 9025.27,
+     "end": 9284.68,
+     "label": "kamas"
+    },
+    {
+     "start": 9284.68,
+     "end": 9998.19,
+     "label": "other"
+    },
+    {
+     "start": 9998.19,
+     "end": 10166.11,
+     "label": "kapi"
+    },
+    {
+     "start": 10166.11,
+     "end": 10221.0,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "Srividya Janakiraman at Arkay",
+   "items": [
+    {
+     "rec_id": "sar:36b431e2-5584-484a-a1a5-7470e23345bb",
+     "order": 1,
+     "label": "saveri",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       303.29
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e8027bb2-7550-4da5-afed-e40e353d497b",
+     "order": 2,
+     "label": "nata",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       12.77,
+       595.0
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:c6e17b47-57cd-4095-bfab-4cb7f335357c",
+     "order": 3,
+     "label": "sama",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       313.39
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:34164309-59f7-46be-9de8-4a179629f5ef",
+     "order": 5,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       1719.67
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:dd2a2d35-350e-4913-8d47-446dac5030a2",
+     "order": 6,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       243.86
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:9c7784e0-b808-466e-bd43-582b8ab4f8fb",
+     "order": 7,
+     "label": "bhairavi",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       3161.14
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:5c09b1ea-b2f7-48fd-a235-500ba836b135",
+     "order": 8,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": false,
+     "regions_s": [
+      [
+       0.0,
+       206.23
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "12bf854eea5ba9f849b82922b22c8f450976187e44b686b74fed399de98b23c7",
+   "n_boundaries": 5,
+   "duration_s": 6529.81,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 303.29,
+     "label": "saveri"
+    },
+    {
+     "start": 303.29,
+     "end": 885.52,
+     "label": "nata"
+    },
+    {
+     "start": 885.52,
+     "end": 1198.91,
+     "label": "sama"
+    },
+    {
+     "start": 1198.91,
+     "end": 3162.44,
+     "label": "other"
+    },
+    {
+     "start": 3162.44,
+     "end": 6323.58,
+     "label": "bhairavi"
+    },
+    {
+     "start": 6323.58,
+     "end": 6529.81,
+     "label": "other"
+    }
+   ]
+  },
+  {
+   "concert": "V Shankarnarayanan at Arkay",
+   "items": [
+    {
+     "rec_id": "sar:281efaa7-64c2-4b38-8cf4-4c68f6abef65",
+     "order": 1,
+     "label": "mohanam",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       69.23
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:4fb42f4f-0204-4151-8f21-54ddc8e670b5",
+     "order": 2,
+     "label": "kanada",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       425.67
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:e878a71a-8f1e-4fe0-8bdd-a64664328edd",
+     "order": 3,
+     "label": "nata",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       649.28
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:51deb148-402e-4586-badb-4b70481183b3",
+     "order": 4,
+     "label": "harikambhoji",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       826.7
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:977d357f-4810-41fc-b495-21405f3f729c",
+     "order": 5,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       1744.23
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:031fa4da-725c-4ff9-9b75-6f63286f2ff5",
+     "order": 6,
+     "label": "karaharapriya",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       3252.98
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:fb7ac519-9471-45ea-94ad-a3e38dd53648",
+     "order": 7,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       323.01
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:c0cc9472-e4d0-4234-9e46-16ecdde8d9ce",
+     "order": 8,
+     "label": "other",
+     "ragamalika": true,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       762.13
+      ]
+     ]
+    },
+    {
+     "rec_id": "sar:f6e9369d-4656-4dd5-9fe1-d717ecd7b62f",
+     "order": 9,
+     "label": "other",
+     "ragamalika": false,
+     "has_sections": true,
+     "regions_s": [
+      [
+       0.0,
+       57.61
+      ]
+     ]
+    }
+   ],
+   "content_sha256": "d9dda8af2e2354f124d376e4c2e7e609071e5af169211bcccc3bcd9226459f6e",
+   "n_boundaries": 6,
+   "duration_s": 8110.84,
+   "reference": [
+    {
+     "start": 0.0,
+     "end": 69.23,
+     "label": "mohanam"
+    },
+    {
+     "start": 69.23,
+     "end": 494.9,
+     "label": "kanada"
+    },
+    {
+     "start": 494.9,
+     "end": 1144.18,
+     "label": "nata"
+    },
+    {
+     "start": 1144.18,
+     "end": 1970.88,
+     "label": "harikambhoji"
+    },
+    {
+     "start": 1970.88,
+     "end": 3715.11,
+     "label": "other"
+    },
+    {
+     "start": 3715.11,
+     "end": 6968.09,
+     "label": "karaharapriya"
+    },
+    {
+     "start": 6968.09,
+     "end": 8110.84,
+     "label": "other"
+    }
+   ]
+  }
+ ]
+}
