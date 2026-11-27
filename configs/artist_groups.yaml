@@ -1,0 +1,3 @@
+# Artists that must be treated as ONE person/group for artist-disjoint splits.
+# key = normalised artist key (lowercase alphanumerics), value = group key.
+akkarai subhalakshmi: akkarai sisters   # placeholder, normalised below by the script

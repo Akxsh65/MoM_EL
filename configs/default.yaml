@@ -1,0 +1,29 @@
+# Central config: paths, seeds, window, model + decoder parameters.
+seed: 0
+paths:
+  raw: data/raw
+  interim_pitch: data/interim/pitch
+  processed: data/processed
+  models: models
+  results: results
+pitch:
+  fs: 100.0
+window:
+  length_s: 30
+  hop_s: 5
+  min_voiced: 0.4
+splits:
+  seed: 0
+  min_recordings: 8
+  min_artists: 3
+  target_test_frac: 0.17
+  target_val_frac: 0.12
+  min_test_concerts: 8
+  min_val_concerts: 4
+  min_inset_items_per_concert: 3
+w1: {n_bins: 24, C_grid: [0.01, 0.1, 1, 10, 100], max_windows_per_rec: 200}
+decoder:
+  d1_width: 5
+  d2_k: 3
+  d3_eps_grid: [0.0001, 0.001, 0.01, 0.05, 0.1]
+  d3_min_dur_grid: [30, 45, 60, 90]
