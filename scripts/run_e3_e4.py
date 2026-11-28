@@ -39,6 +39,7 @@ rf = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(rf)  # load_units (hash-checked test data), unit_counts, assert_frozen
 LENGTHS = (10, 20, 30, 60)
 BENCHES = ("B1-easy", "B1-hard", "B1-mid", "B2")
+FIG = f"{ROOT}/results/figures"
 OUT = f"{ROOT}/results"  # --smoke redirects this to a scratch dir
 N_BOOT, GRID = 1000, np.arange(0, 61, 1.0)
 
@@ -85,9 +86,9 @@ def main() -> None:
     ap.add_argument("--allow_rerun", default=None)
     ap.add_argument("--smoke", default=None, help="DIR: run on B1-VAL (never test) and write there; skips the frozen-config guards")
     a = ap.parse_args()
-    global OUT
+    global OUT, FIG
     if a.smoke:
-        OUT = a.smoke
+        OUT = FIG = a.smoke
         os.makedirs(OUT, exist_ok=True)
     if not a.smoke and os.path.exists(f"{ROOT}/results/e3_window_length.csv") and not a.allow_rerun:
         sys.exit("results/e3_window_length.csv exists: one test run per frozen config (CLAUDE.md rule 2).")
@@ -219,7 +220,7 @@ def plot(off, cdfs) -> None:
         ax.fill_between(g.L, g.F5_lo_concert, g.F5_hi_concert, color=c, alpha=0.15)
     ax.set_xlabel("window length L (s)"); ax.set_ylabel("boundary F-measure at +-5 s")
     ax.set_xticks(LENGTHS); ax.legend(frameon=False); ax.set_ylim(0, 0.8)
-    fig.tight_layout(); fig.savefig(f"{OUT}/e3_f_vs_L.png", dpi=150); plt.close(fig)
+    fig.tight_layout(); fig.savefig(f"{FIG}/e3_f_vs_L.png", dpi=150); plt.close(fig)
     fig, axs = plt.subplots(1, 2, figsize=(10, 4), sharey=True)
     for ax, bench in zip(axs, ("B1-easy", "B1-hard")):
         for L, c in zip(LENGTHS, ("#1b9e77", "#d95f02", "#7570b3", "#e7298a")):
@@ -228,14 +229,14 @@ def plot(off, cdfs) -> None:
             ax.fill_between(GRID, band[0], band[1], color=c, alpha=0.12)
         ax.set_xlabel("time after reference boundary (s)"); ax.set_title(bench, fontsize=10)
     axs[0].set_ylabel("share of boundaries detected"); axs[0].legend(frameon=False)
-    fig.tight_layout(); fig.savefig(f"{OUT}/e4_latency_cdf_by_L.png", dpi=150); plt.close(fig)
+    fig.tight_layout(); fig.savefig(f"{FIG}/e4_latency_cdf_by_L.png", dpi=150); plt.close(fig)
     fig, ax = plt.subplots(figsize=(6, 4))
     for bench, c in [(b, c) for b, c in cols.items() if b in set(off.bench)]:
         y, band = cdfs[(bench, 30, "D3-online")]
         ax.plot(GRID, y, color=c, label=bench)
         ax.fill_between(GRID, band[0], band[1], color=c, alpha=0.15)
     ax.set_xlabel("time after reference boundary (s)"); ax.set_ylabel("share of boundaries detected"); ax.legend(frameon=False)
-    fig.tight_layout(); fig.savefig(f"{OUT}/e4_latency_cdf_L30.png", dpi=150); plt.close(fig)
+    fig.tight_layout(); fig.savefig(f"{FIG}/e4_latency_cdf_L30.png", dpi=150); plt.close(fig)
 
 
 if __name__ == "__main__":
