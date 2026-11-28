@@ -1,7 +1,7 @@
 # Tracking rāga over time in Carnatic recordings: window classifiers, temporal decoders and benchmarks
 
 *Draft for the team. Authors, affiliations and venue: to be confirmed. Every number below comes from a file in `results/` (named in brackets);
-commands and commit hashes are in those files' headers. Items marked **[verify]** are not yet checked against the original source.*
+commands and commit hashes are in those files' headers. The related-work claims rest on abstracts and metadata only (see Section 2).*
 
 ## Abstract
 
@@ -27,13 +27,13 @@ Contributions: (1) a pipeline with four decoders compared under one protocol; (2
 
 ## 2. Related work
 
-*Whole-recording recognition.* Koduri, Gulati, Rao and Serra (JNMR 2012) classify by pitch-class distributions; Gulati et al. (ISMIR 2016) introduce the time-delayed melody surface (TDMS),
-reporting 87% on the 480-recording, 40-rāga CMD Carnatic set **[verify the exact figure]**, which we reuse as W2 on windows. Deep sequence models (e.g. DeepSRGM, arXiv 2402.10168; a TDNN+LSTM model, arXiv 2405.16000; a preprocessing/architecture comparison, arXiv 2212.05335)
-also classify whole recordings or clips. *Real-time systems.* Chordia and Rae (NIME 2008) and the Rāgawise demo recognise rāga online **[verify both citations and whether they evaluate change times]**.
-*Segmentation.* Sarala and Murthy (ISMIR 2013) and Padi and Murthy (Sādhanā 2018) segment concerts into items using applause and merge segments by rāga classification, assuming one rāga per item;
-Hindustani alap-section segmentation (TISMIR) and structural segmentation of Carnatic music (Kulkarni 2014) do not identify rāgas **[verify citations]**.
-In a first literature pass (13 rows, `docs/related_work.md`) we found none that performs windowed rāga recognition with temporal decoding and evaluates rāga-change boundaries within recordings; this should be re-checked
-with a broader search before submission (rows 3, 4, 11, 12 have not been read in full).
+*Whole-recording recognition.* Chordia and Rae (ISMIR 2007) and Koduri, Gulati, Rao and Serra (JNMR 2012) classify by pitch-class distributions; Gulati et al. (ISMIR 2016) introduce the time-delayed melody surface (TDMS) and report 87% on the 480-recording, 40-rāga CMD Carnatic set and 98% on a 300-recording, 30-rāga Hindustani set, which we reuse as W2 on windows.
+Sequential pitch distributions (Narasinh and Senthil Raja, AIMC 2023) keep note-transition direction and report 88.13% on Carnatic; deep sequence models (DeepSRGM, arXiv 2402.10168; a TDNN+LSTM model, arXiv 2405.16000; a preprocessing/architecture comparison, arXiv 2212.05335) likewise classify whole recordings or clips.
+*Real-time systems.* Chordia and Rae (NIME 2008) describe real-time raag recognition that shows how likely each raag is as time passes, and Rāgawise (Gulati, Ganguli, Gupta and Srinivasamurthy, ISMIR 2015 hackathon) plots the evolving likelihood of each rāga from live vocals (Hindustani, demo no longer maintained).
+From their abstracts, neither scores where a rāga *changes*.
+*Segmentation.* Sarala and Murthy (ISMIR 2013) and Padi and Murthy (Sādhanā 2018) segment concerts into items using applause and merge segments by rāga classification, assuming one rāga per item; structural segmentation of Dhrupad alap (Rao, Vinutha and Rohit, TISMIR 2020) and of Carnatic music (Kulkarni 2014) does not identify rāgas.
+In a literature pass of 16 papers (`docs/related_work.md`; web search of abstracts and metadata, no full texts read) we found none that performs windowed rāga recognition with temporal decoding and evaluates rāga-change boundaries within recordings.
+This is an absence in a limited search, not proof, and should be re-checked with full-text Scholar and ISMIR-archive searches before submission.
 
 ## 3. Data and benchmarks
 
@@ -133,7 +133,7 @@ On the frozen W2 + D3 (L = 30) predictions [`results/e6_errors.md`, `results/e6_
 - **Scale labels.** The easy/hard labels use `configs/scales.yaml`: 17 of 40 entries from memory were corrected against external sources, 11 still carry a `verify` flag and one (sencurutti) is unresolved.
 - **Window-length and latency conventions.** Latency uses the window-end convention and a 60 s cutoff; D3 online is forward filtering without back-tracking, so it does not enforce the minimum duration.
 - **Absolute accuracy** is modest, and the results rely on a single seed/split; test was used once per frozen configuration (E2, E3/E4), and the error analysis is descriptive.
-- **Related work** was one search pass; four rows are unverified.
+- **Related work** is a limited web search of abstracts and metadata (16 papers, no full texts read); the claim that no prior work evaluates rāga-change boundaries is an absence of evidence in that search.
 
 ## 8. Conclusion and status
 
