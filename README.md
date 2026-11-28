@@ -14,7 +14,7 @@ deviation and backup that was invoked. `PLAN.md` is the plan, `CLAUDE.md` the wo
 ```bash
 python -m venv .venv && source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -e .
-python -m pytest -q                                      # 45 tests, no data needed except where marked skip
+python -m pytest -q                                      # 45 tests
 ```
 
 ## Data (not in this repository, and must not be redistributed)
@@ -27,7 +27,7 @@ Obtain it from the original sources and respect their licences:
    `python scripts/fetch_saraga_meta.py` extracts them from the remote zip into `data/raw/saraga/`. `scripts/pdl.py` is a resumable parallel downloader for the CMD archive.
 3. **Concert item order**: `python scripts/01b_fetch_item_order.py` (MusicBrainz public API, 1 request/s) writes `data/raw/musicbrainz/`.
 
-Formats we found in the real files (hop size, units, unvoiced = 0 Hz, rāga spellings) are in `docs/data_formats.md`.
+Formats we found in the real files (hop size, units, unvoiced = 0 Hz, rÄga spellings) are in `docs/data_formats.md`.
 
 ## Reproduce
 
