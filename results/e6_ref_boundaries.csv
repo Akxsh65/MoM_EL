@@ -1,0 +1,1092 @@
+bench,unit,cluster,t_s,prev,new,kind,shared,hit5,hit10,err_s,label_ok_30s_after
+B1-easy,b1_test_0000,Sanjay at Sastri Hall,78.44,gaula,ritigaula,raga-raga,3.0,True,True,-0.9399999999999977,True
+B1-easy,b1_test_0000,Sanjay at Sastri Hall,235.57,ritigaula,kalyani,raga-raga,4.0,True,True,1.9300000000000068,True
+B1-hard,b1_test_0001,Live at Kamarajar Hall,69.27,sankarabharanam,bhairavi,raga-raga,5.0,True,True,3.230000000000004,True
+B1-hard,b1_test_0001,Live at Kamarajar Hall,280.64,bhairavi,sindhubhairavi,raga-raga,6.0,True,True,1.8600000000000136,True
+B1-hard,b1_test_0002,Live at Kamarajar Hall,185.84,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-mid,b1_test_0003,V Shankarnarayanan at Arkay,60.85,mohanam,harikambhoji,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0003,V Shankarnarayanan at Arkay,189.47,harikambhoji,nata,raga-raga,5.0,True,True,-1.9699999999999989,True
+B1-hard,b1_test_0004,V Shankarnarayanan at Arkay,61.7,mohanam,nata,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0004,V Shankarnarayanan at Arkay,230.5,nata,harikambhoji,raga-raga,5.0,False,True,7.0,True
+B1-hard,b1_test_0004,V Shankarnarayanan at Arkay,318.25,harikambhoji,karaharapriya,raga-raga,6.0,True,True,4.25,False
+B1-hard,b1_test_0004,V Shankarnarayanan at Arkay,394.06,karaharapriya,kanada,raga-raga,7.0,False,False,,True
+B1-easy,b1_test_0005,Cherthala Ranganatha Sharma at Arkay,139.23,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0006,Live at Vani Mahal,113.79,todi,kambhoji,raga-raga,4.0,False,True,8.709999999999994,False
+B1-mid,b1_test_0007,Srividya Janakiraman at Arkay,145.53,saveri,bhairavi,raga-raga,4.0,False,True,6.969999999999999,True
+B1-mid,b1_test_0007,Srividya Janakiraman at Arkay,291.84000000000003,bhairavi,sama,raga-raga,5.0,True,True,-4.340000000000032,True
+B1-easy,b1_test_0008,Sanjay at Sastri Hall,164.16,kalyani,kanada,raga-raga,4.0,True,True,-1.6599999999999966,False
+B1-hard,b1_test_0009,Cherthala Ranganatha Sharma at Arkay,87.04,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0009,Cherthala Ranganatha Sharma at Arkay,174.92000000000002,sriranjani,kedaragaula,raga-raga,5.0,False,True,-7.420000000000016,True
+B1-hard,b1_test_0009,Cherthala Ranganatha Sharma at Arkay,292.62,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0009,Cherthala Ranganatha Sharma at Arkay,436.32,behag,todi,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0010,Chaitra Sairam at Arkay,75.87,mohanam,anandabhairavi,raga-raga,4.0,True,True,-3.3700000000000045,False
+B1-easy,b1_test_0011,Cherthala Ranganatha Sharma at Arkay,75.89,behag,sriranjani,raga-raga,4.0,True,True,-3.3900000000000006,False
+B1-easy,b1_test_0011,Cherthala Ranganatha Sharma at Arkay,181.15,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0012,Sanjay at Sastri Hall,185.06,kamas,kambhoji,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0013,Live at Kamarajar Hall,104.13,kapi,kamas,raga-raga,6.0,False,False,,False
+B1-mid,b1_test_0014,Cherthala Ranganatha Sharma at Arkay,127.47,todi,sriranjani,raga-raga,4.0,True,True,0.030000000000001137,False
+B1-mid,b1_test_0014,Cherthala Ranganatha Sharma at Arkay,278.94,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0014,Cherthala Ranganatha Sharma at Arkay,344.22,madhyamavati,kedaragaula,raga-raga,5.0,False,True,-6.720000000000027,True
+B1-easy,b1_test_0015,Chaitra Sairam at Arkay,108.88,mohanam,anandabhairavi,raga-raga,4.0,True,True,-1.3799999999999955,True
+B1-easy,b1_test_0016,Kuldeep Pai at Arkay,76.67,todi,kamas,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0017,Cherthala Ranganatha Sharma at Arkay,182.68,todi,madhyamavati,raga-raga,4.0,True,True,4.819999999999993,False
+B1-mid,b1_test_0017,Cherthala Ranganatha Sharma at Arkay,273.45,madhyamavati,kedaragaula,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0017,Cherthala Ranganatha Sharma at Arkay,365.71999999999997,kedaragaula,sriranjani,raga-raga,5.0,True,True,1.7800000000000296,False
+B1-hard,b1_test_0018,V Shankarnarayanan at Arkay,133.1,nata,mohanam,raga-raga,3.0,True,True,-0.5999999999999943,True
+B1-hard,b1_test_0018,V Shankarnarayanan at Arkay,193.44,mohanam,kanada,raga-raga,4.0,True,True,-0.9399999999999977,False
+B1-hard,b1_test_0018,V Shankarnarayanan at Arkay,344.99,kanada,karaharapriya,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0018,V Shankarnarayanan at Arkay,563.48,karaharapriya,harikambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0019,Live at Vani Mahal,83.89,bhairavi,kamas,raga-raga,6.0,False,True,-6.390000000000001,False
+B1-mid,b1_test_0020,Chaitra Sairam at Arkay,184.63,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0020,Chaitra Sairam at Arkay,355.25,mohanam,anandabhairavi,raga-raga,4.0,False,True,7.25,True
+B1-mid,b1_test_0021,Srividya Janakiraman at Arkay,130.54,nata,sama,raga-raga,4.0,True,True,1.960000000000008,True
+B1-mid,b1_test_0021,Srividya Janakiraman at Arkay,327.15,sama,bhairavi,raga-raga,5.0,True,True,0.35000000000002274,True
+B1-hard,b1_test_0022,Live at Kamarajar Hall,136.97,bhairavi,kamas,raga-raga,6.0,False,True,-9.469999999999999,False
+B1-hard,b1_test_0022,Live at Kamarajar Hall,211.53,kamas,purvikalyani,raga-raga,4.0,True,True,0.9699999999999989,True
+B1-hard,b1_test_0022,Live at Kamarajar Hall,304.7,purvikalyani,kapi,raga-raga,4.0,True,True,2.8000000000000114,True
+B1-mid,b1_test_0023,V Shankarnarayanan at Arkay,145.88,nata,kanada,raga-raga,5.0,False,True,-8.379999999999995,False
+B1-hard,b1_test_0024,Sanjay at Sastri Hall,97.92,kalyani,begada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0024,Sanjay at Sastri Hall,272.11,begada,kanada,raga-raga,5.0,True,True,0.38999999999998636,False
+B1-mid,b1_test_0025,V Shankarnarayanan at Arkay,89.08,harikambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-easy,b1_test_0026,Srividya Janakiraman at Arkay,85.58,nata,sama,raga-raga,4.0,True,True,1.9200000000000017,True
+B1-easy,b1_test_0026,Srividya Janakiraman at Arkay,276.64,sama,saveri,raga-raga,4.0,False,True,5.860000000000014,True
+B1-easy,b1_test_0027,Sanjay at Sastri Hall,108.56,kalyani,gaula,raga-raga,4.0,False,True,8.939999999999998,True
+B1-easy,b1_test_0028,Kuldeep Pai at Arkay,171.12,todi,kamas,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0028,Kuldeep Pai at Arkay,262.4,kamas,saveri,raga-raga,4.0,True,True,0.10000000000002274,True
+B1-easy,b1_test_0029,Chaitra Sairam at Arkay,96.02,mohanam,anandabhairavi,raga-raga,4.0,True,True,1.480000000000004,True
+B1-easy,b1_test_0030,Live at Kamarajar Hall,213.84,kapi,purvikalyani,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0030,Live at Kamarajar Hall,405.15,purvikalyani,sindhubhairavi,raga-raga,3.0,True,True,2.3500000000000227,True
+B1-easy,b1_test_0030,Live at Kamarajar Hall,467.13,sindhubhairavi,harikambhoji,raga-raga,4.0,True,True,0.37000000000000455,True
+B1-mid,b1_test_0031,Srividya Janakiraman at Arkay,78.6,saveri,bhairavi,raga-raga,4.0,False,True,8.900000000000006,True
+B1-mid,b1_test_0031,Srividya Janakiraman at Arkay,210.79,bhairavi,nata,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0031,Srividya Janakiraman at Arkay,438.06,nata,sama,raga-raga,4.0,False,True,-5.560000000000002,True
+B1-mid,b1_test_0032,Cherthala Ranganatha Sharma at Arkay,234.75,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0032,Cherthala Ranganatha Sharma at Arkay,410.43,sriranjani,kedaragaula,raga-raga,5.0,True,True,-2.930000000000007,True
+B1-mid,b1_test_0033,V Shankarnarayanan at Arkay,239.03,karaharapriya,nata,raga-raga,5.0,True,True,3.469999999999999,True
+B1-mid,b1_test_0033,V Shankarnarayanan at Arkay,448.57,nata,kanada,raga-raga,5.0,True,True,-1.0699999999999932,True
+B1-easy,b1_test_0034,Srividya Janakiraman at Arkay,89.0,nata,sama,raga-raga,4.0,True,True,3.5,False
+B1-easy,b1_test_0034,Srividya Janakiraman at Arkay,178.01,sama,saveri,raga-raga,4.0,False,True,9.490000000000009,True
+B1-easy,b1_test_0034,Srividya Janakiraman at Arkay,260.52,saveri,bhairavi,raga-raga,4.0,True,True,1.9800000000000182,True
+B1-hard,b1_test_0035,Live at Vani Mahal,213.0,sankarabharanam,kalyani,raga-raga,6.0,False,True,9.5,True
+B1-mid,b1_test_0036,Kuldeep Pai at Arkay,119.55,saveri,todi,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0036,Kuldeep Pai at Arkay,230.88,todi,kamas,raga-raga,4.0,False,True,6.6200000000000045,True
+B1-hard,b1_test_0037,Cherthala Ranganatha Sharma at Arkay,69.3,behag,kedaragaula,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0037,Cherthala Ranganatha Sharma at Arkay,278.52,kedaragaula,madhyamavati,raga-raga,5.0,False,True,8.980000000000018,False
+B1-hard,b1_test_0037,Cherthala Ranganatha Sharma at Arkay,368.09,madhyamavati,sriranjani,raga-raga,4.0,True,True,4.410000000000025,False
+B1-hard,b1_test_0037,Cherthala Ranganatha Sharma at Arkay,545.13,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0038,Live at Kamarajar Hall,81.93,sankarabharanam,harikambhoji,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0038,Live at Kamarajar Hall,304.02,harikambhoji,bhairavi,raga-raga,6.0,False,True,-6.519999999999982,True
+B1-hard,b1_test_0038,Live at Kamarajar Hall,416.97999999999996,bhairavi,purvikalyani,raga-raga,3.0,True,True,-4.479999999999961,True
+B1-mid,b1_test_0039,Chaitra Sairam at Arkay,73.82,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0039,Chaitra Sairam at Arkay,299.15,mohanam,anandabhairavi,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0040,Sanjay at Sastri Hall,81.61,behag,kalyani,raga-raga,7.0,False,False,,False
+B1-easy,b1_test_0041,Chaitra Sairam at Arkay,221.87,anandabhairavi,mohanam,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0042,Live at Kamarajar Hall,109.86,purvikalyani,harikambhoji,raga-raga,4.0,True,True,2.6400000000000006,True
+B1-hard,b1_test_0043,Live at Vani Mahal,60.63,kambhoji,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-mid,b1_test_0044,Live at Vani Mahal,105.22,todi,kambhoji,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0044,Live at Vani Mahal,175.34,kambhoji,shanmukhapriya,raga-raga,4.0,True,True,2.1599999999999966,True
+B1-mid,b1_test_0044,Live at Vani Mahal,288.3,shanmukhapriya,kalyani,raga-raga,4.0,True,True,4.199999999999989,True
+B1-mid,b1_test_0044,Live at Vani Mahal,439.37,kalyani,kamas,raga-raga,5.0,True,True,3.1299999999999955,True
+B1-mid,b1_test_0045,Live at Kamarajar Hall,67.97,sindhubhairavi,sankarabharanam,raga-raga,3.0,True,True,4.530000000000001,True
+B1-mid,b1_test_0045,Live at Kamarajar Hall,180.01999999999998,sankarabharanam,purvikalyani,raga-raga,5.0,True,True,2.480000000000018,True
+B1-mid,b1_test_0046,Srividya Janakiraman at Arkay,216.39,nata,saveri,raga-raga,5.0,True,True,1.1100000000000136,True
+B1-mid,b1_test_0046,Srividya Janakiraman at Arkay,339.84,saveri,bhairavi,raga-raga,4.0,False,True,-7.339999999999975,True
+B1-mid,b1_test_0046,Srividya Janakiraman at Arkay,412.59999999999997,bhairavi,sama,raga-raga,5.0,True,True,4.900000000000034,False
+B1-easy,b1_test_0047,Live at Vani Mahal,125.12,todi,kamas,raga-raga,4.0,True,True,2.3799999999999955,True
+B1-easy,b1_test_0048,Live at Kamarajar Hall,63.32,sindhubhairavi,harikambhoji,raga-raga,4.0,False,True,9.18,True
+B1-hard,b1_test_0049,Cherthala Ranganatha Sharma at Arkay,62.53,todi,behag,raga-raga,3.0,False,True,9.969999999999999,False
+B1-hard,b1_test_0049,Cherthala Ranganatha Sharma at Arkay,204.59,behag,kedaragaula,raga-raga,6.0,True,True,-2.0900000000000034,True
+B1-hard,b1_test_0049,Cherthala Ranganatha Sharma at Arkay,366.77,kedaragaula,madhyamavati,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0050,Live at Vani Mahal,145.35,shanmukhapriya,kalyani,raga-raga,4.0,True,True,2.1500000000000057,True
+B1-mid,b1_test_0050,Live at Vani Mahal,319.46000000000004,kalyani,kambhoji,raga-raga,5.0,True,True,-1.9600000000000364,False
+B1-mid,b1_test_0051,V Shankarnarayanan at Arkay,60.56,mohanam,harikambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0052,Live at Kamarajar Hall,112.27,sankarabharanam,sindhubhairavi,raga-raga,3.0,False,True,5.230000000000004,True
+B1-hard,b1_test_0052,Live at Kamarajar Hall,190.25,sindhubhairavi,bhairavi,raga-raga,6.0,True,True,2.25,True
+B1-mid,b1_test_0053,Srividya Janakiraman at Arkay,207.45,sama,saveri,raga-raga,4.0,True,True,-4.949999999999989,True
+B1-mid,b1_test_0053,Srividya Janakiraman at Arkay,412.98,saveri,nata,raga-raga,5.0,False,False,,True
+B1-easy,b1_test_0054,Cherthala Ranganatha Sharma at Arkay,73.67,madhyamavati,sriranjani,raga-raga,4.0,True,True,3.8299999999999983,False
+B1-easy,b1_test_0054,Cherthala Ranganatha Sharma at Arkay,228.07,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0055,Kuldeep Pai at Arkay,117.1,todi,saveri,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0055,Kuldeep Pai at Arkay,234.53,saveri,kamas,raga-raga,4.0,True,True,-2.030000000000001,True
+B1-mid,b1_test_0056,Chaitra Sairam at Arkay,69.93,anandabhairavi,mohanam,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0056,Chaitra Sairam at Arkay,226.33,mohanam,kambhoji,raga-raga,5.0,False,False,,False
+B1-easy,b1_test_0057,Live at Kamarajar Hall,180.89,sankarabharanam,sindhubhairavi,raga-raga,3.0,True,True,1.6100000000000136,True
+B1-easy,b1_test_0057,Live at Kamarajar Hall,245.70999999999998,sindhubhairavi,kamas,raga-raga,4.0,True,True,1.7900000000000205,False
+B1-easy,b1_test_0058,Chaitra Sairam at Arkay,104.17,mohanam,anandabhairavi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0059,Live at Kamarajar Hall,155.72,purvikalyani,kapi,raga-raga,4.0,True,True,1.7800000000000011,True
+B1-hard,b1_test_0060,Live at Vani Mahal,87.12,kalyani,shanmukhapriya,raga-raga,4.0,True,True,0.37999999999999545,True
+B1-hard,b1_test_0060,Live at Vani Mahal,295.89,shanmukhapriya,kamas,raga-raga,4.0,False,True,6.610000000000014,True
+B1-hard,b1_test_0060,Live at Vani Mahal,443.65,kamas,bhairavi,raga-raga,6.0,False,True,-6.149999999999977,True
+B1-hard,b1_test_0060,Live at Vani Mahal,510.58,bhairavi,sankarabharanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0061,Srividya Janakiraman at Arkay,139.93,sama,nata,raga-raga,4.0,True,True,2.569999999999993,True
+B1-mid,b1_test_0061,Srividya Janakiraman at Arkay,345.40999999999997,nata,saveri,raga-raga,5.0,True,True,-2.909999999999968,True
+B1-mid,b1_test_0062,V Shankarnarayanan at Arkay,73.52,karaharapriya,nata,raga-raga,5.0,True,True,3.980000000000004,True
+B1-hard,b1_test_0063,Live at Kamarajar Hall,166.8,sankarabharanam,kamas,raga-raga,6.0,True,True,0.6999999999999886,False
+B1-hard,b1_test_0063,Live at Kamarajar Hall,233.11,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0063,Live at Kamarajar Hall,383.62,kapi,sindhubhairavi,raga-raga,5.0,False,True,8.879999999999995,True
+B1-hard,b1_test_0063,Live at Kamarajar Hall,443.93,sindhubhairavi,bhairavi,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0064,Sanjay at Sastri Hall,113.46,begada,kamas,raga-raga,6.0,False,True,9.040000000000006,True
+B1-hard,b1_test_0065,Live at Kamarajar Hall,181.35,bhairavi,kapi,raga-raga,7.0,False,True,-8.849999999999994,True
+B1-mid,b1_test_0066,Kuldeep Pai at Arkay,167.63,kamas,todi,raga-raga,4.0,True,True,4.8700000000000045,True
+B1-mid,b1_test_0066,Kuldeep Pai at Arkay,285.32,todi,saveri,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0067,Cherthala Ranganatha Sharma at Arkay,74.65,todi,kedaragaula,raga-raga,4.0,False,True,7.849999999999994,True
+B1-mid,b1_test_0067,Cherthala Ranganatha Sharma at Arkay,305.70000000000005,kedaragaula,sriranjani,raga-raga,5.0,False,True,6.7999999999999545,False
+B1-mid,b1_test_0067,Cherthala Ranganatha Sharma at Arkay,428.83000000000004,sriranjani,madhyamavati,raga-raga,4.0,True,True,-1.330000000000041,False
+B1-mid,b1_test_0067,Cherthala Ranganatha Sharma at Arkay,517.95,madhyamavati,behag,raga-raga,4.0,True,True,-0.4500000000000455,False
+B1-easy,b1_test_0068,Live at Vani Mahal,126.15,kamas,shanmukhapriya,raga-raga,4.0,False,True,-8.650000000000006,True
+B1-easy,b1_test_0068,Live at Vani Mahal,229.07,shanmukhapriya,sankarabharanam,raga-raga,3.0,True,True,-1.5699999999999932,True
+B1-easy,b1_test_0068,Live at Vani Mahal,329.73,sankarabharanam,todi,raga-raga,3.0,True,True,-2.230000000000018,True
+B1-hard,b1_test_0069,Sanjay at Sastri Hall,68.42,kamas,ritigaula,raga-raga,6.0,True,True,4.079999999999998,True
+B1-hard,b1_test_0070,Live at Kamarajar Hall,193.12,bhairavi,kamas,raga-raga,6.0,False,True,-5.6200000000000045,False
+B1-hard,b1_test_0070,Live at Kamarajar Hall,299.8,kamas,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0070,Live at Kamarajar Hall,522.78,sankarabharanam,sindhubhairavi,raga-raga,3.0,False,True,9.720000000000027,True
+B1-hard,b1_test_0070,Live at Kamarajar Hall,585.4499999999999,sindhubhairavi,purvikalyani,raga-raga,3.0,False,True,7.050000000000068,True
+B1-hard,b1_test_0071,Sanjay at Sastri Hall,168.38,kamas,behag,raga-raga,6.0,True,True,-0.8799999999999955,True
+B1-hard,b1_test_0071,Sanjay at Sastri Hall,304.16999999999996,behag,kanada,raga-raga,5.0,True,True,-1.669999999999959,True
+B1-mid,b1_test_0072,Chaitra Sairam at Arkay,84.73,mohanam,kambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0073,Chaitra Sairam at Arkay,225.25,anandabhairavi,kambhoji,raga-raga,6.0,True,True,2.25,False
+B1-hard,b1_test_0073,Chaitra Sairam at Arkay,363.3,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0074,Sanjay at Sastri Hall,111.36,kapi,kanada,raga-raga,7.0,False,True,-8.86,False
+B1-hard,b1_test_0074,Sanjay at Sastri Hall,186.01999999999998,kanada,ritigaula,raga-raga,7.0,True,True,-3.519999999999982,True
+B1-easy,b1_test_0075,Live at Vani Mahal,114.86,todi,kambhoji,raga-raga,4.0,False,True,7.640000000000001,True
+B1-hard,b1_test_0076,Live at Kamarajar Hall,64.54,purvikalyani,kamas,raga-raga,4.0,False,True,7.959999999999994,False
+B1-hard,b1_test_0076,Live at Kamarajar Hall,185.76,kamas,harikambhoji,raga-raga,7.0,False,True,-8.259999999999991,True
+B1-hard,b1_test_0076,Live at Kamarajar Hall,265.07,harikambhoji,sindhubhairavi,raga-raga,4.0,True,True,2.430000000000007,True
+B1-hard,b1_test_0076,Live at Kamarajar Hall,327.01,sindhubhairavi,sankarabharanam,raga-raga,3.0,True,True,0.4900000000000091,True
+B1-hard,b1_test_0077,V Shankarnarayanan at Arkay,62.52,mohanam,harikambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0077,V Shankarnarayanan at Arkay,140.19,harikambhoji,kanada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0077,V Shankarnarayanan at Arkay,265.43,kanada,nata,raga-raga,5.0,True,True,-2.930000000000007,True
+B1-hard,b1_test_0077,V Shankarnarayanan at Arkay,342.09000000000003,nata,karaharapriya,raga-raga,5.0,True,True,-4.590000000000032,True
+B1-hard,b1_test_0078,Live at Kamarajar Hall,65.63,harikambhoji,sindhubhairavi,raga-raga,4.0,False,True,6.8700000000000045,True
+B1-hard,b1_test_0078,Live at Kamarajar Hall,278.52,sindhubhairavi,sankarabharanam,raga-raga,3.0,True,True,-1.0199999999999818,True
+B1-hard,b1_test_0078,Live at Kamarajar Hall,382.74,sankarabharanam,kamas,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0079,V Shankarnarayanan at Arkay,170.39,kanada,mohanam,raga-raga,4.0,True,True,2.1100000000000136,True
+B1-hard,b1_test_0079,V Shankarnarayanan at Arkay,230.67999999999998,mohanam,nata,raga-raga,3.0,False,True,6.820000000000022,True
+B1-hard,b1_test_0079,V Shankarnarayanan at Arkay,305.78,nata,karaharapriya,raga-raga,5.0,False,True,-8.279999999999973,True
+B1-hard,b1_test_0079,V Shankarnarayanan at Arkay,377.34999999999997,karaharapriya,harikambhoji,raga-raga,6.0,True,True,-4.849999999999966,True
+B1-mid,b1_test_0080,Live at Kamarajar Hall,156.2,bhairavi,purvikalyani,raga-raga,3.0,True,True,1.3000000000000114,True
+B1-mid,b1_test_0080,Live at Kamarajar Hall,232.6,purvikalyani,sankarabharanam,raga-raga,5.0,True,True,-0.09999999999999432,True
+B1-mid,b1_test_0080,Live at Kamarajar Hall,324.01,sankarabharanam,sindhubhairavi,raga-raga,3.0,True,True,3.490000000000009,True
+B1-mid,b1_test_0080,Live at Kamarajar Hall,402.09,sindhubhairavi,kamas,raga-raga,4.0,True,True,-4.589999999999975,False
+B1-hard,b1_test_0081,V Shankarnarayanan at Arkay,67.58,mohanam,karaharapriya,raga-raga,4.0,True,True,4.920000000000002,True
+B1-hard,b1_test_0081,V Shankarnarayanan at Arkay,281.6,karaharapriya,kanada,raga-raga,7.0,False,True,-9.100000000000023,False
+B1-hard,b1_test_0081,V Shankarnarayanan at Arkay,371.40000000000003,kanada,harikambhoji,raga-raga,6.0,False,True,6.099999999999966,False
+B1-hard,b1_test_0081,V Shankarnarayanan at Arkay,464.21000000000004,harikambhoji,nata,raga-raga,5.0,True,True,3.2899999999999636,True
+B1-hard,b1_test_0082,Chaitra Sairam at Arkay,170.73,kambhoji,anandabhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0082,Chaitra Sairam at Arkay,342.88,anandabhairavi,mohanam,raga-raga,4.0,False,True,-5.3799999999999955,True
+B1-mid,b1_test_0083,Srividya Janakiraman at Arkay,205.1,sama,bhairavi,raga-raga,5.0,True,True,-2.5999999999999943,True
+B1-hard,b1_test_0084,Live at Vani Mahal,127.63,kamas,bhairavi,raga-raga,6.0,True,True,-0.12999999999999545,True
+B1-mid,b1_test_0085,V Shankarnarayanan at Arkay,166.15,nata,harikambhoji,raga-raga,5.0,False,True,6.349999999999994,True
+B1-easy,b1_test_0086,Cherthala Ranganatha Sharma at Arkay,92.07,madhyamavati,todi,raga-raga,4.0,True,True,-4.569999999999993,True
+B1-easy,b1_test_0086,Cherthala Ranganatha Sharma at Arkay,264.99,todi,kedaragaula,raga-raga,4.0,False,True,7.509999999999991,True
+B1-mid,b1_test_0087,Cherthala Ranganatha Sharma at Arkay,99.63,kedaragaula,madhyamavati,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0087,Cherthala Ranganatha Sharma at Arkay,186.16,madhyamavati,todi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0087,Cherthala Ranganatha Sharma at Arkay,282.64,todi,behag,raga-raga,3.0,True,True,-0.13999999999998636,False
+B1-mid,b1_test_0087,Cherthala Ranganatha Sharma at Arkay,456.75,behag,sriranjani,raga-raga,4.0,True,True,0.75,False
+B1-hard,b1_test_0088,Live at Kamarajar Hall,64.92,sindhubhairavi,sankarabharanam,raga-raga,3.0,False,True,7.579999999999998,True
+B1-hard,b1_test_0088,Live at Kamarajar Hall,131.16,sankarabharanam,kapi,raga-raga,6.0,False,True,6.340000000000003,False
+B1-hard,b1_test_0088,Live at Kamarajar Hall,368.88,kapi,bhairavi,raga-raga,7.0,False,True,8.620000000000005,True
+B1-easy,b1_test_0089,Kuldeep Pai at Arkay,81.14,kamas,saveri,raga-raga,4.0,False,True,6.359999999999999,True
+B1-easy,b1_test_0090,Cherthala Ranganatha Sharma at Arkay,77.2,madhyamavati,behag,raga-raga,4.0,True,True,0.29999999999999716,False
+B1-easy,b1_test_0090,Cherthala Ranganatha Sharma at Arkay,150.28,behag,todi,raga-raga,3.0,True,True,2.219999999999999,True
+B1-easy,b1_test_0090,Cherthala Ranganatha Sharma at Arkay,372.65,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0091,Live at Vani Mahal,121.12,shanmukhapriya,kalyani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0092,Live at Kamarajar Hall,79.72,purvikalyani,sankarabharanam,raga-raga,5.0,True,True,-2.219999999999999,True
+B1-hard,b1_test_0092,Live at Kamarajar Hall,188.43,sankarabharanam,kapi,raga-raga,6.0,True,True,4.069999999999993,True
+B1-hard,b1_test_0093,V Shankarnarayanan at Arkay,236.83,nata,kanada,raga-raga,5.0,True,True,0.6699999999999875,True
+B1-hard,b1_test_0093,V Shankarnarayanan at Arkay,449.89,kanada,harikambhoji,raga-raga,6.0,True,True,2.6100000000000136,True
+B1-hard,b1_test_0093,V Shankarnarayanan at Arkay,595.97,harikambhoji,karaharapriya,raga-raga,6.0,True,True,-3.4700000000000273,True
+B1-hard,b1_test_0093,V Shankarnarayanan at Arkay,662.36,karaharapriya,mohanam,raga-raga,4.0,False,True,5.139999999999986,True
+B1-mid,b1_test_0094,Srividya Janakiraman at Arkay,120.97,nata,saveri,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0094,Srividya Janakiraman at Arkay,282.19,saveri,bhairavi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0095,Srividya Janakiraman at Arkay,106.64,saveri,bhairavi,raga-raga,4.0,True,True,-4.140000000000001,True
+B1-mid,b1_test_0095,Srividya Janakiraman at Arkay,293.82,bhairavi,nata,raga-raga,5.0,True,True,3.680000000000007,True
+B1-mid,b1_test_0095,Srividya Janakiraman at Arkay,520.48,nata,sama,raga-raga,4.0,False,True,-7.980000000000018,True
+B1-easy,b1_test_0096,Kuldeep Pai at Arkay,74.9,todi,kamas,raga-raga,4.0,True,True,-2.4000000000000057,True
+B1-mid,b1_test_0097,Srividya Janakiraman at Arkay,124.69,nata,bhairavi,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0097,Srividya Janakiraman at Arkay,296.16999999999996,bhairavi,sama,raga-raga,5.0,True,True,-3.669999999999959,False
+B1-mid,b1_test_0098,Cherthala Ranganatha Sharma at Arkay,123.04,kedaragaula,madhyamavati,raga-raga,5.0,True,True,-0.5400000000000063,False
+B1-hard,b1_test_0099,Cherthala Ranganatha Sharma at Arkay,208.76,behag,kedaragaula,raga-raga,6.0,False,False,,True
+B1-easy,b1_test_0100,Cherthala Ranganatha Sharma at Arkay,75.25,todi,kedaragaula,raga-raga,4.0,False,True,7.25,False
+B1-hard,b1_test_0101,Live at Vani Mahal,206.99,shanmukhapriya,sankarabharanam,raga-raga,3.0,True,True,0.5099999999999909,True
+B1-hard,b1_test_0101,Live at Vani Mahal,354.43,sankarabharanam,kalyani,raga-raga,6.0,True,True,3.069999999999993,True
+B1-hard,b1_test_0101,Live at Vani Mahal,575.5699999999999,kalyani,kambhoji,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0102,V Shankarnarayanan at Arkay,61.55,karaharapriya,nata,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0102,V Shankarnarayanan at Arkay,257.59,nata,mohanam,raga-raga,3.0,True,True,-0.08999999999997499,True
+B1-mid,b1_test_0103,V Shankarnarayanan at Arkay,220.96,kanada,mohanam,raga-raga,4.0,False,True,6.539999999999992,True
+B1-mid,b1_test_0103,V Shankarnarayanan at Arkay,281.7,mohanam,harikambhoji,raga-raga,5.0,False,True,5.800000000000011,True
+B1-mid,b1_test_0103,V Shankarnarayanan at Arkay,479.82,harikambhoji,nata,raga-raga,5.0,False,True,-7.319999999999993,True
+B1-hard,b1_test_0104,Chaitra Sairam at Arkay,168.19,anandabhairavi,kambhoji,raga-raga,6.0,True,True,-0.6899999999999977,False
+B1-hard,b1_test_0105,V Shankarnarayanan at Arkay,183.6,kanada,karaharapriya,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0105,V Shankarnarayanan at Arkay,339.07,karaharapriya,harikambhoji,raga-raga,6.0,False,True,-6.569999999999993,True
+B1-hard,b1_test_0105,V Shankarnarayanan at Arkay,539.5799999999999,harikambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0105,V Shankarnarayanan at Arkay,603.3899999999999,mohanam,nata,raga-raga,3.0,True,True,-0.8899999999998727,True
+B1-hard,b1_test_0106,Live at Kamarajar Hall,221.38,kamas,harikambhoji,raga-raga,7.0,True,True,1.1200000000000045,True
+B1-hard,b1_test_0106,Live at Kamarajar Hall,336.92,harikambhoji,purvikalyani,raga-raga,4.0,False,True,5.579999999999984,True
+B1-hard,b1_test_0106,Live at Kamarajar Hall,411.56,purvikalyani,sankarabharanam,raga-raga,5.0,True,True,-4.060000000000002,True
+B1-hard,b1_test_0106,Live at Kamarajar Hall,595.83,sankarabharanam,bhairavi,raga-raga,5.0,False,True,6.669999999999959,True
+B1-easy,b1_test_0107,V Shankarnarayanan at Arkay,165.24,kanada,mohanam,raga-raga,4.0,False,True,7.259999999999991,True
+B1-hard,b1_test_0108,Sanjay at Sastri Hall,83.89,kanada,kambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0108,Sanjay at Sastri Hall,146.59,kambhoji,ritigaula,raga-raga,6.0,True,True,-4.090000000000003,True
+B1-hard,b1_test_0109,Live at Kamarajar Hall,191.27,bhairavi,kamas,raga-raga,6.0,True,True,-3.7700000000000102,False
+B1-hard,b1_test_0109,Live at Kamarajar Hall,342.65999999999997,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0110,Live at Vani Mahal,129.93,kalyani,sankarabharanam,raga-raga,6.0,False,True,-7.430000000000007,True
+B1-hard,b1_test_0110,Live at Vani Mahal,323.01,sankarabharanam,kambhoji,raga-raga,6.0,False,False,,False
+B1-mid,b1_test_0111,Kuldeep Pai at Arkay,103.04,saveri,todi,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0111,Kuldeep Pai at Arkay,183.52,todi,kamas,raga-raga,4.0,False,True,8.97999999999999,True
+B1-hard,b1_test_0112,V Shankarnarayanan at Arkay,148.78,karaharapriya,harikambhoji,raga-raga,6.0,True,True,-1.2800000000000011,True
+B1-hard,b1_test_0112,V Shankarnarayanan at Arkay,323.33000000000004,harikambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0113,Chaitra Sairam at Arkay,181.53,kambhoji,mohanam,raga-raga,5.0,True,True,0.9699999999999989,True
+B1-hard,b1_test_0114,Live at Vani Mahal,61.59,sankarabharanam,kamas,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0115,Live at Kamarajar Hall,116.36,harikambhoji,kamas,raga-raga,7.0,True,True,1.1400000000000006,False
+B1-hard,b1_test_0115,Live at Kamarajar Hall,212.88,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-mid,b1_test_0116,V Shankarnarayanan at Arkay,85.99,nata,harikambhoji,raga-raga,5.0,True,True,-3.489999999999995,False
+B1-mid,b1_test_0116,V Shankarnarayanan at Arkay,175.16,harikambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0117,Kuldeep Pai at Arkay,86.83,kamas,saveri,raga-raga,4.0,False,True,5.670000000000002,True
+B1-mid,b1_test_0117,Kuldeep Pai at Arkay,302.91,saveri,todi,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0118,Srividya Janakiraman at Arkay,177.58,bhairavi,sama,raga-raga,5.0,False,True,-5.0800000000000125,False
+B1-hard,b1_test_0119,Live at Vani Mahal,65.5,kambhoji,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0119,Live at Vani Mahal,297.48,sankarabharanam,todi,raga-raga,3.0,False,True,-9.980000000000018,True
+B1-hard,b1_test_0119,Live at Vani Mahal,376.11,todi,kamas,raga-raga,4.0,True,True,1.3899999999999864,True
+B1-hard,b1_test_0119,Live at Vani Mahal,586.71,kamas,bhairavi,raga-raga,6.0,True,True,-4.210000000000036,True
+B1-easy,b1_test_0120,Live at Kamarajar Hall,153.62,purvikalyani,harikambhoji,raga-raga,4.0,True,True,-1.1200000000000045,True
+B1-easy,b1_test_0120,Live at Kamarajar Hall,304.0,harikambhoji,sindhubhairavi,raga-raga,4.0,True,True,3.5,True
+B1-hard,b1_test_0121,Live at Kamarajar Hall,82.31,harikambhoji,kamas,raga-raga,7.0,False,True,5.189999999999998,False
+B1-hard,b1_test_0122,Live at Vani Mahal,65.32,kamas,bhairavi,raga-raga,6.0,False,True,7.180000000000007,False
+B1-hard,b1_test_0122,Live at Vani Mahal,131.68,bhairavi,kalyani,raga-raga,4.0,False,True,5.819999999999993,True
+B1-hard,b1_test_0123,Live at Vani Mahal,84.52,bhairavi,todi,raga-raga,6.0,False,False,,True
+B1-mid,b1_test_0124,Srividya Janakiraman at Arkay,93.15,saveri,bhairavi,raga-raga,4.0,False,True,-5.650000000000006,True
+B1-mid,b1_test_0124,Srividya Janakiraman at Arkay,300.5,bhairavi,nata,raga-raga,5.0,False,True,7.0,True
+B1-mid,b1_test_0125,Cherthala Ranganatha Sharma at Arkay,204.32,behag,todi,raga-raga,3.0,True,True,3.180000000000007,True
+B1-mid,b1_test_0125,Cherthala Ranganatha Sharma at Arkay,439.84000000000003,todi,madhyamavati,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0125,Cherthala Ranganatha Sharma at Arkay,499.84000000000003,madhyamavati,kedaragaula,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0126,Live at Vani Mahal,75.31,shanmukhapriya,kambhoji,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0126,Live at Vani Mahal,138.41,kambhoji,bhairavi,raga-raga,6.0,True,True,-0.9099999999999966,False
+B1-easy,b1_test_0127,Live at Kamarajar Hall,66.42,harikambhoji,sindhubhairavi,raga-raga,4.0,False,True,6.079999999999998,True
+B1-mid,b1_test_0128,V Shankarnarayanan at Arkay,114.67,karaharapriya,mohanam,raga-raga,4.0,False,True,-7.170000000000002,True
+B1-mid,b1_test_0128,V Shankarnarayanan at Arkay,178.46,mohanam,nata,raga-raga,3.0,False,True,9.039999999999992,True
+B1-mid,b1_test_0128,V Shankarnarayanan at Arkay,274.5,nata,harikambhoji,raga-raga,5.0,False,True,-7.0,True
+B1-easy,b1_test_0129,Kuldeep Pai at Arkay,198.71,saveri,kamas,raga-raga,4.0,True,True,3.789999999999992,True
+B1-mid,b1_test_0130,Sanjay at Sastri Hall,85.84,ritigaula,kalyani,raga-raga,4.0,False,True,6.659999999999997,False
+B1-mid,b1_test_0130,Sanjay at Sastri Hall,171.60000000000002,kalyani,kambhoji,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0130,Sanjay at Sastri Hall,303.55,kambhoji,gaula,raga-raga,4.0,True,True,-1.0500000000000114,True
+B1-mid,b1_test_0131,Cherthala Ranganatha Sharma at Arkay,212.68,sriranjani,kedaragaula,raga-raga,5.0,False,True,-5.180000000000007,True
+B1-mid,b1_test_0131,Cherthala Ranganatha Sharma at Arkay,312.64,kedaragaula,madhyamavati,raga-raga,5.0,True,True,4.860000000000014,False
+B1-hard,b1_test_0132,Live at Kamarajar Hall,112.23,kamas,purvikalyani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0132,Live at Kamarajar Hall,244.37,purvikalyani,harikambhoji,raga-raga,4.0,True,True,3.1299999999999955,True
+B1-hard,b1_test_0132,Live at Kamarajar Hall,305.8,harikambhoji,bhairavi,raga-raga,6.0,True,True,1.6999999999999886,True
+B1-hard,b1_test_0132,Live at Kamarajar Hall,422.23,bhairavi,sankarabharanam,raga-raga,5.0,False,True,-9.730000000000018,True
+B1-easy,b1_test_0133,Cherthala Ranganatha Sharma at Arkay,122.22,kedaragaula,todi,raga-raga,4.0,True,True,0.28000000000000114,True
+B1-mid,b1_test_0134,Srividya Janakiraman at Arkay,112.07,bhairavi,nata,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0134,Srividya Janakiraman at Arkay,294.03999999999996,nata,saveri,raga-raga,5.0,True,True,-1.5399999999999636,True
+B1-hard,b1_test_0135,V Shankarnarayanan at Arkay,81.38,nata,harikambhoji,raga-raga,5.0,True,True,1.1200000000000045,True
+B1-hard,b1_test_0135,V Shankarnarayanan at Arkay,249.48,harikambhoji,kanada,raga-raga,6.0,False,True,-6.97999999999999,False
+B1-hard,b1_test_0136,Live at Kamarajar Hall,117.56,harikambhoji,sindhubhairavi,raga-raga,4.0,True,True,-0.060000000000002274,True
+B1-hard,b1_test_0136,Live at Kamarajar Hall,186.69,sindhubhairavi,bhairavi,raga-raga,6.0,False,True,5.810000000000002,True
+B1-hard,b1_test_0136,Live at Kamarajar Hall,287.45,bhairavi,sankarabharanam,raga-raga,5.0,True,True,-4.949999999999989,True
+B1-easy,b1_test_0137,Chaitra Sairam at Arkay,76.42,mohanam,anandabhairavi,raga-raga,4.0,True,True,1.0799999999999983,True
+B1-mid,b1_test_0138,V Shankarnarayanan at Arkay,122.07,kanada,nata,raga-raga,5.0,True,True,0.4300000000000068,True
+B1-mid,b1_test_0139,Sanjay at Sastri Hall,71.7,gaula,kapi,raga-raga,4.0,False,True,5.799999999999997,True
+B1-mid,b1_test_0139,Sanjay at Sastri Hall,184.34,kapi,kalyani,raga-raga,5.0,False,True,8.159999999999997,False
+B1-easy,b1_test_0140,Kuldeep Pai at Arkay,217.05,kamas,saveri,raga-raga,4.0,False,True,5.449999999999989,True
+B1-hard,b1_test_0141,V Shankarnarayanan at Arkay,213.66,harikambhoji,kanada,raga-raga,6.0,True,True,3.8400000000000034,True
+B1-easy,b1_test_0142,Sanjay at Sastri Hall,170.42,ritigaula,kalyani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0142,Sanjay at Sastri Hall,247.43,kalyani,gaula,raga-raga,4.0,True,True,-4.930000000000007,True
+B1-easy,b1_test_0142,Sanjay at Sastri Hall,403.4,gaula,kambhoji,raga-raga,4.0,True,True,4.100000000000023,False
+B1-hard,b1_test_0143,V Shankarnarayanan at Arkay,63.81,mohanam,kanada,raga-raga,4.0,False,True,8.689999999999998,True
+B1-hard,b1_test_0143,V Shankarnarayanan at Arkay,186.47,kanada,karaharapriya,raga-raga,7.0,True,True,1.0300000000000011,True
+B1-easy,b1_test_0144,Cherthala Ranganatha Sharma at Arkay,70.61,behag,sriranjani,raga-raga,4.0,True,True,1.8900000000000006,False
+B1-easy,b1_test_0144,Cherthala Ranganatha Sharma at Arkay,227.2,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0145,Sanjay at Sastri Hall,85.78,kambhoji,behag,raga-raga,6.0,True,True,-3.280000000000001,True
+B1-hard,b1_test_0146,Sanjay at Sastri Hall,159.15,kapi,kalyani,raga-raga,5.0,False,True,-6.650000000000006,False
+B1-hard,b1_test_0146,Sanjay at Sastri Hall,300.15,kalyani,gaula,raga-raga,4.0,True,True,2.3500000000000227,True
+B1-hard,b1_test_0146,Sanjay at Sastri Hall,391.57,gaula,kanada,raga-raga,3.0,True,True,0.9300000000000068,False
+B1-hard,b1_test_0146,Sanjay at Sastri Hall,481.15999999999997,kanada,ritigaula,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0147,Live at Vani Mahal,77.71,todi,kambhoji,raga-raga,4.0,False,True,-5.209999999999994,False
+B1-hard,b1_test_0147,Live at Vani Mahal,260.03,kambhoji,sankarabharanam,raga-raga,6.0,True,True,-2.5299999999999727,True
+B1-hard,b1_test_0148,Chaitra Sairam at Arkay,95.99,mohanam,anandabhairavi,raga-raga,4.0,True,True,1.5100000000000051,True
+B1-hard,b1_test_0148,Chaitra Sairam at Arkay,236.95,anandabhairavi,kambhoji,raga-raga,6.0,False,True,5.550000000000011,True
+B1-mid,b1_test_0149,Srividya Janakiraman at Arkay,86.9,nata,saveri,raga-raga,5.0,True,True,-4.400000000000006,True
+B1-mid,b1_test_0149,Srividya Janakiraman at Arkay,278.53,saveri,bhairavi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0150,Live at Vani Mahal,69.45,bhairavi,sankarabharanam,raga-raga,5.0,True,True,3.049999999999997,True
+B1-mid,b1_test_0150,Live at Vani Mahal,159.55,sankarabharanam,shanmukhapriya,raga-raga,3.0,True,True,2.9499999999999886,True
+B1-easy,b1_test_0151,V Shankarnarayanan at Arkay,63.79,kanada,mohanam,raga-raga,4.0,False,True,8.71,True
+B1-mid,b1_test_0152,Srividya Janakiraman at Arkay,114.36,saveri,nata,raga-raga,5.0,False,True,8.14,True
+B1-mid,b1_test_0153,Live at Kamarajar Hall,195.96,sankarabharanam,bhairavi,raga-raga,5.0,False,True,6.539999999999992,True
+B1-hard,b1_test_0154,Live at Kamarajar Hall,79.66,harikambhoji,kamas,raga-raga,7.0,False,True,7.840000000000003,False
+B1-hard,b1_test_0154,Live at Kamarajar Hall,180.44,kamas,sindhubhairavi,raga-raga,4.0,True,True,2.0600000000000023,True
+B1-mid,b1_test_0155,Cherthala Ranganatha Sharma at Arkay,186.08,behag,madhyamavati,raga-raga,4.0,False,True,-8.580000000000013,False
+B1-mid,b1_test_0155,Cherthala Ranganatha Sharma at Arkay,257.22,madhyamavati,kedaragaula,raga-raga,5.0,True,True,0.2799999999999727,True
+B1-hard,b1_test_0156,Sanjay at Sastri Hall,111.04,kanada,kalyani,raga-raga,4.0,True,True,1.4599999999999937,True
+B1-hard,b1_test_0156,Sanjay at Sastri Hall,320.95,kalyani,gaula,raga-raga,4.0,True,True,1.5500000000000114,True
+B1-hard,b1_test_0156,Sanjay at Sastri Hall,412.24,gaula,kambhoji,raga-raga,4.0,False,True,5.259999999999991,True
+B1-hard,b1_test_0156,Sanjay at Sastri Hall,549.64,kambhoji,kapi,raga-raga,6.0,True,True,2.8600000000000136,True
+B1-hard,b1_test_0157,Sanjay at Sastri Hall,174.23,kamas,ritigaula,raga-raga,6.0,False,True,-6.72999999999999,True
+B1-hard,b1_test_0157,Sanjay at Sastri Hall,302.69,ritigaula,behag,raga-raga,5.0,False,True,9.810000000000002,True
+B1-hard,b1_test_0157,Sanjay at Sastri Hall,483.78999999999996,behag,kambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0158,Live at Kamarajar Hall,199.43,kapi,harikambhoji,raga-raga,6.0,False,True,-6.930000000000007,True
+B1-hard,b1_test_0158,Live at Kamarajar Hall,268.49,harikambhoji,bhairavi,raga-raga,6.0,False,True,-5.990000000000009,True
+B1-hard,b1_test_0158,Live at Kamarajar Hall,355.72,bhairavi,sankarabharanam,raga-raga,5.0,False,True,-8.220000000000027,True
+B1-mid,b1_test_0159,Srividya Janakiraman at Arkay,80.44,bhairavi,saveri,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0159,Srividya Janakiraman at Arkay,147.04,saveri,nata,raga-raga,5.0,False,True,5.460000000000008,True
+B1-mid,b1_test_0159,Srividya Janakiraman at Arkay,313.39,nata,sama,raga-raga,4.0,True,True,-0.8899999999999864,False
+B1-easy,b1_test_0160,Kuldeep Pai at Arkay,107.37,saveri,kamas,raga-raga,4.0,True,True,0.12999999999999545,True
+B1-easy,b1_test_0160,Kuldeep Pai at Arkay,283.18,kamas,todi,raga-raga,4.0,False,True,-5.680000000000007,True
+B1-hard,b1_test_0161,V Shankarnarayanan at Arkay,185.73,kanada,karaharapriya,raga-raga,7.0,False,True,-8.22999999999999,True
+B1-hard,b1_test_0161,V Shankarnarayanan at Arkay,351.48,karaharapriya,nata,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0161,V Shankarnarayanan at Arkay,578.72,nata,mohanam,raga-raga,3.0,True,True,3.7799999999999727,True
+B1-hard,b1_test_0162,Live at Kamarajar Hall,72.63,harikambhoji,sindhubhairavi,raga-raga,4.0,False,True,9.870000000000005,True
+B1-hard,b1_test_0162,Live at Kamarajar Hall,144.87,sindhubhairavi,bhairavi,raga-raga,6.0,True,True,2.6299999999999955,True
+B1-mid,b1_test_0163,Cherthala Ranganatha Sharma at Arkay,91.16,behag,sriranjani,raga-raga,4.0,True,True,-3.6599999999999966,False
+B1-mid,b1_test_0163,Cherthala Ranganatha Sharma at Arkay,244.32,sriranjani,kedaragaula,raga-raga,5.0,False,True,-6.819999999999993,True
+B1-hard,b1_test_0164,Sanjay at Sastri Hall,67.67,kamas,ritigaula,raga-raga,6.0,True,True,4.829999999999998,True
+B1-hard,b1_test_0164,Sanjay at Sastri Hall,172.57,ritigaula,kambhoji,raga-raga,6.0,True,True,4.930000000000007,False
+B1-hard,b1_test_0165,Live at Vani Mahal,134.02,kamas,kambhoji,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0166,Sanjay at Sastri Hall,174.91,kambhoji,ritigaula,raga-raga,6.0,True,True,2.5900000000000034,True
+B1-hard,b1_test_0166,Sanjay at Sastri Hall,325.74,ritigaula,kamas,raga-raga,6.0,False,True,6.759999999999991,True
+B1-mid,b1_test_0167,V Shankarnarayanan at Arkay,61.99,mohanam,kanada,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0167,V Shankarnarayanan at Arkay,285.35,kanada,nata,raga-raga,5.0,False,True,-7.850000000000023,True
+B1-mid,b1_test_0167,V Shankarnarayanan at Arkay,409.21000000000004,nata,harikambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0168,V Shankarnarayanan at Arkay,78.1,nata,harikambhoji,raga-raga,5.0,False,True,-5.599999999999994,True
+B1-hard,b1_test_0168,V Shankarnarayanan at Arkay,191.47,harikambhoji,kanada,raga-raga,6.0,False,True,-8.969999999999999,True
+B1-hard,b1_test_0168,V Shankarnarayanan at Arkay,427.6,kanada,karaharapriya,raga-raga,7.0,False,True,-5.100000000000023,True
+B1-hard,b1_test_0168,V Shankarnarayanan at Arkay,509.51,karaharapriya,mohanam,raga-raga,4.0,False,True,7.990000000000009,True
+B1-mid,b1_test_0169,Kuldeep Pai at Arkay,233.61,todi,saveri,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0169,Kuldeep Pai at Arkay,320.02,saveri,kamas,raga-raga,4.0,False,True,7.480000000000018,True
+B1-easy,b1_test_0170,Sanjay at Sastri Hall,150.21,kalyani,ritigaula,raga-raga,4.0,True,True,2.289999999999992,True
+B1-hard,b1_test_0171,V Shankarnarayanan at Arkay,62.26,mohanam,karaharapriya,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0171,V Shankarnarayanan at Arkay,212.42,karaharapriya,harikambhoji,raga-raga,6.0,False,False,,True
+B1-easy,b1_test_0172,Cherthala Ranganatha Sharma at Arkay,192.77,behag,todi,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0173,Cherthala Ranganatha Sharma at Arkay,71.12,madhyamavati,kedaragaula,raga-raga,5.0,True,True,1.3799999999999955,False
+B1-hard,b1_test_0173,Cherthala Ranganatha Sharma at Arkay,227.1,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0173,Cherthala Ranganatha Sharma at Arkay,328.47,behag,todi,raga-raga,3.0,False,True,9.029999999999973,True
+B1-hard,b1_test_0174,Live at Vani Mahal,90.95,kalyani,bhairavi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0174,Live at Vani Mahal,158.98000000000002,bhairavi,kamas,raga-raga,6.0,True,True,-1.4800000000000182,True
+B1-hard,b1_test_0174,Live at Vani Mahal,359.28000000000003,kamas,kambhoji,raga-raga,7.0,True,True,3.2199999999999704,False
+B1-mid,b1_test_0175,Live at Vani Mahal,159.69,kalyani,kambhoji,raga-raga,5.0,False,True,-7.189999999999998,False
+B1-mid,b1_test_0176,Cherthala Ranganatha Sharma at Arkay,69.26,madhyamavati,kedaragaula,raga-raga,5.0,True,True,3.239999999999995,True
+B1-mid,b1_test_0176,Cherthala Ranganatha Sharma at Arkay,286.93,kedaragaula,todi,raga-raga,4.0,True,True,0.5699999999999932,True
+B1-mid,b1_test_0177,V Shankarnarayanan at Arkay,153.72,harikambhoji,nata,raga-raga,5.0,True,True,-1.2199999999999989,True
+B1-mid,b1_test_0177,V Shankarnarayanan at Arkay,342.59000000000003,nata,kanada,raga-raga,5.0,True,True,-0.09000000000003183,True
+B1-mid,b1_test_0177,V Shankarnarayanan at Arkay,405.43000000000006,kanada,mohanam,raga-raga,4.0,True,True,-2.9300000000000637,True
+B1-mid,b1_test_0177,V Shankarnarayanan at Arkay,468.44000000000005,mohanam,karaharapriya,raga-raga,4.0,False,True,-5.940000000000055,True
+B1-mid,b1_test_0178,Srividya Janakiraman at Arkay,87.84,saveri,nata,raga-raga,5.0,True,True,4.659999999999997,True
+B1-easy,b1_test_0179,Cherthala Ranganatha Sharma at Arkay,185.29,behag,todi,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0179,Cherthala Ranganatha Sharma at Arkay,403.14,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0180,Sanjay at Sastri Hall,163.12,kamas,kalyani,raga-raga,5.0,True,True,4.3799999999999955,True
+B1-mid,b1_test_0181,Srividya Janakiraman at Arkay,237.22,bhairavi,nata,raga-raga,5.0,False,True,5.280000000000001,True
+B1-mid,b1_test_0181,Srividya Janakiraman at Arkay,418.87,nata,sama,raga-raga,4.0,True,True,3.6299999999999955,False
+B1-hard,b1_test_0182,Sanjay at Sastri Hall,156.6,begada,gaula,raga-raga,5.0,True,True,0.9000000000000057,True
+B1-hard,b1_test_0182,Sanjay at Sastri Hall,395.29999999999995,gaula,kanada,raga-raga,3.0,True,True,-2.7999999999999545,False
+B1-hard,b1_test_0182,Sanjay at Sastri Hall,465.78999999999996,kanada,kamas,raga-raga,6.0,False,True,6.710000000000036,True
+B1-hard,b1_test_0182,Sanjay at Sastri Hall,612.2099999999999,kamas,behag,raga-raga,6.0,True,True,0.2900000000000773,True
+B1-hard,b1_test_0183,Chaitra Sairam at Arkay,129.52,kambhoji,anandabhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0183,Chaitra Sairam at Arkay,356.04,anandabhairavi,mohanam,raga-raga,4.0,False,True,-8.54000000000002,True
+B1-easy,b1_test_0184,Cherthala Ranganatha Sharma at Arkay,106.07,todi,behag,raga-raga,3.0,True,True,1.4300000000000068,False
+B1-easy,b1_test_0184,Cherthala Ranganatha Sharma at Arkay,175.41,behag,sriranjani,raga-raga,4.0,False,True,-7.909999999999997,False
+B1-hard,b1_test_0185,Chaitra Sairam at Arkay,116.07,anandabhairavi,kambhoji,raga-raga,6.0,False,True,-8.569999999999993,True
+B1-hard,b1_test_0185,Chaitra Sairam at Arkay,261.56,kambhoji,mohanam,raga-raga,5.0,True,True,-4.060000000000002,True
+B1-easy,b1_test_0186,Sanjay at Sastri Hall,111.9,kanada,kalyani,raga-raga,4.0,False,True,5.599999999999994,False
+B1-hard,b1_test_0187,V Shankarnarayanan at Arkay,164.63,kanada,harikambhoji,raga-raga,6.0,False,True,7.8700000000000045,True
+B1-hard,b1_test_0187,V Shankarnarayanan at Arkay,278.24,harikambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0187,V Shankarnarayanan at Arkay,340.49,mohanam,nata,raga-raga,3.0,False,True,7.009999999999991,True
+B1-hard,b1_test_0188,Live at Vani Mahal,62.28,bhairavi,shanmukhapriya,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0188,Live at Vani Mahal,144.91,shanmukhapriya,sankarabharanam,raga-raga,3.0,True,True,2.5900000000000034,True
+B1-hard,b1_test_0189,V Shankarnarayanan at Arkay,130.61,harikambhoji,karaharapriya,raga-raga,6.0,True,True,1.8899999999999864,True
+B1-hard,b1_test_0189,V Shankarnarayanan at Arkay,263.94000000000005,karaharapriya,kanada,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0190,Live at Kamarajar Hall,152.74,sankarabharanam,kamas,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0190,Live at Kamarajar Hall,220.07,kamas,sindhubhairavi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0190,Live at Kamarajar Hall,301.1,sindhubhairavi,harikambhoji,raga-raga,4.0,False,True,-8.600000000000023,True
+B1-easy,b1_test_0191,Cherthala Ranganatha Sharma at Arkay,88.67,madhyamavati,behag,raga-raga,4.0,False,True,-6.170000000000002,False
+B1-hard,b1_test_0192,Cherthala Ranganatha Sharma at Arkay,87.56,madhyamavati,todi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0192,Cherthala Ranganatha Sharma at Arkay,241.68,todi,kedaragaula,raga-raga,4.0,True,True,0.8199999999999932,True
+B1-hard,b1_test_0192,Cherthala Ranganatha Sharma at Arkay,352.47,kedaragaula,behag,raga-raga,6.0,False,True,-9.970000000000027,False
+B1-hard,b1_test_0192,Cherthala Ranganatha Sharma at Arkay,497.51,behag,sriranjani,raga-raga,4.0,False,True,-5.009999999999991,False
+B1-hard,b1_test_0193,Sanjay at Sastri Hall,199.87,ritigaula,kalyani,raga-raga,4.0,True,True,2.6299999999999955,False
+B1-hard,b1_test_0193,Sanjay at Sastri Hall,359.90999999999997,kalyani,gaula,raga-raga,4.0,True,True,2.590000000000032,True
+B1-hard,b1_test_0193,Sanjay at Sastri Hall,429.56999999999994,gaula,kapi,raga-raga,4.0,True,True,2.9300000000000637,True
+B1-hard,b1_test_0193,Sanjay at Sastri Hall,587.53,kapi,kamas,raga-raga,6.0,True,True,-0.029999999999972715,True
+B1-hard,b1_test_0194,Live at Vani Mahal,133.65,todi,kalyani,raga-raga,2.0,False,False,,True
+B1-hard,b1_test_0194,Live at Vani Mahal,209.79000000000002,kalyani,kambhoji,raga-raga,5.0,True,True,2.7099999999999795,False
+B1-hard,b1_test_0194,Live at Vani Mahal,278.48,kambhoji,bhairavi,raga-raga,6.0,True,True,4.019999999999982,True
+B1-hard,b1_test_0195,Sanjay at Sastri Hall,66.22,kanada,behag,raga-raga,5.0,False,True,6.280000000000001,True
+B1-hard,b1_test_0195,Sanjay at Sastri Hall,135.89,behag,kalyani,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0195,Sanjay at Sastri Hall,354.01,kalyani,kambhoji,raga-raga,5.0,False,True,-6.509999999999991,False
+B1-hard,b1_test_0195,Sanjay at Sastri Hall,471.45,kambhoji,begada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0196,V Shankarnarayanan at Arkay,60.82,mohanam,harikambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0196,V Shankarnarayanan at Arkay,142.78,harikambhoji,kanada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0196,V Shankarnarayanan at Arkay,379.58000000000004,kanada,karaharapriya,raga-raga,7.0,False,True,7.919999999999959,True
+B1-hard,b1_test_0197,Chaitra Sairam at Arkay,117.26,mohanam,kambhoji,raga-raga,5.0,True,True,-4.760000000000005,True
+B1-hard,b1_test_0197,Chaitra Sairam at Arkay,299.67,kambhoji,anandabhairavi,raga-raga,6.0,True,True,2.829999999999984,True
+B1-hard,b1_test_0198,Live at Kamarajar Hall,160.29,harikambhoji,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0198,Live at Kamarajar Hall,310.58,sankarabharanam,bhairavi,raga-raga,5.0,False,True,-8.079999999999984,False
+B1-hard,b1_test_0198,Live at Kamarajar Hall,396.08,bhairavi,kapi,raga-raga,7.0,False,True,-8.579999999999984,True
+B1-hard,b1_test_0198,Live at Kamarajar Hall,550.3399999999999,kapi,sindhubhairavi,raga-raga,5.0,False,True,7.160000000000082,True
+B1-hard,b1_test_0199,Live at Kamarajar Hall,142.76,sankarabharanam,kapi,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0199,Live at Kamarajar Hall,240.32,kapi,kamas,raga-raga,6.0,False,True,7.180000000000007,False
+B1-hard,b1_test_0199,Live at Kamarajar Hall,329.86,kamas,sindhubhairavi,raga-raga,4.0,False,True,7.639999999999986,True
+B1-hard,b1_test_0199,Live at Kamarajar Hall,449.63,sindhubhairavi,purvikalyani,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0200,Live at Kamarajar Hall,152.64,kapi,kamas,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0201,Chaitra Sairam at Arkay,222.42,anandabhairavi,kambhoji,raga-raga,6.0,False,True,-9.919999999999987,True
+B1-hard,b1_test_0201,Chaitra Sairam at Arkay,359.55999999999995,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-easy,b1_test_0202,Live at Kamarajar Hall,62.75,sindhubhairavi,purvikalyani,raga-raga,3.0,False,True,9.75,True
+B1-easy,b1_test_0202,Live at Kamarajar Hall,142.93,purvikalyani,bhairavi,raga-raga,3.0,False,True,-5.430000000000007,True
+B1-mid,b1_test_0203,Srividya Janakiraman at Arkay,201.05,bhairavi,nata,raga-raga,5.0,True,True,1.4499999999999886,True
+B1-mid,b1_test_0203,Srividya Janakiraman at Arkay,303.74,nata,sama,raga-raga,4.0,True,True,3.759999999999991,True
+B1-mid,b1_test_0203,Srividya Janakiraman at Arkay,401.92,sama,saveri,raga-raga,4.0,True,True,0.5799999999999841,True
+B1-hard,b1_test_0204,Live at Kamarajar Hall,62.56,sindhubhairavi,bhairavi,raga-raga,6.0,False,True,9.939999999999998,True
+B1-mid,b1_test_0205,Chaitra Sairam at Arkay,129.56,kambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0205,Chaitra Sairam at Arkay,223.05,mohanam,anandabhairavi,raga-raga,4.0,False,True,9.449999999999989,True
+B1-mid,b1_test_0206,Srividya Janakiraman at Arkay,192.98,bhairavi,sama,raga-raga,5.0,True,True,-0.47999999999998977,False
+B1-mid,b1_test_0207,Kuldeep Pai at Arkay,138.34,kamas,todi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0207,Kuldeep Pai at Arkay,276.68,todi,saveri,raga-raga,5.0,True,True,0.8199999999999932,True
+B1-hard,b1_test_0208,Chaitra Sairam at Arkay,236.93,kambhoji,anandabhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0209,Cherthala Ranganatha Sharma at Arkay,65.09,madhyamavati,kedaragaula,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0209,Cherthala Ranganatha Sharma at Arkay,279.78,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0210,Live at Vani Mahal,171.07,kalyani,sankarabharanam,raga-raga,6.0,True,True,1.4300000000000068,True
+B1-hard,b1_test_0211,Live at Vani Mahal,122.46,todi,kamas,raga-raga,4.0,True,True,0.04000000000000625,True
+B1-hard,b1_test_0211,Live at Vani Mahal,296.63,kamas,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0211,Live at Vani Mahal,439.47,sankarabharanam,bhairavi,raga-raga,5.0,False,True,8.029999999999973,False
+B1-hard,b1_test_0211,Live at Vani Mahal,502.51000000000005,bhairavi,kambhoji,raga-raga,6.0,True,True,4.989999999999952,False
+B1-hard,b1_test_0212,Live at Kamarajar Hall,173.23,kamas,sindhubhairavi,raga-raga,4.0,True,True,4.27000000000001,True
+B1-hard,b1_test_0212,Live at Kamarajar Hall,237.67,sindhubhairavi,harikambhoji,raga-raga,4.0,True,True,-0.1699999999999875,True
+B1-hard,b1_test_0212,Live at Kamarajar Hall,355.39,harikambhoji,sankarabharanam,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0212,Live at Kamarajar Hall,428.79999999999995,sankarabharanam,bhairavi,raga-raga,5.0,True,True,-1.2999999999999545,True
+B1-mid,b1_test_0213,Srividya Janakiraman at Arkay,90.06,bhairavi,sama,raga-raga,5.0,False,True,7.439999999999998,False
+B1-easy,b1_test_0214,Live at Kamarajar Hall,159.24,bhairavi,purvikalyani,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0215,Srividya Janakiraman at Arkay,85.19,saveri,sama,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0215,Srividya Janakiraman at Arkay,291.19,sama,nata,raga-raga,4.0,True,True,-3.6899999999999977,True
+B1-easy,b1_test_0216,Live at Vani Mahal,74.61,shanmukhapriya,kambhoji,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0216,Live at Vani Mahal,145.11,kambhoji,todi,raga-raga,4.0,True,True,2.3899999999999864,True
+B1-hard,b1_test_0217,Sanjay at Sastri Hall,185.49,kamas,kambhoji,raga-raga,7.0,True,True,2.009999999999991,True
+B1-hard,b1_test_0217,Sanjay at Sastri Hall,249.87,kambhoji,ritigaula,raga-raga,6.0,True,True,-2.3700000000000045,True
+B1-hard,b1_test_0217,Sanjay at Sastri Hall,364.47,ritigaula,kapi,raga-raga,7.0,True,True,3.0299999999999727,True
+B1-hard,b1_test_0218,V Shankarnarayanan at Arkay,89.23,nata,kanada,raga-raga,5.0,False,True,-6.730000000000004,True
+B1-hard,b1_test_0218,V Shankarnarayanan at Arkay,315.96,kanada,karaharapriya,raga-raga,7.0,True,True,-3.4599999999999795,True
+B1-hard,b1_test_0218,V Shankarnarayanan at Arkay,435.46,karaharapriya,mohanam,raga-raga,4.0,False,True,7.0400000000000205,False
+B1-hard,b1_test_0218,V Shankarnarayanan at Arkay,497.84999999999997,mohanam,harikambhoji,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0219,Cherthala Ranganatha Sharma at Arkay,76.83,madhyamavati,behag,raga-raga,4.0,False,True,5.670000000000002,True
+B1-mid,b1_test_0219,Cherthala Ranganatha Sharma at Arkay,140.49,behag,todi,raga-raga,3.0,True,True,2.009999999999991,True
+B1-mid,b1_test_0219,Cherthala Ranganatha Sharma at Arkay,324.31,todi,kedaragaula,raga-raga,4.0,True,True,-1.8100000000000023,True
+B1-mid,b1_test_0219,Cherthala Ranganatha Sharma at Arkay,417.28,kedaragaula,sriranjani,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0220,Chaitra Sairam at Arkay,119.53,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0220,Chaitra Sairam at Arkay,242.28,mohanam,anandabhairavi,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0221,V Shankarnarayanan at Arkay,173.79,kanada,nata,raga-raga,5.0,False,True,8.710000000000008,False
+B1-mid,b1_test_0221,V Shankarnarayanan at Arkay,237.89999999999998,nata,mohanam,raga-raga,3.0,False,True,9.600000000000023,True
+B1-hard,b1_test_0222,Live at Vani Mahal,76.52,bhairavi,kamas,raga-raga,6.0,True,True,0.980000000000004,True
+B1-hard,b1_test_0222,Live at Vani Mahal,228.52999999999997,kamas,kambhoji,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0223,Live at Kamarajar Hall,95.13,harikambhoji,kapi,raga-raga,6.0,True,True,2.3700000000000045,False
+B1-hard,b1_test_0223,Live at Kamarajar Hall,200.54,kapi,sindhubhairavi,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0224,Chaitra Sairam at Arkay,200.29,mohanam,kambhoji,raga-raga,5.0,False,True,-7.789999999999992,True
+B1-hard,b1_test_0224,Chaitra Sairam at Arkay,392.79999999999995,kambhoji,anandabhairavi,raga-raga,6.0,True,True,4.7000000000000455,False
+B1-mid,b1_test_0225,Cherthala Ranganatha Sharma at Arkay,94.29,kedaragaula,madhyamavati,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0225,Cherthala Ranganatha Sharma at Arkay,156.41,madhyamavati,todi,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0226,Live at Vani Mahal,90.05,sankarabharanam,shanmukhapriya,raga-raga,3.0,True,True,2.450000000000003,True
+B1-hard,b1_test_0227,Live at Vani Mahal,85.4,sankarabharanam,kamas,raga-raga,6.0,True,True,-2.9000000000000057,True
+B1-hard,b1_test_0227,Live at Vani Mahal,202.65,kamas,shanmukhapriya,raga-raga,4.0,True,True,-0.15000000000000568,True
+B1-hard,b1_test_0227,Live at Vani Mahal,303.49,shanmukhapriya,kambhoji,raga-raga,4.0,True,True,-0.9900000000000091,False
+B1-hard,b1_test_0228,Sanjay at Sastri Hall,232.56,kalyani,kambhoji,raga-raga,5.0,False,True,-5.060000000000002,True
+B1-hard,b1_test_0228,Sanjay at Sastri Hall,437.82,kambhoji,gaula,raga-raga,4.0,False,True,9.680000000000007,True
+B1-hard,b1_test_0228,Sanjay at Sastri Hall,579.74,gaula,ritigaula,raga-raga,3.0,True,True,-2.240000000000009,True
+B1-hard,b1_test_0228,Sanjay at Sastri Hall,664.11,ritigaula,kanada,raga-raga,7.0,True,True,3.3899999999999864,False
+B1-mid,b1_test_0229,Sanjay at Sastri Hall,143.69,begada,kanada,raga-raga,5.0,True,True,-1.1899999999999977,False
+B1-mid,b1_test_0229,Sanjay at Sastri Hall,229.59,kanada,kalyani,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0229,Sanjay at Sastri Hall,421.4,kalyani,kambhoji,raga-raga,5.0,True,True,-3.8999999999999773,True
+B1-mid,b1_test_0230,Srividya Janakiraman at Arkay,80.07,bhairavi,sama,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0231,Live at Kamarajar Hall,77.42,kamas,harikambhoji,raga-raga,7.0,True,True,0.0799999999999983,True
+B1-hard,b1_test_0231,Live at Kamarajar Hall,215.67000000000002,harikambhoji,sankarabharanam,raga-raga,6.0,True,True,-3.170000000000016,True
+B1-hard,b1_test_0231,Live at Kamarajar Hall,373.68,sankarabharanam,purvikalyani,raga-raga,5.0,True,True,-1.1800000000000068,True
+B1-hard,b1_test_0231,Live at Kamarajar Hall,508.01,purvikalyani,sindhubhairavi,raga-raga,3.0,False,True,9.490000000000009,True
+B1-mid,b1_test_0232,Srividya Janakiraman at Arkay,131.48,bhairavi,saveri,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0232,Srividya Janakiraman at Arkay,329.63,saveri,nata,raga-raga,5.0,False,True,7.8700000000000045,True
+B1-hard,b1_test_0233,Live at Kamarajar Hall,174.48,bhairavi,kamas,raga-raga,6.0,False,False,,False
+B1-easy,b1_test_0234,Srividya Janakiraman at Arkay,97.66,sama,nata,raga-raga,4.0,False,True,-5.159999999999997,True
+B1-hard,b1_test_0235,Live at Vani Mahal,73.11,shanmukhapriya,kamas,raga-raga,4.0,True,True,-0.6099999999999994,True
+B1-hard,b1_test_0235,Live at Vani Mahal,275.56,kamas,bhairavi,raga-raga,6.0,True,True,-3.0600000000000023,False
+B1-hard,b1_test_0235,Live at Vani Mahal,338.59000000000003,bhairavi,sankarabharanam,raga-raga,5.0,False,True,-6.090000000000032,True
+B1-hard,b1_test_0236,V Shankarnarayanan at Arkay,75.61,harikambhoji,kanada,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0236,V Shankarnarayanan at Arkay,143.05,kanada,karaharapriya,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0236,V Shankarnarayanan at Arkay,247.69,karaharapriya,nata,raga-raga,5.0,True,True,4.810000000000002,True
+B1-hard,b1_test_0236,V Shankarnarayanan at Arkay,356.03999999999996,nata,mohanam,raga-raga,3.0,True,True,1.4600000000000364,True
+B1-mid,b1_test_0237,Chaitra Sairam at Arkay,115.57,anandabhairavi,mohanam,raga-raga,4.0,True,True,1.9300000000000068,True
+B1-mid,b1_test_0237,Chaitra Sairam at Arkay,272.74,mohanam,kambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0238,V Shankarnarayanan at Arkay,138.39,harikambhoji,mohanam,raga-raga,5.0,False,True,-5.889999999999986,True
+B1-hard,b1_test_0238,V Shankarnarayanan at Arkay,200.63,mohanam,kanada,raga-raga,4.0,True,True,1.8700000000000045,True
+B1-hard,b1_test_0238,V Shankarnarayanan at Arkay,422.31,kanada,karaharapriya,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0238,V Shankarnarayanan at Arkay,529.92,karaharapriya,nata,raga-raga,5.0,True,True,2.580000000000041,True
+B1-mid,b1_test_0239,V Shankarnarayanan at Arkay,185.91,kanada,mohanam,raga-raga,4.0,False,True,6.590000000000003,True
+B1-mid,b1_test_0239,V Shankarnarayanan at Arkay,248.75,mohanam,harikambhoji,raga-raga,5.0,True,True,3.75,True
+B1-hard,b1_test_0240,Cherthala Ranganatha Sharma at Arkay,111.35,todi,behag,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0240,Cherthala Ranganatha Sharma at Arkay,272.68,behag,kedaragaula,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0240,Cherthala Ranganatha Sharma at Arkay,477.02,kedaragaula,sriranjani,raga-raga,5.0,True,True,0.4800000000000182,False
+B1-hard,b1_test_0241,V Shankarnarayanan at Arkay,185.81,kanada,harikambhoji,raga-raga,6.0,True,True,1.6899999999999977,True
+B1-hard,b1_test_0242,Live at Vani Mahal,183.95,kalyani,bhairavi,raga-raga,4.0,True,True,-1.4499999999999886,False
+B1-hard,b1_test_0242,Live at Vani Mahal,263.82,bhairavi,shanmukhapriya,raga-raga,6.0,True,True,-1.3199999999999932,True
+B1-mid,b1_test_0243,V Shankarnarayanan at Arkay,172.97,nata,karaharapriya,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0243,V Shankarnarayanan at Arkay,280.45,karaharapriya,mohanam,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0243,V Shankarnarayanan at Arkay,341.62,mohanam,harikambhoji,raga-raga,5.0,False,False,,True
+B1-easy,b1_test_0244,Cherthala Ranganatha Sharma at Arkay,229.53,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0244,Cherthala Ranganatha Sharma at Arkay,318.75,todi,behag,raga-raga,3.0,False,False,,False
+B1-mid,b1_test_0245,Cherthala Ranganatha Sharma at Arkay,66.26,behag,sriranjani,raga-raga,4.0,False,False,,False
+B1-mid,b1_test_0245,Cherthala Ranganatha Sharma at Arkay,127.08000000000001,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0245,Cherthala Ranganatha Sharma at Arkay,335.14,todi,kedaragaula,raga-raga,4.0,True,True,-2.6399999999999864,True
+B1-mid,b1_test_0245,Cherthala Ranganatha Sharma at Arkay,476.57,kedaragaula,madhyamavati,raga-raga,5.0,False,False,,False
+B1-mid,b1_test_0246,Chaitra Sairam at Arkay,75.98,anandabhairavi,mohanam,raga-raga,4.0,True,True,-3.480000000000004,False
+B1-mid,b1_test_0246,Chaitra Sairam at Arkay,203.82999999999998,mohanam,kambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0247,Live at Vani Mahal,89.37,bhairavi,kamas,raga-raga,6.0,True,True,3.1299999999999955,True
+B1-hard,b1_test_0247,Live at Vani Mahal,168.55,kamas,todi,raga-raga,4.0,True,True,-1.0500000000000114,True
+B1-hard,b1_test_0247,Live at Vani Mahal,247.58,todi,kambhoji,raga-raga,4.0,False,True,9.919999999999987,False
+B1-hard,b1_test_0247,Live at Vani Mahal,314.73,kambhoji,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0248,Live at Vani Mahal,121.59,shanmukhapriya,sankarabharanam,raga-raga,3.0,False,True,-9.090000000000003,True
+B1-hard,b1_test_0248,Live at Vani Mahal,282.57,sankarabharanam,kambhoji,raga-raga,6.0,False,False,,False
+B1-mid,b1_test_0249,Kuldeep Pai at Arkay,136.82,kamas,todi,raga-raga,4.0,True,True,-4.319999999999993,True
+B1-mid,b1_test_0249,Kuldeep Pai at Arkay,298.27,todi,saveri,raga-raga,5.0,False,True,9.230000000000018,True
+B1-hard,b1_test_0250,Live at Kamarajar Hall,237.69,bhairavi,sankarabharanam,raga-raga,5.0,True,True,-0.18999999999999773,True
+B1-hard,b1_test_0250,Live at Kamarajar Hall,316.51,sankarabharanam,kapi,raga-raga,6.0,True,True,-4.009999999999991,True
+B1-hard,b1_test_0251,Live at Vani Mahal,76.63,shanmukhapriya,sankarabharanam,raga-raga,3.0,False,True,5.8700000000000045,True
+B1-hard,b1_test_0251,Live at Vani Mahal,171.07,sankarabharanam,kalyani,raga-raga,6.0,True,True,-3.569999999999993,True
+B1-hard,b1_test_0251,Live at Vani Mahal,231.10999999999999,kalyani,todi,raga-raga,2.0,True,True,-3.609999999999985,True
+B1-easy,b1_test_0252,Kuldeep Pai at Arkay,107.89,saveri,kamas,raga-raga,4.0,True,True,-0.39000000000000057,True
+B1-easy,b1_test_0252,Kuldeep Pai at Arkay,229.62,kamas,todi,raga-raga,4.0,True,True,-2.1200000000000045,True
+B1-hard,b1_test_0253,V Shankarnarayanan at Arkay,137.02,karaharapriya,nata,raga-raga,5.0,False,True,5.47999999999999,True
+B1-hard,b1_test_0253,V Shankarnarayanan at Arkay,327.94,nata,harikambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0253,V Shankarnarayanan at Arkay,465.43,harikambhoji,kanada,raga-raga,6.0,True,True,-2.930000000000007,True
+B1-hard,b1_test_0253,V Shankarnarayanan at Arkay,677.8199999999999,kanada,mohanam,raga-raga,4.0,False,True,9.680000000000064,True
+B1-hard,b1_test_0254,Cherthala Ranganatha Sharma at Arkay,229.61,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0254,Cherthala Ranganatha Sharma at Arkay,315.87,madhyamavati,behag,raga-raga,4.0,True,True,1.6299999999999955,False
+B1-hard,b1_test_0254,Cherthala Ranganatha Sharma at Arkay,402.64,behag,kedaragaula,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0255,V Shankarnarayanan at Arkay,125.94,nata,kanada,raga-raga,5.0,False,True,-8.439999999999998,True
+B1-hard,b1_test_0255,V Shankarnarayanan at Arkay,238.5,kanada,karaharapriya,raga-raga,7.0,True,True,-1.0,False
+B1-hard,b1_test_0255,V Shankarnarayanan at Arkay,315.06,karaharapriya,mohanam,raga-raga,4.0,True,True,2.4399999999999977,True
+B1-easy,b1_test_0256,Kuldeep Pai at Arkay,170.66,todi,kamas,raga-raga,4.0,False,True,6.840000000000003,True
+B1-mid,b1_test_0257,Live at Kamarajar Hall,128.33,sankarabharanam,bhairavi,raga-raga,5.0,True,True,-0.8300000000000125,True
+B1-hard,b1_test_0258,Sanjay at Sastri Hall,87.74,kanada,ritigaula,raga-raga,7.0,False,False,,True
+B1-mid,b1_test_0259,Srividya Janakiraman at Arkay,225.51,bhairavi,saveri,raga-raga,4.0,True,True,1.990000000000009,True
+B1-mid,b1_test_0259,Srividya Janakiraman at Arkay,375.65,saveri,nata,raga-raga,5.0,False,True,6.850000000000023,True
+B1-hard,b1_test_0260,Cherthala Ranganatha Sharma at Arkay,226.93,behag,kedaragaula,raga-raga,6.0,False,True,-9.430000000000007,True
+B1-easy,b1_test_0261,Cherthala Ranganatha Sharma at Arkay,62.76,madhyamavati,behag,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0261,Cherthala Ranganatha Sharma at Arkay,159.0,behag,sriranjani,raga-raga,4.0,True,True,-1.5,False
+B1-mid,b1_test_0262,Cherthala Ranganatha Sharma at Arkay,214.82,kedaragaula,sriranjani,raga-raga,5.0,False,True,7.680000000000007,False
+B1-mid,b1_test_0262,Cherthala Ranganatha Sharma at Arkay,347.83,sriranjani,behag,raga-raga,4.0,True,True,-0.3299999999999841,False
+B1-mid,b1_test_0262,Cherthala Ranganatha Sharma at Arkay,581.3299999999999,behag,madhyamavati,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0262,Cherthala Ranganatha Sharma at Arkay,656.2299999999999,madhyamavati,todi,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0263,Cherthala Ranganatha Sharma at Arkay,225.81,kedaragaula,behag,raga-raga,6.0,True,True,-3.3100000000000023,False
+B1-hard,b1_test_0264,Live at Kamarajar Hall,224.53,purvikalyani,kamas,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0264,Live at Kamarajar Hall,306.98,kamas,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0264,Live at Kamarajar Hall,416.6,sankarabharanam,bhairavi,raga-raga,5.0,False,True,5.899999999999977,True
+B1-hard,b1_test_0264,Live at Kamarajar Hall,622.82,bhairavi,sindhubhairavi,raga-raga,6.0,False,False,,True
+B1-mid,b1_test_0265,V Shankarnarayanan at Arkay,179.72,harikambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-easy,b1_test_0266,Live at Vani Mahal,131.86,sankarabharanam,shanmukhapriya,raga-raga,3.0,True,True,0.6399999999999864,True
+B1-easy,b1_test_0266,Live at Vani Mahal,230.39000000000001,shanmukhapriya,kamas,raga-raga,4.0,True,True,-2.890000000000015,False
+B1-hard,b1_test_0267,V Shankarnarayanan at Arkay,239.32,nata,karaharapriya,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0267,V Shankarnarayanan at Arkay,419.77,karaharapriya,kanada,raga-raga,7.0,False,True,7.730000000000018,True
+B1-mid,b1_test_0268,Chaitra Sairam at Arkay,127.07,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-mid,b1_test_0268,Chaitra Sairam at Arkay,334.96,mohanam,anandabhairavi,raga-raga,4.0,True,True,2.5400000000000205,True
+B1-hard,b1_test_0269,Live at Vani Mahal,225.47,kalyani,sankarabharanam,raga-raga,6.0,True,True,-2.969999999999999,True
+B1-hard,b1_test_0269,Live at Vani Mahal,384.91999999999996,sankarabharanam,todi,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0269,Live at Vani Mahal,504.56999999999994,todi,bhairavi,raga-raga,6.0,False,False,,False
+B1-mid,b1_test_0270,Kuldeep Pai at Arkay,173.86,saveri,todi,raga-raga,5.0,True,True,3.6399999999999864,True
+B1-mid,b1_test_0270,Kuldeep Pai at Arkay,348.03,todi,kamas,raga-raga,4.0,False,True,-5.529999999999973,True
+B1-easy,b1_test_0271,Cherthala Ranganatha Sharma at Arkay,96.64,behag,todi,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0271,Cherthala Ranganatha Sharma at Arkay,185.09,todi,kedaragaula,raga-raga,4.0,False,True,7.409999999999997,True
+B1-easy,b1_test_0272,Cherthala Ranganatha Sharma at Arkay,166.1,behag,madhyamavati,raga-raga,4.0,True,True,1.4000000000000057,True
+B1-mid,b1_test_0273,Srividya Janakiraman at Arkay,226.76,nata,saveri,raga-raga,5.0,False,True,-9.259999999999991,True
+B1-hard,b1_test_0274,Sanjay at Sastri Hall,125.66,kambhoji,kapi,raga-raga,6.0,True,True,-3.1599999999999966,False
+B1-hard,b1_test_0274,Sanjay at Sastri Hall,198.85,kapi,kanada,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0275,V Shankarnarayanan at Arkay,193.29,nata,karaharapriya,raga-raga,5.0,True,True,4.210000000000008,True
+B1-hard,b1_test_0275,V Shankarnarayanan at Arkay,414.95,karaharapriya,harikambhoji,raga-raga,6.0,True,True,-2.4499999999999886,True
+B1-hard,b1_test_0275,V Shankarnarayanan at Arkay,555.01,harikambhoji,kanada,raga-raga,6.0,True,True,2.490000000000009,True
+B1-hard,b1_test_0275,V Shankarnarayanan at Arkay,623.36,kanada,mohanam,raga-raga,4.0,False,True,9.139999999999986,True
+B1-easy,b1_test_0276,Srividya Janakiraman at Arkay,216.84,nata,sama,raga-raga,4.0,False,True,5.659999999999997,False
+B1-easy,b1_test_0277,Live at Kamarajar Hall,62.7,purvikalyani,harikambhoji,raga-raga,4.0,False,True,9.799999999999997,False
+B1-hard,b1_test_0278,V Shankarnarayanan at Arkay,142.75,karaharapriya,harikambhoji,raga-raga,6.0,True,True,4.75,True
+B1-hard,b1_test_0278,V Shankarnarayanan at Arkay,244.34,harikambhoji,kanada,raga-raga,6.0,False,True,-6.840000000000003,True
+B1-easy,b1_test_0279,Live at Vani Mahal,71.04,kambhoji,todi,raga-raga,4.0,True,True,1.4599999999999937,True
+B1-hard,b1_test_0280,Live at Kamarajar Hall,186.14,bhairavi,kamas,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0280,Live at Kamarajar Hall,265.93,kamas,purvikalyani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0280,Live at Kamarajar Hall,383.88,purvikalyani,harikambhoji,raga-raga,4.0,True,True,3.6200000000000045,True
+B1-hard,b1_test_0281,Live at Vani Mahal,132.03,todi,bhairavi,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0281,Live at Vani Mahal,208.23000000000002,bhairavi,kamas,raga-raga,6.0,True,True,-0.7300000000000182,True
+B1-hard,b1_test_0281,Live at Vani Mahal,301.47,kamas,kalyani,raga-raga,5.0,False,True,6.029999999999973,True
+B1-hard,b1_test_0282,V Shankarnarayanan at Arkay,67.68,mohanam,karaharapriya,raga-raga,4.0,True,True,4.819999999999993,True
+B1-hard,b1_test_0282,V Shankarnarayanan at Arkay,145.81,karaharapriya,harikambhoji,raga-raga,6.0,False,True,-8.310000000000002,False
+B1-hard,b1_test_0282,V Shankarnarayanan at Arkay,235.01,harikambhoji,kanada,raga-raga,6.0,False,False,,False
+B1-easy,b1_test_0283,Live at Vani Mahal,84.84,sankarabharanam,todi,raga-raga,3.0,True,True,-2.3400000000000034,True
+B1-easy,b1_test_0284,Kuldeep Pai at Arkay,68.5,todi,kamas,raga-raga,4.0,True,True,4.0,True
+B1-easy,b1_test_0284,Kuldeep Pai at Arkay,191.78,kamas,saveri,raga-raga,4.0,False,True,5.719999999999999,True
+B1-hard,b1_test_0285,Live at Kamarajar Hall,193.74,kapi,sankarabharanam,raga-raga,6.0,True,True,-1.240000000000009,True
+B1-hard,b1_test_0285,Live at Kamarajar Hall,366.44,sankarabharanam,bhairavi,raga-raga,5.0,True,True,1.0600000000000023,True
+B1-hard,b1_test_0285,Live at Kamarajar Hall,502.7,bhairavi,sindhubhairavi,raga-raga,6.0,True,True,-0.19999999999998863,True
+B1-hard,b1_test_0286,Live at Kamarajar Hall,166.43,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0286,Live at Kamarajar Hall,238.89,kapi,purvikalyani,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0286,Live at Kamarajar Hall,336.93,purvikalyani,harikambhoji,raga-raga,4.0,True,True,0.5699999999999932,True
+B1-hard,b1_test_0286,Live at Kamarajar Hall,426.12,harikambhoji,bhairavi,raga-raga,6.0,True,True,-3.6200000000000045,True
+B1-easy,b1_test_0287,Kuldeep Pai at Arkay,217.64,todi,kamas,raga-raga,4.0,True,True,4.860000000000014,True
+B1-mid,b1_test_0288,Cherthala Ranganatha Sharma at Arkay,238.8,kedaragaula,madhyamavati,raga-raga,5.0,True,True,3.6999999999999886,False
+B1-mid,b1_test_0289,Sanjay at Sastri Hall,106.7,behag,kanada,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0290,V Shankarnarayanan at Arkay,127.73,nata,harikambhoji,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0290,V Shankarnarayanan at Arkay,330.8,harikambhoji,karaharapriya,raga-raga,6.0,True,True,1.6999999999999886,True
+B1-hard,b1_test_0291,Sanjay at Sastri Hall,105.79,kanada,kapi,raga-raga,7.0,False,True,-8.290000000000006,True
+B1-hard,b1_test_0291,Sanjay at Sastri Hall,248.81,kapi,kamas,raga-raga,6.0,False,True,8.689999999999998,True
+B1-hard,b1_test_0291,Sanjay at Sastri Hall,371.65999999999997,kamas,ritigaula,raga-raga,6.0,True,True,-4.159999999999968,True
+B1-hard,b1_test_0291,Sanjay at Sastri Hall,553.8,ritigaula,kalyani,raga-raga,4.0,True,True,-1.2999999999999545,False
+B1-mid,b1_test_0292,Kuldeep Pai at Arkay,103.19,todi,saveri,raga-raga,5.0,True,True,4.310000000000002,True
+B1-mid,b1_test_0292,Kuldeep Pai at Arkay,333.53999999999996,saveri,kamas,raga-raga,4.0,True,True,3.9600000000000364,True
+B1-hard,b1_test_0293,Live at Vani Mahal,64.57,todi,bhairavi,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0293,Live at Vani Mahal,124.67999999999999,bhairavi,shanmukhapriya,raga-raga,6.0,True,True,2.8200000000000074,True
+B1-hard,b1_test_0293,Live at Vani Mahal,196.51999999999998,shanmukhapriya,kamas,raga-raga,4.0,True,True,0.9800000000000182,True
+B1-hard,b1_test_0294,Live at Kamarajar Hall,66.95,purvikalyani,harikambhoji,raga-raga,4.0,False,True,5.549999999999997,True
+B1-hard,b1_test_0294,Live at Kamarajar Hall,129.04000000000002,harikambhoji,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0294,Live at Kamarajar Hall,294.41,sankarabharanam,kapi,raga-raga,6.0,False,True,8.089999999999975,False
+B1-easy,b1_test_0295,Kuldeep Pai at Arkay,185.83,saveri,kamas,raga-raga,4.0,True,True,-3.3300000000000125,True
+B1-easy,b1_test_0295,Kuldeep Pai at Arkay,308.56,kamas,todi,raga-raga,4.0,False,True,-6.060000000000002,True
+B1-mid,b1_test_0296,Live at Vani Mahal,129.27,sankarabharanam,shanmukhapriya,raga-raga,3.0,False,False,,True
+B1-mid,b1_test_0296,Live at Vani Mahal,245.88,shanmukhapriya,todi,raga-raga,5.0,True,True,-3.3799999999999955,True
+B1-mid,b1_test_0296,Live at Vani Mahal,365.17,todi,kalyani,raga-raga,2.0,True,True,2.329999999999984,True
+B1-easy,b1_test_0297,Kuldeep Pai at Arkay,226.2,kamas,todi,raga-raga,4.0,True,True,-3.6999999999999886,True
+B1-easy,b1_test_0298,Live at Kamarajar Hall,125.76,kapi,purvikalyani,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0298,Live at Kamarajar Hall,221.41000000000003,purvikalyani,kamas,raga-raga,4.0,False,True,6.089999999999975,False
+B1-hard,b1_test_0299,Live at Vani Mahal,60.17,kambhoji,kamas,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0299,Live at Vani Mahal,231.82,kamas,bhairavi,raga-raga,6.0,False,True,5.680000000000007,True
+B1-hard,b1_test_0300,V Shankarnarayanan at Arkay,196.29,nata,harikambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0300,V Shankarnarayanan at Arkay,270.12,harikambhoji,kanada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0300,V Shankarnarayanan at Arkay,375.0,kanada,karaharapriya,raga-raga,7.0,True,True,-2.5,True
+B1-hard,b1_test_0300,V Shankarnarayanan at Arkay,483.0,karaharapriya,mohanam,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0301,V Shankarnarayanan at Arkay,170.45,kanada,harikambhoji,raga-raga,6.0,True,True,-2.9499999999999886,True
+B1-hard,b1_test_0301,V Shankarnarayanan at Arkay,266.89,harikambhoji,karaharapriya,raga-raga,6.0,False,True,5.610000000000014,True
+B1-hard,b1_test_0301,V Shankarnarayanan at Arkay,432.4,karaharapriya,nata,raga-raga,5.0,False,True,5.100000000000023,True
+B1-mid,b1_test_0302,Srividya Janakiraman at Arkay,120.36,sama,nata,raga-raga,4.0,False,True,7.140000000000001,True
+B1-mid,b1_test_0302,Srividya Janakiraman at Arkay,359.65,nata,bhairavi,raga-raga,5.0,False,True,-7.149999999999977,True
+B1-mid,b1_test_0302,Srividya Janakiraman at Arkay,574.5999999999999,bhairavi,saveri,raga-raga,4.0,False,True,7.900000000000091,True
+B1-mid,b1_test_0303,Cherthala Ranganatha Sharma at Arkay,160.54,behag,todi,raga-raga,3.0,False,False,,True
+B1-mid,b1_test_0303,Cherthala Ranganatha Sharma at Arkay,399.46,todi,madhyamavati,raga-raga,4.0,True,True,3.0400000000000205,False
+B1-mid,b1_test_0303,Cherthala Ranganatha Sharma at Arkay,488.84999999999997,madhyamavati,kedaragaula,raga-raga,5.0,True,True,-1.349999999999966,True
+B1-easy,b1_test_0304,Cherthala Ranganatha Sharma at Arkay,94.43,behag,sriranjani,raga-raga,4.0,True,True,-1.9300000000000068,False
+B1-easy,b1_test_0304,Cherthala Ranganatha Sharma at Arkay,315.36,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0304,Cherthala Ranganatha Sharma at Arkay,398.91,madhyamavati,todi,raga-raga,4.0,True,True,-1.410000000000025,True
+B1-easy,b1_test_0304,Cherthala Ranganatha Sharma at Arkay,513.53,todi,kedaragaula,raga-raga,4.0,False,True,-6.029999999999973,False
+B1-easy,b1_test_0305,V Shankarnarayanan at Arkay,70.97,nata,mohanam,raga-raga,3.0,False,True,6.530000000000001,True
+B1-easy,b1_test_0306,Srividya Janakiraman at Arkay,237.08,sama,nata,raga-raga,4.0,True,True,0.4199999999999875,True
+B1-hard,b1_test_0307,Live at Vani Mahal,140.06,kambhoji,todi,raga-raga,4.0,True,True,2.4399999999999977,True
+B1-hard,b1_test_0307,Live at Vani Mahal,222.72,todi,shanmukhapriya,raga-raga,5.0,True,True,-0.21999999999999886,True
+B1-hard,b1_test_0307,Live at Vani Mahal,362.94,shanmukhapriya,bhairavi,raga-raga,6.0,False,True,-5.439999999999998,True
+B1-hard,b1_test_0307,Live at Vani Mahal,426.88,bhairavi,sankarabharanam,raga-raga,5.0,True,True,-4.3799999999999955,True
+B1-easy,b1_test_0308,Live at Kamarajar Hall,102.0,kapi,purvikalyani,raga-raga,4.0,False,True,5.5,True
+B1-mid,b1_test_0309,Kuldeep Pai at Arkay,133.99,saveri,todi,raga-raga,5.0,True,True,-1.490000000000009,True
+B1-mid,b1_test_0309,Kuldeep Pai at Arkay,285.57000000000005,todi,kamas,raga-raga,4.0,True,True,-3.07000000000005,True
+B1-hard,b1_test_0310,Cherthala Ranganatha Sharma at Arkay,108.01,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0311,Chaitra Sairam at Arkay,150.32,mohanam,kambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0311,Chaitra Sairam at Arkay,231.31,kambhoji,anandabhairavi,raga-raga,6.0,False,True,-8.810000000000002,True
+B1-mid,b1_test_0312,Srividya Janakiraman at Arkay,196.36,saveri,sama,raga-raga,4.0,False,False,,True
+B1-mid,b1_test_0312,Srividya Janakiraman at Arkay,346.41,sama,bhairavi,raga-raga,5.0,True,True,1.089999999999975,True
+B1-mid,b1_test_0313,Live at Vani Mahal,86.05,todi,shanmukhapriya,raga-raga,5.0,True,True,-3.549999999999997,True
+B1-mid,b1_test_0313,Live at Vani Mahal,175.92000000000002,shanmukhapriya,sankarabharanam,raga-raga,3.0,False,False,,True
+B1-mid,b1_test_0313,Live at Vani Mahal,370.01,sankarabharanam,bhairavi,raga-raga,5.0,False,True,7.490000000000009,True
+B1-hard,b1_test_0314,Live at Kamarajar Hall,169.03,kapi,harikambhoji,raga-raga,6.0,False,True,8.469999999999999,False
+B1-hard,b1_test_0314,Live at Kamarajar Hall,298.69,harikambhoji,bhairavi,raga-raga,6.0,True,True,3.8100000000000023,True
+B1-hard,b1_test_0314,Live at Kamarajar Hall,398.27,bhairavi,sindhubhairavi,raga-raga,6.0,True,True,-0.7699999999999818,True
+B1-hard,b1_test_0314,Live at Kamarajar Hall,466.40999999999997,sindhubhairavi,kamas,raga-raga,4.0,True,True,-3.909999999999968,False
+B1-mid,b1_test_0315,Sanjay at Sastri Hall,75.04,kanada,gaula,raga-raga,3.0,False,True,7.459999999999994,True
+B1-mid,b1_test_0315,Sanjay at Sastri Hall,196.96,gaula,behag,raga-raga,5.0,True,True,0.539999999999992,True
+B1-mid,b1_test_0315,Sanjay at Sastri Hall,348.24,behag,ritigaula,raga-raga,5.0,True,True,-0.7400000000000091,True
+B1-mid,b1_test_0315,Sanjay at Sastri Hall,431.3,ritigaula,kalyani,raga-raga,4.0,True,True,1.1999999999999886,False
+B1-hard,b1_test_0316,Chaitra Sairam at Arkay,228.1,mohanam,anandabhairavi,raga-raga,4.0,True,True,-0.5999999999999943,False
+B1-hard,b1_test_0316,Chaitra Sairam at Arkay,396.57,anandabhairavi,kambhoji,raga-raga,6.0,False,True,-9.069999999999993,True
+B1-easy,b1_test_0317,Srividya Janakiraman at Arkay,127.48,nata,sama,raga-raga,4.0,False,True,-9.980000000000004,False
+B1-mid,b1_test_0318,Cherthala Ranganatha Sharma at Arkay,185.44,todi,behag,raga-raga,3.0,True,True,2.0600000000000023,False
+B1-mid,b1_test_0318,Cherthala Ranganatha Sharma at Arkay,333.88,behag,madhyamavati,raga-raga,4.0,True,True,-1.3799999999999955,False
+B1-mid,b1_test_0318,Cherthala Ranganatha Sharma at Arkay,414.19,madhyamavati,kedaragaula,raga-raga,5.0,True,True,3.3100000000000023,True
+B1-hard,b1_test_0319,Live at Kamarajar Hall,67.01,purvikalyani,sankarabharanam,raga-raga,5.0,False,True,5.489999999999995,True
+B1-hard,b1_test_0319,Live at Kamarajar Hall,274.27,sankarabharanam,sindhubhairavi,raga-raga,3.0,False,True,-6.769999999999982,True
+B1-hard,b1_test_0319,Live at Kamarajar Hall,346.02,sindhubhairavi,bhairavi,raga-raga,6.0,True,True,1.4800000000000182,True
+B1-hard,b1_test_0320,Live at Vani Mahal,63.31,bhairavi,kambhoji,raga-raga,6.0,False,True,9.189999999999998,True
+B1-hard,b1_test_0320,Live at Vani Mahal,245.83,kambhoji,shanmukhapriya,raga-raga,4.0,True,True,-3.3300000000000125,False
+B1-hard,b1_test_0320,Live at Vani Mahal,403.38,shanmukhapriya,kalyani,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0320,Live at Vani Mahal,579.65,kalyani,kamas,raga-raga,5.0,True,True,-2.1499999999999773,True
+B1-hard,b1_test_0321,Live at Vani Mahal,196.76,kalyani,shanmukhapriya,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0321,Live at Vani Mahal,336.69,shanmukhapriya,todi,raga-raga,5.0,True,True,-4.189999999999998,True
+B1-hard,b1_test_0321,Live at Vani Mahal,484.63,todi,bhairavi,raga-raga,6.0,False,True,-7.1299999999999955,True
+B1-hard,b1_test_0321,Live at Vani Mahal,559.41,bhairavi,sankarabharanam,raga-raga,5.0,False,True,-6.909999999999968,True
+B1-hard,b1_test_0322,Chaitra Sairam at Arkay,219.07,mohanam,kambhoji,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0322,Chaitra Sairam at Arkay,425.22,kambhoji,anandabhairavi,raga-raga,6.0,False,False,,True
+B1-easy,b1_test_0323,Cherthala Ranganatha Sharma at Arkay,73.12,madhyamavati,todi,raga-raga,4.0,True,True,-0.6200000000000045,True
+B1-easy,b1_test_0324,Cherthala Ranganatha Sharma at Arkay,221.88,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0324,Cherthala Ranganatha Sharma at Arkay,293.06,madhyamavati,behag,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0324,Cherthala Ranganatha Sharma at Arkay,502.75,behag,todi,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0324,Cherthala Ranganatha Sharma at Arkay,684.01,todi,kedaragaula,raga-raga,4.0,True,True,3.490000000000009,True
+B1-hard,b1_test_0325,Cherthala Ranganatha Sharma at Arkay,93.14,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0325,Cherthala Ranganatha Sharma at Arkay,262.91,behag,madhyamavati,raga-raga,4.0,False,True,9.589999999999975,False
+B1-hard,b1_test_0325,Cherthala Ranganatha Sharma at Arkay,344.88,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0326,Live at Vani Mahal,191.24,kamas,kambhoji,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0326,Live at Vani Mahal,255.57,kambhoji,bhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0326,Live at Vani Mahal,319.7,bhairavi,kalyani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0327,Live at Kamarajar Hall,105.39,kamas,sankarabharanam,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0328,Live at Kamarajar Hall,152.28,sankarabharanam,bhairavi,raga-raga,5.0,False,True,-9.780000000000001,True
+B1-hard,b1_test_0328,Live at Kamarajar Hall,288.76,bhairavi,harikambhoji,raga-raga,6.0,False,True,-6.259999999999991,False
+B1-hard,b1_test_0328,Live at Kamarajar Hall,415.71999999999997,harikambhoji,kapi,raga-raga,6.0,False,False,,True
+B1-easy,b1_test_0329,Cherthala Ranganatha Sharma at Arkay,84.0,madhyamavati,todi,raga-raga,4.0,True,True,-1.5,True
+B1-easy,b1_test_0330,Kuldeep Pai at Arkay,235.84,saveri,kamas,raga-raga,4.0,True,True,-3.3400000000000034,True
+B1-easy,b1_test_0330,Kuldeep Pai at Arkay,372.20000000000005,kamas,todi,raga-raga,4.0,True,True,-4.7000000000000455,True
+B1-hard,b1_test_0331,Sanjay at Sastri Hall,206.47,kambhoji,kapi,raga-raga,6.0,True,True,1.0300000000000011,True
+B1-hard,b1_test_0331,Sanjay at Sastri Hall,276.39,kapi,kamas,raga-raga,6.0,False,True,6.110000000000014,True
+B1-hard,b1_test_0331,Sanjay at Sastri Hall,338.0,kamas,kanada,raga-raga,6.0,False,True,9.5,True
+B1-hard,b1_test_0332,Sanjay at Sastri Hall,154.39,kalyani,kapi,raga-raga,5.0,True,True,-1.8899999999999864,True
+B1-hard,b1_test_0332,Sanjay at Sastri Hall,301.73,kapi,begada,raga-raga,6.0,False,True,5.769999999999982,True
+B1-hard,b1_test_0332,Sanjay at Sastri Hall,462.26,begada,kamas,raga-raga,6.0,True,True,-4.759999999999991,True
+B1-hard,b1_test_0333,Chaitra Sairam at Arkay,205.34,mohanam,anandabhairavi,raga-raga,4.0,False,True,-7.840000000000003,True
+B1-hard,b1_test_0333,Chaitra Sairam at Arkay,401.92,anandabhairavi,kambhoji,raga-raga,6.0,False,True,-9.420000000000016,True
+B1-hard,b1_test_0334,Cherthala Ranganatha Sharma at Arkay,207.28,todi,behag,raga-raga,3.0,False,False,,False
+B1-hard,b1_test_0334,Cherthala Ranganatha Sharma at Arkay,364.83000000000004,behag,kedaragaula,raga-raga,6.0,True,True,2.669999999999959,False
+B1-hard,b1_test_0335,Sanjay at Sastri Hall,60.93,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0336,Sanjay at Sastri Hall,72.2,kamas,kambhoji,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0336,Sanjay at Sastri Hall,163.24,kambhoji,kanada,raga-raga,6.0,False,True,-5.740000000000009,True
+B1-hard,b1_test_0336,Sanjay at Sastri Hall,288.33000000000004,kanada,behag,raga-raga,5.0,True,True,-0.8300000000000409,True
+B1-hard,b1_test_0337,Live at Kamarajar Hall,119.58,harikambhoji,sindhubhairavi,raga-raga,4.0,True,True,-2.0799999999999983,True
+B1-hard,b1_test_0337,Live at Kamarajar Hall,201.87,sindhubhairavi,purvikalyani,raga-raga,3.0,False,True,-9.370000000000005,True
+B1-hard,b1_test_0337,Live at Kamarajar Hall,343.36,purvikalyani,kamas,raga-raga,4.0,True,True,-0.8600000000000136,False
+B1-hard,b1_test_0337,Live at Kamarajar Hall,474.24,kamas,kapi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0338,Live at Vani Mahal,122.52,kalyani,sankarabharanam,raga-raga,6.0,True,True,4.980000000000004,True
+B1-hard,b1_test_0338,Live at Vani Mahal,249.79,sankarabharanam,shanmukhapriya,raga-raga,3.0,False,True,-7.289999999999992,True
+B1-hard,b1_test_0338,Live at Vani Mahal,396.47,shanmukhapriya,kamas,raga-raga,4.0,True,True,1.0299999999999727,True
+B1-easy,b1_test_0339,Kuldeep Pai at Arkay,84.75,todi,kamas,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0339,Kuldeep Pai at Arkay,274.32,kamas,saveri,raga-raga,4.0,True,True,3.180000000000007,True
+B1-hard,b1_test_0340,Sanjay at Sastri Hall,65.05,kambhoji,gaula,raga-raga,4.0,False,True,7.450000000000003,True
+B1-hard,b1_test_0340,Sanjay at Sastri Hall,155.62,gaula,kamas,raga-raga,4.0,True,True,1.8799999999999955,True
+B1-hard,b1_test_0340,Sanjay at Sastri Hall,221.96,kamas,kanada,raga-raga,6.0,True,True,-4.460000000000008,False
+B1-hard,b1_test_0340,Sanjay at Sastri Hall,284.26,kanada,ritigaula,raga-raga,7.0,True,True,3.240000000000009,True
+B1-easy,b1_test_0341,Cherthala Ranganatha Sharma at Arkay,230.52,todi,kedaragaula,raga-raga,4.0,True,True,1.9799999999999898,True
+B1-easy,b1_test_0342,Kuldeep Pai at Arkay,67.0,saveri,kamas,raga-raga,4.0,False,True,5.5,True
+B1-easy,b1_test_0342,Kuldeep Pai at Arkay,294.41999999999996,kamas,todi,raga-raga,4.0,False,True,-6.919999999999959,True
+B1-hard,b1_test_0343,V Shankarnarayanan at Arkay,212.21,harikambhoji,mohanam,raga-raga,5.0,False,False,,False
+B1-hard,b1_test_0343,V Shankarnarayanan at Arkay,272.35,mohanam,kanada,raga-raga,4.0,False,True,-9.850000000000023,True
+B1-hard,b1_test_0343,V Shankarnarayanan at Arkay,417.97,kanada,karaharapriya,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0343,V Shankarnarayanan at Arkay,574.32,karaharapriya,nata,raga-raga,5.0,False,True,8.17999999999995,True
+B1-hard,b1_test_0344,Live at Kamarajar Hall,131.37,kapi,kamas,raga-raga,6.0,False,False,,False
+B1-easy,b1_test_0345,Cherthala Ranganatha Sharma at Arkay,82.98,behag,sriranjani,raga-raga,4.0,True,True,-0.480000000000004,False
+B1-easy,b1_test_0345,Cherthala Ranganatha Sharma at Arkay,218.0,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0345,Cherthala Ranganatha Sharma at Arkay,295.63,madhyamavati,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0345,Cherthala Ranganatha Sharma at Arkay,432.63,todi,kedaragaula,raga-raga,4.0,True,True,-0.12999999999999545,True
+B1-hard,b1_test_0346,Live at Vani Mahal,158.93,sankarabharanam,kalyani,raga-raga,6.0,True,True,-1.4300000000000068,True
+B1-hard,b1_test_0346,Live at Vani Mahal,380.77,kalyani,kamas,raga-raga,5.0,False,True,-8.269999999999982,True
+B1-hard,b1_test_0347,Chaitra Sairam at Arkay,65.17,anandabhairavi,kambhoji,raga-raga,6.0,False,True,7.329999999999998,True
+B1-hard,b1_test_0347,Chaitra Sairam at Arkay,239.28000000000003,kambhoji,mohanam,raga-raga,5.0,True,True,3.2199999999999704,True
+B1-hard,b1_test_0348,Live at Vani Mahal,104.74,todi,kambhoji,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0348,Live at Vani Mahal,179.63,kambhoji,sankarabharanam,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0348,Live at Vani Mahal,254.8,sankarabharanam,kamas,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0348,Live at Vani Mahal,340.37,kamas,bhairavi,raga-raga,6.0,False,True,7.1299999999999955,False
+B1-hard,b1_test_0349,Cherthala Ranganatha Sharma at Arkay,66.57,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0349,Cherthala Ranganatha Sharma at Arkay,273.53999999999996,sriranjani,kedaragaula,raga-raga,5.0,True,True,-1.0399999999999636,True
+B1-hard,b1_test_0349,Cherthala Ranganatha Sharma at Arkay,497.7099999999999,kedaragaula,behag,raga-raga,6.0,False,True,-5.209999999999923,False
+B1-hard,b1_test_0350,Live at Vani Mahal,110.23,shanmukhapriya,sankarabharanam,raga-raga,3.0,True,True,2.269999999999996,True
+B1-hard,b1_test_0350,Live at Vani Mahal,320.0,sankarabharanam,kalyani,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0350,Live at Vani Mahal,405.44,kalyani,bhairavi,raga-raga,4.0,False,True,7.060000000000002,True
+B1-hard,b1_test_0350,Live at Vani Mahal,474.11,bhairavi,kamas,raga-raga,6.0,True,True,-1.6100000000000136,True
+B1-easy,b1_test_0351,Chaitra Sairam at Arkay,141.57,mohanam,anandabhairavi,raga-raga,4.0,True,True,-4.069999999999993,False
+B1-hard,b1_test_0352,Sanjay at Sastri Hall,105.38,ritigaula,kamas,raga-raga,6.0,False,True,7.1200000000000045,True
+B1-hard,b1_test_0352,Sanjay at Sastri Hall,168.35999999999999,kamas,kalyani,raga-raga,5.0,True,True,4.140000000000015,False
+B1-hard,b1_test_0352,Sanjay at Sastri Hall,241.71999999999997,kalyani,kanada,raga-raga,4.0,True,True,0.7800000000000296,True
+B1-hard,b1_test_0352,Sanjay at Sastri Hall,367.93999999999994,kanada,kapi,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0353,Live at Vani Mahal,87.79,shanmukhapriya,sankarabharanam,raga-raga,3.0,True,True,4.709999999999994,True
+B1-hard,b1_test_0353,Live at Vani Mahal,154.43,sankarabharanam,kamas,raga-raga,6.0,True,True,-1.9300000000000068,True
+B1-easy,b1_test_0354,Cherthala Ranganatha Sharma at Arkay,89.22,todi,behag,raga-raga,3.0,False,True,-6.719999999999999,False
+B1-easy,b1_test_0355,Cherthala Ranganatha Sharma at Arkay,89.72,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0356,Live at Vani Mahal,133.77,kalyani,todi,raga-raga,2.0,False,True,-6.27000000000001,True
+B1-easy,b1_test_0356,Live at Vani Mahal,218.35000000000002,todi,kamas,raga-raga,4.0,False,True,-5.850000000000023,True
+B1-hard,b1_test_0357,Chaitra Sairam at Arkay,102.27,kambhoji,anandabhairavi,raga-raga,6.0,True,True,0.23000000000000398,False
+B1-hard,b1_test_0358,Chaitra Sairam at Arkay,197.39,anandabhairavi,kambhoji,raga-raga,6.0,False,True,5.110000000000014,False
+B1-hard,b1_test_0358,Chaitra Sairam at Arkay,304.71,kambhoji,mohanam,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0359,Cherthala Ranganatha Sharma at Arkay,102.22,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0360,Live at Vani Mahal,172.75,sankarabharanam,kalyani,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0360,Live at Vani Mahal,338.8,kalyani,kambhoji,raga-raga,5.0,True,True,3.6999999999999886,False
+B1-hard,b1_test_0360,Live at Vani Mahal,526.47,kambhoji,bhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0361,Sanjay at Sastri Hall,219.23,kalyani,begada,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0361,Sanjay at Sastri Hall,421.15,begada,ritigaula,raga-raga,5.0,True,True,-3.6499999999999773,True
+B1-hard,b1_test_0362,Chaitra Sairam at Arkay,177.35,anandabhairavi,kambhoji,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0362,Chaitra Sairam at Arkay,391.27,kambhoji,mohanam,raga-raga,5.0,True,True,1.2300000000000182,True
+B1-hard,b1_test_0363,Live at Kamarajar Hall,207.1,kamas,bhairavi,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0364,Live at Kamarajar Hall,96.53,kapi,bhairavi,raga-raga,7.0,False,False,,True
+B1-hard,b1_test_0364,Live at Kamarajar Hall,188.38,bhairavi,kamas,raga-raga,6.0,False,True,-5.8799999999999955,False
+B1-hard,b1_test_0365,Live at Kamarajar Hall,73.2,harikambhoji,bhairavi,raga-raga,6.0,True,True,-0.7000000000000028,True
+B1-hard,b1_test_0365,Live at Kamarajar Hall,224.06,bhairavi,purvikalyani,raga-raga,3.0,True,True,3.4399999999999977,True
+B1-easy,b1_test_0366,Live at Kamarajar Hall,76.19,purvikalyani,kapi,raga-raga,4.0,False,True,6.310000000000002,True
+B1-easy,b1_test_0367,Kuldeep Pai at Arkay,118.07,saveri,kamas,raga-raga,4.0,False,True,-5.569999999999993,True
+B1-easy,b1_test_0367,Kuldeep Pai at Arkay,323.52,kamas,todi,raga-raga,4.0,False,True,-6.019999999999982,True
+B1-easy,b1_test_0368,Kuldeep Pai at Arkay,116.55,saveri,kamas,raga-raga,4.0,False,True,-9.049999999999997,True
+B1-easy,b1_test_0369,V Shankarnarayanan at Arkay,60.35,mohanam,nata,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0370,V Shankarnarayanan at Arkay,61.41,mohanam,karaharapriya,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0370,V Shankarnarayanan at Arkay,234.75,karaharapriya,kanada,raga-raga,7.0,True,True,-2.25,True
+B1-hard,b1_test_0371,Sanjay at Sastri Hall,99.8,kanada,kambhoji,raga-raga,6.0,False,True,7.700000000000003,True
+B1-hard,b1_test_0371,Sanjay at Sastri Hall,227.29,kambhoji,gaula,raga-raga,4.0,False,True,5.210000000000008,True
+B1-hard,b1_test_0371,Sanjay at Sastri Hall,330.94,gaula,kamas,raga-raga,4.0,True,True,1.5600000000000023,True
+B1-easy,b1_test_0372,Live at Vani Mahal,166.1,kamas,todi,raga-raga,4.0,True,True,-3.5999999999999943,True
+B1-hard,b1_test_0373,Live at Kamarajar Hall,205.96,harikambhoji,bhairavi,raga-raga,6.0,False,True,-8.460000000000008,True
+B1-easy,b1_test_0374,Live at Kamarajar Hall,106.93,sankarabharanam,sindhubhairavi,raga-raga,3.0,False,True,5.569999999999993,True
+B1-easy,b1_test_0374,Live at Kamarajar Hall,226.47000000000003,sindhubhairavi,harikambhoji,raga-raga,4.0,True,True,-3.9700000000000273,True
+B1-easy,b1_test_0374,Live at Kamarajar Hall,465.28000000000003,harikambhoji,purvikalyani,raga-raga,4.0,False,True,7.21999999999997,True
+B1-easy,b1_test_0374,Live at Kamarajar Hall,574.76,purvikalyani,kapi,raga-raga,4.0,True,True,2.740000000000009,False
+B1-easy,b1_test_0375,Live at Kamarajar Hall,96.86,sindhubhairavi,purvikalyani,raga-raga,3.0,False,False,,True
+B1-hard,b1_test_0376,Sanjay at Sastri Hall,123.02,gaula,behag,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0376,Sanjay at Sastri Hall,193.6,behag,kalyani,raga-raga,7.0,False,False,,False
+B1-hard,b1_test_0376,Sanjay at Sastri Hall,315.07,kalyani,kanada,raga-raga,4.0,True,True,-2.569999999999993,True
+B1-easy,b1_test_0377,Kuldeep Pai at Arkay,65.0,todi,kamas,raga-raga,4.0,False,True,7.5,True
+B1-hard,b1_test_0378,Live at Vani Mahal,184.2,todi,sankarabharanam,raga-raga,3.0,True,True,3.3000000000000114,True
+B1-hard,b1_test_0378,Live at Vani Mahal,400.08,sankarabharanam,bhairavi,raga-raga,5.0,True,True,2.420000000000016,True
+B1-hard,b1_test_0378,Live at Vani Mahal,460.53,bhairavi,kambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0378,Live at Vani Mahal,525.04,kambhoji,kalyani,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0379,Sanjay at Sastri Hall,91.94,kalyani,kanada,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0379,Sanjay at Sastri Hall,152.3,kanada,begada,raga-raga,5.0,True,True,0.19999999999998863,True
+B1-hard,b1_test_0379,Sanjay at Sastri Hall,240.39000000000001,begada,kapi,raga-raga,6.0,True,True,-2.890000000000015,True
+B1-hard,b1_test_0380,Sanjay at Sastri Hall,147.53,kamas,kambhoji,raga-raga,7.0,True,True,-0.030000000000001137,True
+B1-hard,b1_test_0380,Sanjay at Sastri Hall,263.3,kambhoji,kalyani,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0381,Live at Kamarajar Hall,206.53,harikambhoji,kapi,raga-raga,6.0,False,True,5.969999999999999,False
+B1-easy,b1_test_0382,Srividya Janakiraman at Arkay,117.89,sama,saveri,raga-raga,4.0,True,True,4.609999999999999,True
+B1-hard,b1_test_0383,Live at Vani Mahal,170.52,kamas,bhairavi,raga-raga,6.0,False,False,,False
+B1-easy,b1_test_0384,Cherthala Ranganatha Sharma at Arkay,219.74,behag,madhyamavati,raga-raga,4.0,True,True,2.759999999999991,False
+B1-hard,b1_test_0385,V Shankarnarayanan at Arkay,231.53,kanada,harikambhoji,raga-raga,6.0,True,True,0.9699999999999989,False
+B1-hard,b1_test_0385,V Shankarnarayanan at Arkay,373.56,harikambhoji,nata,raga-raga,5.0,False,True,-6.060000000000002,True
+B1-easy,b1_test_0386,Live at Kamarajar Hall,117.09,harikambhoji,sindhubhairavi,raga-raga,4.0,True,True,0.4099999999999966,True
+B1-easy,b1_test_0386,Live at Kamarajar Hall,303.39,sindhubhairavi,kamas,raga-raga,4.0,True,True,4.110000000000014,False
+B1-hard,b1_test_0387,Live at Vani Mahal,74.96,todi,shanmukhapriya,raga-raga,5.0,True,True,-2.4599999999999937,True
+B1-hard,b1_test_0387,Live at Vani Mahal,226.21999999999997,shanmukhapriya,bhairavi,raga-raga,6.0,False,True,6.28000000000003,True
+B1-hard,b1_test_0387,Live at Vani Mahal,292.83,bhairavi,kambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0387,Live at Vani Mahal,527.36,kambhoji,kamas,raga-raga,7.0,False,True,5.139999999999986,True
+B1-hard,b1_test_0388,Sanjay at Sastri Hall,221.08,ritigaula,kamas,raga-raga,6.0,True,True,1.4199999999999875,True
+B1-hard,b1_test_0389,Live at Kamarajar Hall,107.39,bhairavi,sindhubhairavi,raga-raga,6.0,False,True,5.109999999999999,True
+B1-hard,b1_test_0389,Live at Kamarajar Hall,234.63,sindhubhairavi,harikambhoji,raga-raga,4.0,True,True,-2.1299999999999955,True
+B1-hard,b1_test_0389,Live at Kamarajar Hall,307.62,harikambhoji,kapi,raga-raga,6.0,True,True,-0.12000000000000455,True
+B1-easy,b1_test_0390,Cherthala Ranganatha Sharma at Arkay,140.09,behag,todi,raga-raga,3.0,False,True,-7.590000000000003,True
+B1-easy,b1_test_0390,Cherthala Ranganatha Sharma at Arkay,292.93,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0391,Srividya Janakiraman at Arkay,94.78,saveri,sama,raga-raga,4.0,False,True,7.719999999999999,False
+B1-hard,b1_test_0392,Sanjay at Sastri Hall,70.93,kamas,kapi,raga-raga,6.0,False,True,6.569999999999993,True
+B1-hard,b1_test_0392,Sanjay at Sastri Hall,149.58,kapi,kalyani,raga-raga,5.0,False,True,7.9199999999999875,True
+B1-hard,b1_test_0393,Live at Vani Mahal,232.48,sankarabharanam,kambhoji,raga-raga,6.0,True,True,0.020000000000010232,True
+B1-hard,b1_test_0393,Live at Vani Mahal,320.08,kambhoji,shanmukhapriya,raga-raga,4.0,True,True,2.420000000000016,True
+B1-hard,b1_test_0394,V Shankarnarayanan at Arkay,81.86,harikambhoji,kanada,raga-raga,6.0,False,True,-9.36,True
+B1-hard,b1_test_0394,V Shankarnarayanan at Arkay,269.4,kanada,mohanam,raga-raga,4.0,True,True,3.1000000000000227,True
+B1-hard,b1_test_0394,V Shankarnarayanan at Arkay,329.92999999999995,mohanam,karaharapriya,raga-raga,4.0,True,True,2.57000000000005,True
+B1-easy,b1_test_0395,Live at Vani Mahal,186.9,kalyani,todi,raga-raga,2.0,True,True,-4.400000000000006,True
+B1-hard,b1_test_0396,V Shankarnarayanan at Arkay,169.5,kanada,harikambhoji,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0396,V Shankarnarayanan at Arkay,233.26,harikambhoji,nata,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0396,V Shankarnarayanan at Arkay,465.33,nata,karaharapriya,raga-raga,5.0,False,True,-7.829999999999984,False
+B1-hard,b1_test_0396,V Shankarnarayanan at Arkay,558.61,karaharapriya,mohanam,raga-raga,4.0,True,True,-1.1100000000000136,True
+B1-hard,b1_test_0397,Sanjay at Sastri Hall,96.72,begada,gaula,raga-raga,5.0,False,True,5.780000000000001,True
+B1-hard,b1_test_0397,Sanjay at Sastri Hall,224.51999999999998,gaula,kalyani,raga-raga,4.0,False,True,7.980000000000018,False
+B1-hard,b1_test_0397,Sanjay at Sastri Hall,297.2,kalyani,kanada,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0397,Sanjay at Sastri Hall,371.28,kanada,ritigaula,raga-raga,7.0,True,True,1.2200000000000273,True
+B1-easy,b1_test_0398,Cherthala Ranganatha Sharma at Arkay,234.58,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0398,Cherthala Ranganatha Sharma at Arkay,298.78000000000003,madhyamavati,behag,raga-raga,4.0,True,True,-1.2800000000000296,False
+B1-easy,b1_test_0398,Cherthala Ranganatha Sharma at Arkay,473.68000000000006,behag,todi,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0398,Cherthala Ranganatha Sharma at Arkay,559.0600000000001,todi,kedaragaula,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0399,Live at Kamarajar Hall,194.56,bhairavi,sankarabharanam,raga-raga,5.0,False,False,,True
+B1-hard,b1_test_0399,Live at Kamarajar Hall,354.56,sankarabharanam,harikambhoji,raga-raga,6.0,False,False,,True
+B1-hard,b1_test_0399,Live at Kamarajar Hall,481.39,harikambhoji,purvikalyani,raga-raga,4.0,True,True,1.1100000000000136,True
+B1-hard,b1_test_0399,Live at Kamarajar Hall,542.5799999999999,purvikalyani,kamas,raga-raga,4.0,True,True,-0.07999999999992724,False
+B1-hard,b1_test_0400,Cherthala Ranganatha Sharma at Arkay,117.3,kedaragaula,behag,raga-raga,6.0,False,False,,False
+B1-hard,b1_test_0400,Cherthala Ranganatha Sharma at Arkay,353.18,behag,sriranjani,raga-raga,4.0,False,False,,False
+B1-hard,b1_test_0400,Cherthala Ranganatha Sharma at Arkay,489.71000000000004,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-hard,b1_test_0400,Cherthala Ranganatha Sharma at Arkay,618.77,todi,madhyamavati,raga-raga,4.0,True,True,3.730000000000018,False
+B1-easy,b1_test_0401,Cherthala Ranganatha Sharma at Arkay,141.23,sriranjani,behag,raga-raga,4.0,True,True,-3.7299999999999898,False
+B1-easy,b1_test_0402,Live at Vani Mahal,74.53,kambhoji,todi,raga-raga,4.0,True,True,2.969999999999999,True
+B1-easy,b1_test_0403,V Shankarnarayanan at Arkay,213.22,karaharapriya,mohanam,raga-raga,4.0,True,True,4.280000000000001,True
+B1-easy,b1_test_0403,V Shankarnarayanan at Arkay,274.1,mohanam,kanada,raga-raga,4.0,True,True,3.3999999999999773,False
+B1-easy,b1_test_0404,Live at Vani Mahal,94.74,shanmukhapriya,kalyani,raga-raga,4.0,True,True,-2.239999999999995,True
+B1-easy,b1_test_0404,Live at Vani Mahal,280.99,kalyani,bhairavi,raga-raga,4.0,False,True,6.509999999999991,True
+B1-easy,b1_test_0405,Live at Kamarajar Hall,141.7,sankarabharanam,sindhubhairavi,raga-raga,3.0,True,True,0.8000000000000114,True
+B1-easy,b1_test_0405,Live at Kamarajar Hall,203.88,sindhubhairavi,purvikalyani,raga-raga,3.0,True,True,-1.3799999999999955,True
+B1-easy,b1_test_0405,Live at Kamarajar Hall,276.4,purvikalyani,harikambhoji,raga-raga,4.0,True,True,-3.8999999999999773,True
+B1-easy,b1_test_0406,Srividya Janakiraman at Arkay,94.44,saveri,sama,raga-raga,4.0,True,True,3.0600000000000023,False
+B1-easy,b1_test_0406,Srividya Janakiraman at Arkay,255.68,sama,nata,raga-raga,4.0,False,True,6.819999999999993,True
+B1-easy,b1_test_0407,Srividya Janakiraman at Arkay,143.73,saveri,bhairavi,raga-raga,4.0,False,True,-6.22999999999999,True
+B1-easy,b1_test_0408,Cherthala Ranganatha Sharma at Arkay,211.11,kedaragaula,todi,raga-raga,4.0,False,True,6.389999999999986,True
+B1-easy,b1_test_0408,Cherthala Ranganatha Sharma at Arkay,331.84000000000003,todi,behag,raga-raga,3.0,True,True,0.6599999999999682,False
+B1-easy,b1_test_0409,Cherthala Ranganatha Sharma at Arkay,95.79,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0409,Cherthala Ranganatha Sharma at Arkay,332.40000000000003,todi,kedaragaula,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0410,Cherthala Ranganatha Sharma at Arkay,63.43,madhyamavati,behag,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0411,Live at Vani Mahal,119.1,kalyani,todi,raga-raga,2.0,True,True,-1.5999999999999943,True
+B1-easy,b1_test_0412,Srividya Janakiraman at Arkay,180.22,sama,saveri,raga-raga,4.0,False,True,7.280000000000001,True
+B1-easy,b1_test_0413,Live at Vani Mahal,174.51,kamas,todi,raga-raga,4.0,True,True,2.990000000000009,True
+B1-easy,b1_test_0413,Live at Vani Mahal,289.13,todi,sankarabharanam,raga-raga,3.0,True,True,3.3700000000000045,True
+B1-easy,b1_test_0413,Live at Vani Mahal,416.01,sankarabharanam,shanmukhapriya,raga-raga,3.0,False,True,-8.509999999999991,True
+B1-easy,b1_test_0414,Live at Vani Mahal,117.95,sankarabharanam,todi,raga-raga,3.0,True,True,-0.45000000000000284,True
+B1-easy,b1_test_0414,Live at Vani Mahal,181.12,todi,kalyani,raga-raga,2.0,False,True,6.3799999999999955,True
+B1-easy,b1_test_0415,Cherthala Ranganatha Sharma at Arkay,217.48,behag,todi,raga-raga,3.0,False,True,5.02000000000001,True
+B1-easy,b1_test_0416,Cherthala Ranganatha Sharma at Arkay,79.81,madhyamavati,todi,raga-raga,4.0,True,True,2.6899999999999977,True
+B1-easy,b1_test_0417,Srividya Janakiraman at Arkay,224.25,nata,sama,raga-raga,4.0,False,True,8.25,False
+B1-easy,b1_test_0417,Srividya Janakiraman at Arkay,403.11,sama,saveri,raga-raga,4.0,True,True,-0.6100000000000136,True
+B1-easy,b1_test_0417,Srividya Janakiraman at Arkay,633.01,saveri,bhairavi,raga-raga,4.0,True,True,-0.5099999999999909,True
+B1-easy,b1_test_0418,Sanjay at Sastri Hall,67.27,kamas,gaula,raga-raga,4.0,False,True,5.230000000000004,True
+B1-easy,b1_test_0418,Sanjay at Sastri Hall,155.51,gaula,kapi,raga-raga,4.0,False,True,6.990000000000009,True
+B1-easy,b1_test_0419,Cherthala Ranganatha Sharma at Arkay,89.48,madhyamavati,todi,raga-raga,4.0,True,True,-1.980000000000004,True
+B1-easy,b1_test_0420,Live at Vani Mahal,98.62,todi,kalyani,raga-raga,2.0,False,True,8.879999999999995,True
+B1-easy,b1_test_0421,Cherthala Ranganatha Sharma at Arkay,144.94,behag,madhyamavati,raga-raga,4.0,True,True,-2.4399999999999977,False
+B1-easy,b1_test_0422,Kuldeep Pai at Arkay,218.16,saveri,kamas,raga-raga,4.0,False,True,-5.659999999999997,True
+B1-easy,b1_test_0422,Kuldeep Pai at Arkay,321.49,kamas,todi,raga-raga,4.0,True,True,1.009999999999991,True
+B1-easy,b1_test_0423,Kuldeep Pai at Arkay,85.62,saveri,kamas,raga-raga,4.0,True,True,-3.1200000000000045,True
+B1-easy,b1_test_0424,Sanjay at Sastri Hall,106.43,gaula,kalyani,raga-raga,4.0,True,True,-3.930000000000007,False
+B1-easy,b1_test_0425,Cherthala Ranganatha Sharma at Arkay,78.57,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0425,Cherthala Ranganatha Sharma at Arkay,311.49,sriranjani,behag,raga-raga,4.0,True,True,-3.990000000000009,False
+B1-easy,b1_test_0426,Cherthala Ranganatha Sharma at Arkay,184.32,behag,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0426,Cherthala Ranganatha Sharma at Arkay,355.81,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0427,Srividya Janakiraman at Arkay,225.44,saveri,sama,raga-raga,4.0,False,True,7.060000000000002,True
+B1-easy,b1_test_0427,Srividya Janakiraman at Arkay,432.95,sama,nata,raga-raga,4.0,False,True,9.550000000000011,True
+B1-easy,b1_test_0428,Cherthala Ranganatha Sharma at Arkay,77.57,madhyamavati,todi,raga-raga,4.0,True,True,4.930000000000007,True
+B1-easy,b1_test_0428,Cherthala Ranganatha Sharma at Arkay,211.72,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0429,Chaitra Sairam at Arkay,81.61,mohanam,anandabhairavi,raga-raga,4.0,False,True,5.890000000000001,True
+B1-easy,b1_test_0430,Kuldeep Pai at Arkay,148.22,todi,kamas,raga-raga,4.0,False,True,9.280000000000001,True
+B1-easy,b1_test_0431,V Shankarnarayanan at Arkay,120.52,karaharapriya,mohanam,raga-raga,4.0,False,True,6.980000000000004,True
+B1-easy,b1_test_0431,V Shankarnarayanan at Arkay,182.49,mohanam,nata,raga-raga,3.0,False,True,5.009999999999991,True
+B1-easy,b1_test_0432,Cherthala Ranganatha Sharma at Arkay,116.29,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0432,Cherthala Ranganatha Sharma at Arkay,264.29,todi,madhyamavati,raga-raga,4.0,False,True,-6.7900000000000205,True
+B1-easy,b1_test_0433,Cherthala Ranganatha Sharma at Arkay,65.04,madhyamavati,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0433,Cherthala Ranganatha Sharma at Arkay,260.05,todi,behag,raga-raga,3.0,True,True,-2.5500000000000114,False
+B1-easy,b1_test_0433,Cherthala Ranganatha Sharma at Arkay,342.76,behag,sriranjani,raga-raga,4.0,True,True,4.740000000000009,False
+B1-easy,b1_test_0434,Kuldeep Pai at Arkay,67.46,saveri,kamas,raga-raga,4.0,False,True,5.040000000000006,False
+B1-easy,b1_test_0435,Kuldeep Pai at Arkay,218.61,kamas,saveri,raga-raga,4.0,False,True,8.889999999999986,True
+B1-easy,b1_test_0436,Cherthala Ranganatha Sharma at Arkay,112.57,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0436,Cherthala Ranganatha Sharma at Arkay,200.89,madhyamavati,todi,raga-raga,4.0,True,True,-3.3899999999999864,True
+B1-easy,b1_test_0437,Cherthala Ranganatha Sharma at Arkay,162.59,kedaragaula,todi,raga-raga,4.0,True,True,4.909999999999997,True
+B1-easy,b1_test_0437,Cherthala Ranganatha Sharma at Arkay,337.84000000000003,todi,madhyamavati,raga-raga,4.0,True,True,-0.34000000000003183,False
+B1-easy,b1_test_0437,Cherthala Ranganatha Sharma at Arkay,397.98,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0437,Cherthala Ranganatha Sharma at Arkay,502.44,sriranjani,behag,raga-raga,4.0,True,True,-4.939999999999998,True
+B1-easy,b1_test_0438,Live at Vani Mahal,60.71,sankarabharanam,shanmukhapriya,raga-raga,3.0,False,False,,True
+B1-easy,b1_test_0439,V Shankarnarayanan at Arkay,63.75,karaharapriya,mohanam,raga-raga,4.0,False,True,8.75,True
+B1-easy,b1_test_0440,Sanjay at Sastri Hall,196.25,kalyani,ritigaula,raga-raga,4.0,False,True,-8.75,True
+B1-easy,b1_test_0441,Cherthala Ranganatha Sharma at Arkay,129.99,sriranjani,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0441,Cherthala Ranganatha Sharma at Arkay,269.77,todi,kedaragaula,raga-raga,4.0,True,True,2.730000000000018,True
+B1-easy,b1_test_0442,Chaitra Sairam at Arkay,63.93,anandabhairavi,mohanam,raga-raga,4.0,False,True,8.57,True
+B1-easy,b1_test_0443,Srividya Janakiraman at Arkay,76.19,sama,nata,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0444,Kuldeep Pai at Arkay,73.27,todi,kamas,raga-raga,4.0,False,True,9.230000000000004,True
+B1-easy,b1_test_0444,Kuldeep Pai at Arkay,206.14,kamas,saveri,raga-raga,4.0,True,True,1.3600000000000136,True
+B1-easy,b1_test_0445,Live at Vani Mahal,198.4,sankarabharanam,shanmukhapriya,raga-raga,3.0,False,True,-5.900000000000006,True
+B1-easy,b1_test_0445,Live at Vani Mahal,400.75,shanmukhapriya,kalyani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0446,Cherthala Ranganatha Sharma at Arkay,214.04,kedaragaula,todi,raga-raga,4.0,True,True,3.460000000000008,True
+B1-easy,b1_test_0446,Cherthala Ranganatha Sharma at Arkay,327.76,todi,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0446,Cherthala Ranganatha Sharma at Arkay,399.34,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0446,Cherthala Ranganatha Sharma at Arkay,502.93999999999994,sriranjani,behag,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0447,Live at Vani Mahal,71.44,kambhoji,todi,raga-raga,4.0,True,True,1.0600000000000023,True
+B1-easy,b1_test_0448,V Shankarnarayanan at Arkay,64.44,nata,mohanam,raga-raga,3.0,False,True,8.060000000000002,True
+B1-easy,b1_test_0448,V Shankarnarayanan at Arkay,127.13,mohanam,kanada,raga-raga,4.0,False,True,5.3700000000000045,True
+B1-easy,b1_test_0449,Cherthala Ranganatha Sharma at Arkay,183.91,todi,kedaragaula,raga-raga,4.0,True,True,-1.4099999999999966,True
+B1-easy,b1_test_0450,Cherthala Ranganatha Sharma at Arkay,60.02,madhyamavati,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0450,Cherthala Ranganatha Sharma at Arkay,215.62,todi,behag,raga-raga,3.0,False,False,,False
+B1-easy,b1_test_0451,Srividya Janakiraman at Arkay,117.23,saveri,bhairavi,raga-raga,4.0,True,True,-4.730000000000004,True
+B1-easy,b1_test_0452,Kuldeep Pai at Arkay,137.54,saveri,kamas,raga-raga,4.0,True,True,-0.03999999999999204,True
+B1-easy,b1_test_0452,Kuldeep Pai at Arkay,230.01,kamas,todi,raga-raga,4.0,True,True,-2.509999999999991,True
+B1-easy,b1_test_0453,Kuldeep Pai at Arkay,211.13,saveri,kamas,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0453,Kuldeep Pai at Arkay,276.76,kamas,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0454,Kuldeep Pai at Arkay,78.91,kamas,todi,raga-raga,4.0,True,True,-1.4099999999999966,True
+B1-easy,b1_test_0455,Kuldeep Pai at Arkay,62.73,saveri,kamas,raga-raga,4.0,False,True,9.770000000000003,True
+B1-easy,b1_test_0455,Kuldeep Pai at Arkay,199.84,kamas,todi,raga-raga,4.0,False,True,-7.340000000000003,True
+B1-easy,b1_test_0456,Live at Kamarajar Hall,93.89,harikambhoji,purvikalyani,raga-raga,4.0,True,True,3.6099999999999994,True
+B1-easy,b1_test_0456,Live at Kamarajar Hall,211.07999999999998,purvikalyani,kamas,raga-raga,4.0,True,True,-3.579999999999984,False
+B1-easy,b1_test_0457,Kuldeep Pai at Arkay,73.58,saveri,kamas,raga-raga,4.0,True,True,3.9200000000000017,True
+B1-easy,b1_test_0458,Srividya Janakiraman at Arkay,184.48,bhairavi,saveri,raga-raga,4.0,True,True,3.0200000000000102,True
+B1-easy,b1_test_0458,Srividya Janakiraman at Arkay,405.53,saveri,sama,raga-raga,4.0,False,True,6.970000000000027,True
+B1-easy,b1_test_0458,Srividya Janakiraman at Arkay,496.46999999999997,sama,nata,raga-raga,4.0,True,True,-3.9699999999999704,True
+B1-easy,b1_test_0459,Sanjay at Sastri Hall,84.83,gaula,kalyani,raga-raga,4.0,False,True,-7.329999999999998,False
+B1-easy,b1_test_0459,Sanjay at Sastri Hall,193.95,kalyani,ritigaula,raga-raga,4.0,True,True,3.5500000000000114,True
+B1-easy,b1_test_0460,Cherthala Ranganatha Sharma at Arkay,70.28,todi,sriranjani,raga-raga,4.0,False,True,7.219999999999999,False
+B1-easy,b1_test_0461,Sanjay at Sastri Hall,72.04,gaula,kapi,raga-raga,4.0,True,True,0.45999999999999375,True
+B1-easy,b1_test_0462,Cherthala Ranganatha Sharma at Arkay,146.53,todi,kedaragaula,raga-raga,4.0,True,True,-4.030000000000001,False
+B1-easy,b1_test_0463,Srividya Janakiraman at Arkay,175.36,sama,saveri,raga-raga,4.0,True,True,2.1399999999999864,True
+B1-easy,b1_test_0464,Cherthala Ranganatha Sharma at Arkay,66.78,madhyamavati,todi,raga-raga,4.0,False,True,5.719999999999999,True
+B1-easy,b1_test_0465,Cherthala Ranganatha Sharma at Arkay,216.4,behag,todi,raga-raga,3.0,False,True,-8.900000000000006,True
+B1-easy,b1_test_0465,Cherthala Ranganatha Sharma at Arkay,442.51,todi,kedaragaula,raga-raga,4.0,False,True,9.990000000000009,False
+B1-easy,b1_test_0466,Cherthala Ranganatha Sharma at Arkay,62.75,madhyamavati,todi,raga-raga,4.0,False,True,9.75,True
+B1-easy,b1_test_0466,Cherthala Ranganatha Sharma at Arkay,289.22,todi,kedaragaula,raga-raga,4.0,True,True,3.2799999999999727,True
+B1-easy,b1_test_0467,Cherthala Ranganatha Sharma at Arkay,186.18,sriranjani,behag,raga-raga,4.0,False,True,6.319999999999993,False
+B1-easy,b1_test_0468,Sanjay at Sastri Hall,210.11,ritigaula,gaula,raga-raga,3.0,False,True,7.389999999999986,True
+B1-easy,b1_test_0469,Kuldeep Pai at Arkay,109.09,todi,kamas,raga-raga,4.0,False,True,8.409999999999997,True
+B1-easy,b1_test_0470,Live at Kamarajar Hall,196.14,sindhubhairavi,purvikalyani,raga-raga,3.0,False,True,6.360000000000014,True
+B1-easy,b1_test_0471,Chaitra Sairam at Arkay,117.05,mohanam,anandabhairavi,raga-raga,4.0,True,True,-4.549999999999997,False
+B1-easy,b1_test_0472,Kuldeep Pai at Arkay,123.58,saveri,kamas,raga-raga,4.0,False,True,-6.079999999999998,True
+B1-easy,b1_test_0472,Kuldeep Pai at Arkay,268.25,kamas,todi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0473,Live at Kamarajar Hall,119.83,sankarabharanam,sindhubhairavi,raga-raga,3.0,True,True,-2.3299999999999983,True
+B1-easy,b1_test_0474,Live at Vani Mahal,62.81,bhairavi,kalyani,raga-raga,4.0,False,True,9.689999999999998,True
+B1-easy,b1_test_0475,Kuldeep Pai at Arkay,159.57,saveri,kamas,raga-raga,4.0,True,True,2.930000000000007,True
+B1-easy,b1_test_0476,Cherthala Ranganatha Sharma at Arkay,185.15,todi,madhyamavati,raga-raga,4.0,True,True,2.3499999999999943,False
+B1-easy,b1_test_0477,V Shankarnarayanan at Arkay,168.7,karaharapriya,mohanam,raga-raga,4.0,True,True,3.8000000000000114,True
+B1-easy,b1_test_0477,V Shankarnarayanan at Arkay,229.39,mohanam,nata,raga-raga,3.0,True,True,3.1100000000000136,True
+B1-easy,b1_test_0478,Cherthala Ranganatha Sharma at Arkay,100.93,todi,kedaragaula,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0479,Live at Kamarajar Hall,235.07,harikambhoji,purvikalyani,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0480,Kuldeep Pai at Arkay,65.84,saveri,kamas,raga-raga,4.0,False,True,6.659999999999997,True
+B1-easy,b1_test_0480,Kuldeep Pai at Arkay,272.27,kamas,todi,raga-raga,4.0,True,True,-4.769999999999982,True
+B1-easy,b1_test_0481,Kuldeep Pai at Arkay,228.0,saveri,kamas,raga-raga,4.0,False,True,-5.5,True
+B1-easy,b1_test_0481,Kuldeep Pai at Arkay,444.95,kamas,todi,raga-raga,4.0,False,True,-7.449999999999989,True
+B1-easy,b1_test_0482,Kuldeep Pai at Arkay,178.28,saveri,kamas,raga-raga,4.0,True,True,-0.7800000000000011,True
+B1-easy,b1_test_0482,Kuldeep Pai at Arkay,407.62,kamas,todi,raga-raga,4.0,True,True,-0.12000000000000455,True
+B1-easy,b1_test_0483,Live at Vani Mahal,92.99,todi,sankarabharanam,raga-raga,3.0,True,True,-0.4899999999999949,True
+B1-easy,b1_test_0484,Cherthala Ranganatha Sharma at Arkay,189.09,kedaragaula,todi,raga-raga,4.0,True,True,-1.5900000000000034,True
+B1-easy,b1_test_0485,Chaitra Sairam at Arkay,148.04,mohanam,anandabhairavi,raga-raga,4.0,False,True,-5.539999999999992,False
+B1-easy,b1_test_0486,Cherthala Ranganatha Sharma at Arkay,172.13,kedaragaula,todi,raga-raga,4.0,False,True,5.3700000000000045,True
+B1-easy,b1_test_0487,Srividya Janakiraman at Arkay,216.41,bhairavi,saveri,raga-raga,4.0,False,True,6.090000000000003,True
+B1-easy,b1_test_0488,Cherthala Ranganatha Sharma at Arkay,87.36,madhyamavati,behag,raga-raga,4.0,False,True,5.140000000000001,True
+B1-easy,b1_test_0489,Live at Vani Mahal,146.62,shanmukhapriya,kambhoji,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0490,Cherthala Ranganatha Sharma at Arkay,82.03,madhyamavati,behag,raga-raga,4.0,True,True,0.46999999999999886,False
+B1-easy,b1_test_0491,Cherthala Ranganatha Sharma at Arkay,90.46,behag,todi,raga-raga,3.0,True,True,-2.9599999999999937,True
+B1-easy,b1_test_0491,Cherthala Ranganatha Sharma at Arkay,226.49,todi,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0491,Cherthala Ranganatha Sharma at Arkay,435.84000000000003,sriranjani,madhyamavati,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0492,Cherthala Ranganatha Sharma at Arkay,85.73,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0493,Cherthala Ranganatha Sharma at Arkay,175.08,kedaragaula,todi,raga-raga,4.0,False,True,7.4199999999999875,True
+B1-easy,b1_test_0494,Live at Kamarajar Hall,134.43,harikambhoji,sindhubhairavi,raga-raga,4.0,False,False,,True
+B1-easy,b1_test_0495,Srividya Janakiraman at Arkay,151.34,sama,nata,raga-raga,4.0,True,True,1.1599999999999966,True
+B1-easy,b1_test_0496,Srividya Janakiraman at Arkay,119.0,saveri,sama,raga-raga,4.0,True,True,3.5,False
+B1-easy,b1_test_0496,Srividya Janakiraman at Arkay,262.57,sama,nata,raga-raga,4.0,False,True,-5.069999999999993,True
+B1-easy,b1_test_0497,Cherthala Ranganatha Sharma at Arkay,76.84,madhyamavati,sriranjani,raga-raga,4.0,False,False,,False
+B1-easy,b1_test_0498,Cherthala Ranganatha Sharma at Arkay,96.29,kedaragaula,todi,raga-raga,4.0,False,True,6.209999999999994,True
+B1-easy,b1_test_0498,Cherthala Ranganatha Sharma at Arkay,231.97000000000003,todi,sriranjani,raga-raga,4.0,True,True,0.5299999999999727,False
+B1-easy,b1_test_0499,Kuldeep Pai at Arkay,91.09,todi,kamas,raga-raga,4.0,True,True,-3.5900000000000034,True
+B1-easy,b1_test_0499,Kuldeep Pai at Arkay,274.58000000000004,kamas,saveri,raga-raga,4.0,False,True,7.919999999999959,True
+B2,Chaitra Sairam at Arkay,Chaitra Sairam at Arkay,419.53,mohanam,anandabhairavi,raga-raga,4.0,True,True,-2.0299999999999727,True
+B2,Chaitra Sairam at Arkay,Chaitra Sairam at Arkay,1082.3899999999999,anandabhairavi,other,raga-to-other,,True,True,0.11000000000012733,
+B2,Chaitra Sairam at Arkay,Chaitra Sairam at Arkay,1817.33,other,kambhoji,other-to-raga,,True,True,0.17000000000007276,True
+B2,Chaitra Sairam at Arkay,Chaitra Sairam at Arkay,4391.93,kambhoji,other,raga-to-other,,False,False,,
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,309.35,sriranjani,other,raga-to-other,,True,True,3.1499999999999773,
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,1043.6100000000001,other,todi,other-to-raga,,False,False,,True
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,2686.38,todi,kedaragaula,raga-raga,4.0,False,False,,True
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,3277.28,kedaragaula,other,raga-to-other,,False,False,,
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,7373.760000000001,other,behag,other-to-raga,,False,False,,False
+B2,Cherthala Ranganatha Sharma at Arkay,Cherthala Ranganatha Sharma at Arkay,7716.6500000000015,behag,madhyamavati,raga-raga,4.0,True,True,0.8499999999985448,False
+B2,Kuldeep Pai at Arkay,Kuldeep Pai at Arkay,479.28,saveri,other,raga-to-other,,True,True,3.2200000000000273,
+B2,Kuldeep Pai at Arkay,Kuldeep Pai at Arkay,1272.94,other,kamas,other-to-raga,,False,True,-5.440000000000055,True
+B2,Kuldeep Pai at Arkay,Kuldeep Pai at Arkay,1848.2800000000002,kamas,other,raga-to-other,,True,True,-0.7800000000002001,
+B2,Kuldeep Pai at Arkay,Kuldeep Pai at Arkay,3438.1800000000003,other,todi,other-to-raga,,False,True,-5.680000000000291,True
+B2,Kuldeep Pai at Arkay,Kuldeep Pai at Arkay,5674.030000000001,todi,other,raga-to-other,,False,False,,
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,435.65,sankarabharanam,purvikalyani,raga-raga,5.0,False,False,,True
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,1035.17,purvikalyani,bhairavi,raga-raga,3.0,True,True,-2.6700000000000728,True
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,2229.05,bhairavi,harikambhoji,raga-raga,6.0,False,True,8.449999999999818,False
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,4795.85,harikambhoji,other,raga-to-other,,True,True,-3.350000000000364,
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,5658.71,other,kapi,other-to-raga,,True,True,-1.2100000000000364,True
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,8350.630000000001,kapi,sindhubhairavi,raga-raga,5.0,True,True,1.8699999999989814,True
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,8790.7,sindhubhairavi,kamas,raga-raga,4.0,True,True,-3.2000000000007276,False
+B2,Live at Kamarajar Hall,Live at Kamarajar Hall,9206.52,kamas,other,raga-to-other,,False,False,,
+B2,Live at Vani Mahal,Live at Vani Mahal,330.33,todi,sankarabharanam,raga-raga,3.0,False,True,-7.829999999999984,True
+B2,Live at Vani Mahal,Live at Vani Mahal,667.5899999999999,sankarabharanam,other,raga-to-other,,True,True,4.910000000000082,
+B2,Live at Vani Mahal,Live at Vani Mahal,2000.86,other,kambhoji,other-to-raga,,False,False,,True
+B2,Live at Vani Mahal,Live at Vani Mahal,2848.68,kambhoji,bhairavi,raga-raga,6.0,False,False,,True
+B2,Live at Vani Mahal,Live at Vani Mahal,3097.71,bhairavi,kamas,raga-raga,6.0,True,True,-0.21000000000003638,True
+B2,Live at Vani Mahal,Live at Vani Mahal,5028.04,kamas,kalyani,raga-raga,5.0,False,False,,True
+B2,Live at Vani Mahal,Live at Vani Mahal,5366.17,kalyani,shanmukhapriya,raga-raga,4.0,False,False,,True
+B2,Live at Vani Mahal,Live at Vani Mahal,9276.050000000001,shanmukhapriya,other,raga-to-other,,True,True,1.4499999999989086,
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,451.88,kalyani,gaula,raga-raga,4.0,False,True,-9.379999999999995,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,1189.49,gaula,begada,raga-raga,5.0,False,True,-6.990000000000009,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,1712.5900000000001,begada,ritigaula,raga-raga,5.0,False,True,-5.0900000000001455,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,3338.0200000000004,ritigaula,other,raga-to-other,,False,False,,
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,5114.93,other,kambhoji,other-to-raga,,True,True,2.569999999999709,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,8360.85,kambhoji,kanada,raga-raga,6.0,True,True,-3.350000000000364,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,8675.730000000001,kanada,behag,raga-raga,5.0,False,False,,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,9025.270000000002,behag,kamas,raga-raga,6.0,False,False,,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,9284.680000000002,kamas,other,raga-to-other,,False,True,-7.18000000000211,
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,9998.190000000002,other,kapi,other-to-raga,,True,True,-0.6900000000023283,True
+B2,Sanjay at Sastri Hall,Sanjay at Sastri Hall,10166.110000000002,kapi,other,raga-to-other,,True,True,-3.610000000002401,
+B2,Srividya Janakiraman at Arkay,Srividya Janakiraman at Arkay,303.29,saveri,nata,raga-raga,5.0,True,True,-0.7900000000000205,True
+B2,Srividya Janakiraman at Arkay,Srividya Janakiraman at Arkay,885.52,nata,sama,raga-raga,4.0,True,True,-3.019999999999982,True
+B2,Srividya Janakiraman at Arkay,Srividya Janakiraman at Arkay,1198.9099999999999,sama,other,raga-to-other,,False,False,,
+B2,Srividya Janakiraman at Arkay,Srividya Janakiraman at Arkay,3162.44,other,bhairavi,other-to-raga,,True,True,-4.940000000000055,True
+B2,Srividya Janakiraman at Arkay,Srividya Janakiraman at Arkay,6323.58,bhairavi,other,raga-to-other,,False,True,8.920000000000073,
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,69.23,mohanam,kanada,raga-raga,4.0,True,True,3.269999999999996,True
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,494.90000000000003,kanada,nata,raga-raga,5.0,False,True,7.599999999999966,True
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,1144.18,nata,harikambhoji,raga-raga,5.0,False,True,-6.680000000000064,True
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,1970.88,harikambhoji,other,raga-to-other,,True,True,-3.380000000000109,
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,3715.11,other,karaharapriya,other-to-raga,,True,True,-2.6100000000001273,True
+B2,V Shankarnarayanan at Arkay,V Shankarnarayanan at Arkay,6968.09,karaharapriya,other,raga-to-other,,False,False,,
