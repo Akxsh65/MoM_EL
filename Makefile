@@ -4,8 +4,9 @@ W ?= w1
 # `reproduce` / `reproduce-eval` regenerate the committed numbers from the same frozen configs, so they pass the explicit override.
 RERUN ?= --allow_rerun "make reproduce: regenerating committed results from the same frozen config"
 L_EXTRA = 10 20 60
-.PHONY: test inventory splits cache train train-w2 train-w2-L calibrate bench tune final windows-tune windows-test errors release-check reproduce reproduce-eval
+.PHONY: app test inventory splits cache train train-w2 train-w2-L calibrate bench tune final windows-tune windows-test errors release-check reproduce reproduce-eval
 test:         ; $(PY) -m pytest -q
+app:          ; $(PY) app/serve.py --open
 inventory:    ; $(PY) scripts/01_inventory.py
 splits:       ; $(PY) scripts/02_splits.py
 cache:        ; $(PY) scripts/03_cache_pitch.py

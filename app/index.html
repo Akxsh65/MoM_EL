@@ -1,0 +1,343 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Raga Tracking Explorer</title>
+<style>
+  :root { --bg:#fbfaf8; --panel:#fff; --fg:#1b1c1e; --muted:#6a6f76; --line:#dedbd5; --accent:#1f6f8b; --ok:#2e8b57; --bad:#c0432f; --na:#c9c6c0; color-scheme: light; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#16181a; --panel:#1e2124; --fg:#ececea; --muted:#9aa0a6; --line:#33373b; --accent:#58a6c4; --ok:#4fb27d; --bad:#e0705c; --na:#4a4e52; color-scheme: dark; } }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { padding: 14px 20px 8px; }
+  h1 { font-size: 1.35rem; margin: 0 0 2px; font-weight: 600; }
+  .sub { color: var(--muted); font-size: 12.5px; max-width: 110ch; }
+  .layout { display: grid; grid-template-columns: 310px minmax(0,1fr); gap: 16px; padding: 8px 20px 28px; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } }
+  .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; }
+  .panel h2 { font-size: 11.5px; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin: 0 0 8px; font-weight: 600; }
+  .stack > * + * { margin-top: 12px; }
+  label { display: block; font-size: 12px; color: var(--muted); margin: 8px 0 3px; }
+  select, input[type=text], input[type=number] { width: 100%; font: inherit; padding: 6px 8px; border-radius: 7px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); }
+  input[type=file] { width: 100%; font-size: 12px; }
+  .seg { display: flex; flex-wrap: wrap; border: 1px solid var(--line); border-radius: 8px; overflow: hidden; }
+  .seg button { flex: 1 1 auto; font: inherit; font-size: 12.5px; padding: 6px 8px; background: var(--bg); color: var(--fg); border: 0; border-right: 1px solid var(--line); cursor: pointer; white-space: nowrap; }
+  .seg button:last-child { border-right: 0; }
+  .seg button[aria-pressed="true"] { background: var(--fg); color: var(--bg); }
+  button.primary { font: inherit; padding: 7px 12px; border-radius: 8px; border: 1px solid var(--accent); background: var(--accent); color: #fff; cursor: pointer; }
+  button.ghost { font: inherit; padding: 5px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); cursor: pointer; font-size: 12.5px; }
+  button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; }
+  .sl { display: grid; grid-template-columns: 1fr auto; gap: 0 8px; align-items: center; margin-top: 8px; }
+  .sl span.v { font-variant-numeric: tabular-nums; font-size: 12.5px; }
+  .sl input[type=range] { grid-column: 1 / -1; width: 100%; }
+  .sl.off { opacity: .4; }
+  .warn { font-size: 12px; color: var(--muted); border-left: 3px solid var(--bad); padding-left: 8px; }
+  .status { min-height: 20px; font-size: 12.5px; color: var(--muted); margin: 0 0 8px; }
+  .status.err { color: var(--bad); }
+  #plots { position: relative; user-select: none; }
+  #xh { position: absolute; top: 0; bottom: 0; width: 1px; background: var(--fg); opacity: .55; pointer-events: none; display: none; }
+  canvas, svg { display: block; max-width: 100%; }
+  svg text { fill: var(--muted); font: 11px system-ui, sans-serif; }
+  .cap { font-size: 11.5px; color: var(--muted); margin: 8px 0 2px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 5px; margin: 4px 0 0 96px; }
+  .chip { font-size: 11.5px; border: 1px solid var(--line); border-radius: 12px; padding: 2px 8px; cursor: pointer; background: var(--bg); color: var(--fg); }
+  .chip i { display: inline-block; width: 9px; height: 9px; border-radius: 50%; margin-right: 5px; }
+  .chip[aria-pressed="false"] { opacity: .4; }
+  table { border-collapse: collapse; width: 100%; font-size: 12.5px; }
+  th, td { text-align: right; padding: 4px 8px; border-bottom: 1px solid var(--line); font-variant-numeric: tabular-nums; }
+  th:first-child, td:first-child { text-align: left; }
+  th { color: var(--muted); font-weight: 500; font-size: 11.5px; }
+  tr.sel td { background: color-mix(in srgb, var(--accent) 14%, transparent); font-weight: 600; }
+  .tblwrap { overflow-x: auto; }
+  #info { font-size: 12.5px; min-height: 40px; }
+  #info b { font-weight: 600; }
+  .leg { display: flex; gap: 14px; flex-wrap: wrap; font-size: 11.5px; color: var(--muted); margin-top: 4px; }
+  .leg i { display: inline-block; width: 10px; height: 10px; border-radius: 2px; margin-right: 5px; vertical-align: -1px; }
+  .segtbl { max-height: 260px; overflow: auto; }
+</style>
+</head>
+<body>
+<header>
+  <h1>Raga Tracking Explorer</h1>
+  <div class="sub">Runs the project's real pipeline on this computer: pitch &rarr; windows &rarr; classifier &rarr; decoders &rarr; scores. Pick a recording, then move the sliders; the Python decoders re-run on the cached window posteriors. Nothing is saved and nothing leaves this machine.</div>
+</header>
+<div class="layout">
+  <aside class="stack">
+    <div class="panel">
+      <h2>1 · Recording</h2>
+      <div class="seg" id="srcTabs" role="group" aria-label="Source type">
+        <button type="button" data-k="b1" aria-pressed="true">B1 splices</button>
+        <button type="button" data-k="b2" aria-pressed="false">B2 concerts</button>
+        <button type="button" data-k="rec" aria-pressed="false">Recordings</button>
+        <button type="button" data-k="up" aria-pressed="false">Upload</button>
+      </div>
+      <div id="srcB1"><label for="b1f">Group</label><select id="b1f"></select><label for="b1s">Sequence</label><select id="b1s"></select></div>
+      <div id="srcB2" hidden><label for="b2s">Concert (test split)</label><select id="b2s"></select></div>
+      <div id="srcRec" hidden><label for="rcf">Split</label><select id="rcf"><option value="test">test</option><option value="val">val</option><option value="train">train (seen in training)</option></select><label for="rct">Filter by raga or artist</label><input type="text" id="rct" placeholder="e.g. kamas"><label for="rcs">Recording</label><select id="rcs"></select></div>
+      <div id="srcUp" hidden>
+        <label for="upf">Pitch file: two columns, time (s) and frequency (Hz), 0 = unvoiced</label><input type="file" id="upf" accept=".pitch,.txt,.csv">
+        <label for="upt">Tonic (Hz)</label><input type="number" id="upt" min="50" max="600" step="0.01" placeholder="e.g. 196.0">
+        <div style="margin-top:8px"><button type="button" class="primary" id="upgo">Analyse file</button></div>
+      </div>
+      <label for="model">Window classifier</label><select id="model"></select>
+    </div>
+    <div class="panel">
+      <h2>2 · Decoder</h2>
+      <div class="seg" id="decTabs" role="group" aria-label="Decoder">
+        <button type="button" data-d="D0" aria-pressed="false">D0 argmax</button>
+        <button type="button" data-d="D1" aria-pressed="false">D1 majority</button>
+        <button type="button" data-d="D2" aria-pressed="false">D2 novelty</button>
+        <button type="button" data-d="D3" aria-pressed="true">D3 HMM</button>
+        <button type="button" data-d="D3-online" aria-pressed="false">D3 online</button>
+      </div>
+      <div class="sl" id="slEps"><label for="eps" style="margin:0">D3 switch probability &epsilon;</label><span class="v" id="vEps"></span><input type="range" id="eps" min="-4" max="-0.5" step="0.05"></div>
+      <div class="sl" id="slMd"><label for="md" style="margin:0">D3 minimum segment (s)</label><span class="v" id="vMd"></span><input type="range" id="md" min="10" max="120" step="5"></div>
+      <div class="sl" id="slBeta"><label for="beta" style="margin:0">D3 posterior exponent &beta;</label><span class="v" id="vBeta"></span><input type="range" id="beta" min="0.05" max="2" step="0.05"></div>
+      <div class="sl" id="slW"><label for="w1w" style="margin:0">D1 majority width</label><span class="v" id="vW"></span><input type="range" id="w1w" min="1" max="21" step="2"></div>
+      <div class="sl" id="slThr"><label for="thr" style="margin:0">D2 novelty threshold</label><span class="v" id="vThr"></span><input type="range" id="thr" min="0.05" max="2" step="0.05"></div>
+      <div style="margin-top:10px; display:flex; gap:8px; align-items:center"><button type="button" class="ghost" id="reset">Reset to frozen settings</button><span class="cap" id="frozenTag" style="margin:0"></span></div>
+    </div>
+    <div class="panel warn">Frozen settings were tuned on synthetic validation sequences and then fixed. Moving the sliders on <b>test</b> sequences is for understanding only. Never pick settings from test performance (project rule 2).</div>
+  </aside>
+  <main class="stack">
+    <div class="panel">
+      <p class="status" id="status">Loading...</p>
+      <div id="titleLine" style="font-weight:600"></div>
+      <div class="cap" id="noteLine"></div>
+      <div id="plots">
+        <div class="cap" style="margin-left:96px">Pitch class (cents above Sa, 24 bins) over time: brighter = more time spent on that pitch</div>
+        <canvas id="heat"></canvas>
+        <div class="cap" style="margin-left:96px">Window posterior of the classifier</div>
+        <svg id="post"></svg>
+        <div class="chips" id="chips"></div>
+        <div class="cap" style="margin-left:96px">Segments</div>
+        <svg id="segs"></svg>
+        <div id="xh"></div>
+      </div>
+      <div class="leg"><span><i style="background:var(--ok)"></i>prediction agrees</span><span><i style="background:var(--bad)"></i>prediction differs</span><span><i style="background:var(--na)"></i>reference is "other"</span><span>dotted lines: true changes. Hover for details, click to pin.</span></div>
+      <div id="info" class="cap" style="margin-top:8px">Hover over the plots.</div>
+    </div>
+    <div class="panel">
+      <h2>All decoders at the current settings</h2>
+      <div class="tblwrap"><table id="mt"></table></div>
+      <div class="cap">F@5 / F@10: boundary F-measure within &plusmn;5 s / &plusmn;10 s of a true change. Frame accuracy ignores reference "other". Online decoding needs the "D3 online" button.</div>
+    </div>
+    <div class="panel">
+      <h2>Predicted segments <button type="button" class="ghost" id="csv" style="float:right;text-transform:none;letter-spacing:0">Download CSV</button></h2>
+      <div class="segtbl tblwrap"><table id="st"></table></div>
+    </div>
+  </main>
+</div>
+<script>
+(function () {
+  const $ = (id) => document.getElementById(id);
+  const S = { cfg: null, src: null, kind: 'b1', model: null, A: null, dec: 'D3', P: null, R: null, seq: 0, pin: null, hidden: new Set(), up: null };
+  const M = 96; // left margin of every plot
+  const hue = (s) => { let h = 0; for (const c of s) h = (h * 31 + c.charCodeAt(0)) % 360; return h; };
+  const col = (r) => (r === 'other' ? 'var(--na)' : 'hsl(' + hue(r) + ' 55% 55%)');
+  const f3 = (v) => (v == null ? '–' : v.toFixed(3));
+  const mmss = (s) => Math.floor(s / 60) + ':' + String(Math.round(s % 60)).padStart(2, '0');
+  const status = (t, err) => { const e = $('status'); e.textContent = t; e.className = 'status' + (err ? ' err' : ''); };
+  async function api(path, body) {
+    const r = await fetch(path, body ? { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {});
+    const j = await r.json();
+    if (!r.ok || j.error) throw new Error(j.error || r.statusText);
+    return j;
+  }
+  const fmtEps = (v) => Math.pow(10, v).toExponential(1);
+  function showParams() {
+    const p = S.P;
+    $('eps').value = Math.log10(p.eps); $('vEps').textContent = fmtEps(Math.log10(p.eps));
+    $('md').value = p.min_dur_s; $('vMd').textContent = p.min_dur_s + ' s';
+    $('beta').value = p.beta; $('vBeta').textContent = p.beta.toFixed(2);
+    $('w1w').value = p.d1_width; $('vW').textContent = p.d1_width;
+    $('thr').value = p.d2_thr; $('vThr').textContent = p.d2_thr.toFixed(2);
+    const d3 = S.dec.startsWith('D3');
+    $('slEps').classList.toggle('off', !d3); $('slMd').classList.toggle('off', !d3); $('slBeta').classList.toggle('off', !d3);
+    $('slW').classList.toggle('off', S.dec !== 'D1'); $('slThr').classList.toggle('off', S.dec !== 'D2');
+    const z = frozen(); const same = z && Math.abs(Math.log10(z.eps) - Math.log10(p.eps)) < 0.03 && z.min_dur_s === p.min_dur_s && Math.abs(z.beta - p.beta) < 0.01 && z.d1_width === p.d1_width && Math.abs(z.d2_thr - p.d2_thr) < 0.01;
+    $('frozenTag').textContent = same ? 'at frozen settings' : 'changed from frozen';
+  }
+  const frozen = () => { const m = S.cfg && S.cfg.models.find((x) => x.id === S.model); return m && m.frozen; };
+
+  // ---------- loading ----------
+  async function analyse(body) {
+    S.pin = null; status('Computing window posteriors with the real model (first time for a recording can take up to a minute for a long concert)...');
+    try {
+      const a = await api('/api/analyze', body);
+      S.A = a; S.src = a.key; S.hidden = new Set();
+      $('titleLine').textContent = a.name; $('noteLine').textContent = a.note + '. Window ' + a.L + ' s, hop ' + a.hop + ' s, ' + a.centres.length + ' windows, ' + mmss(a.duration_s) + ' long.';
+      await decode(); drawPlots();
+    } catch (e) { status('Could not analyse: ' + e.message, true); }
+  }
+  async function decode() {
+    const my = ++S.seq;
+    if (!S.A) return;
+    try {
+      const r = await api('/api/decode', { key: S.A.key, model: S.model, decoder: S.dec, params: S.P });
+      if (my !== S.seq) return;
+      S.R = r; status(''); drawSegs(); drawTables();
+    } catch (e) { if (my === S.seq) status('Decode failed: ' + e.message, true); }
+  }
+  let tmr = null;
+  const later = () => { clearTimeout(tmr); tmr = setTimeout(decode, 120); };
+
+  // ---------- plots ----------
+  const width = () => Math.max(420, $('plots').clientWidth);
+  const xs = () => { const a = S.A, iw = width() - M - 8; return (t) => M + (t / a.duration_s) * iw; };
+  function svgEl(tag, attrs, parent) { const e = document.createElementNS('http://www.w3.org/2000/svg', tag); for (const k in attrs) e.setAttribute(k, attrs[k]); if (parent) parent.appendChild(e); return e; }
+  function drawPlots() { drawHeat(); drawPost(); drawSegs(); }
+  function drawHeat() {
+    const a = S.A; if (!a) return;
+    const c = $('heat'), w = width(), h = 110, dpr = window.devicePixelRatio || 1;
+    c.width = w * dpr; c.height = h * dpr; c.style.width = w + 'px'; c.style.height = h + 'px';
+    const g = c.getContext('2d'); g.scale(dpr, dpr); g.clearRect(0, 0, w, h);
+    const iw = w - M - 8, d = a.heat.data, nb = a.heat.bins, cw = Math.max(1, iw / d.length), rh = h / nb;
+    const accent = getComputedStyle(document.documentElement).getPropertyValue('--accent').trim();
+    d.forEach((colv, i) => {
+      const mx = Math.max(...colv, 1);
+      colv.forEach((v, b) => { if (!v) return; g.globalAlpha = Math.pow(v / mx, 0.6); g.fillStyle = accent; g.fillRect(M + i * iw / d.length, h - (b + 1) * rh, cw + 0.5, rh + 0.5); });
+    });
+    g.globalAlpha = 1; g.fillStyle = getComputedStyle(document.documentElement).getPropertyValue('--muted').trim(); g.font = '11px system-ui';
+    [['Sa', 0], ['Ma', 500], ['Pa', 700]].forEach(([n, cents]) => { const y = h - (cents / 50 + 0.5) * rh; g.fillText(n + ' ' + cents, 4, y + 4); g.globalAlpha = .25; g.fillRect(M, y, iw, 0.6); g.globalAlpha = 1; });
+  }
+  function drawPost() {
+    const a = S.A; if (!a) return; const w = width(), h = 130, x = xs(), s = $('post');
+    s.setAttribute('width', w); s.setAttribute('height', h); s.replaceChildren();
+    [0, 0.5, 1].forEach((v) => { const y = 8 + (1 - v) * (h - 26); svgEl('line', { x1: M, x2: w - 8, y1: y, y2: y, stroke: 'var(--line)' }, s); const t = svgEl('text', { x: M - 6, y: y + 4, 'text-anchor': 'end' }, s); t.textContent = v.toFixed(1); });
+    a.cols.forEach((c, k) => {
+      if (S.hidden.has(c.raga)) return;
+      let d = ''; let pen = false;
+      a.centres.forEach((t, i) => { if (!a.valid[i]) { pen = false; return; } d += (pen ? 'L' : 'M') + x(t).toFixed(1) + ' ' + (8 + (1 - c.p[i]) * (h - 26)).toFixed(1); pen = true; });
+      svgEl('path', { d, fill: 'none', stroke: col(c.raga), 'stroke-width': 1.3 }, s);
+    });
+    const ch = $('chips'); ch.replaceChildren();
+    a.cols.forEach((c, k) => {
+      const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.setAttribute('aria-pressed', String(!S.hidden.has(c.raga)));
+      b.innerHTML = '<i style="background:' + col(c.raga) + '"></i>' + c.raga.replace(/[<>&]/g, '');
+      b.onclick = () => { S.hidden.has(c.raga) ? S.hidden.delete(c.raga) : S.hidden.add(c.raga); drawPost(); };
+      ch.appendChild(b);
+    });
+  }
+  function rowSegs(s, y, name, segs, colorFn, x, T) {
+    const t = svgEl('text', { x: M - 6, y: y + 17, 'text-anchor': 'end' }, s); t.textContent = name;
+    segs.forEach((g) => {
+      const x0 = x(g.start), wd = Math.max(0.8, x(g.end) - x0);
+      svgEl('rect', { x: x0, y, width: wd, height: 24, fill: colorFn(g), stroke: 'var(--panel)', 'stroke-width': .6 }, s);
+      if (wd > 56 && g.raga) { const tx = svgEl('text', { x: x0 + wd / 2, y: y + 16, 'text-anchor': 'middle', style: 'fill:#111;font-size:10px;pointer-events:none' }, s); tx.textContent = g.raga; if (tx.getComputedTextLength() > wd - 6) tx.remove(); }
+    });
+  }
+  function drawSegs() {
+    const a = S.A; if (!a) return; const w = width(), x = xs(), T = a.duration_s, s = $('segs'), rows = a.ref ? 3 : 1, h = rows * 32 + 28;
+    s.setAttribute('width', w); s.setAttribute('height', h); s.replaceChildren();
+    const ref = a.ref ? a.ref.intervals.map((iv, i) => ({ start: iv[0], end: iv[1], raga: a.ref.labels[i] })) : null;
+    const pred = S.R && S.R.segments ? S.R.segments : [];
+    let y = 2;
+    if (ref) { rowSegs(s, y, 'Reference', ref, (g) => col(g.raga), x, T); y += 32; }
+    rowSegs(s, y, S.dec, pred, (g) => col(g.raga), x, T); y += 32;
+    if (ref && pred.length) {
+      const cuts = [...new Set([0, T, ...ref.flatMap((g) => [g.start, g.end]), ...pred.flatMap((g) => [g.start, g.end])].filter((v) => v >= 0 && v <= T))].sort((p, q) => p - q);
+      const at = (segs, t) => (segs.find((g) => t >= g.start && t < g.end) || segs[segs.length - 1]).raga;
+      const ag = [];
+      for (let i = 0; i < cuts.length - 1; i++) { const mid = (cuts[i] + cuts[i + 1]) / 2, r = at(ref, mid), p = at(pred, mid); ag.push({ start: cuts[i], end: cuts[i + 1], raga: '', st: r === 'other' ? 'na' : r === p ? 'ok' : 'bad' }); }
+      rowSegs(s, y, 'Agreement', ag, (g) => 'var(--' + g.st + ')', x, T);
+      ref.slice(0, -1).forEach((g) => svgEl('line', { x1: x(g.end), x2: x(g.end), y1: 0, y2: rows * 32, stroke: 'var(--fg)', 'stroke-dasharray': '2 3', opacity: .7 }, s));
+    }
+    const ax = rows * 32 + 6, n = Math.max(2, Math.floor((w - M) / 90));
+    for (let i = 0; i <= n; i++) { const t = T * i / n; svgEl('line', { x1: x(t), x2: x(t), y1: ax - 4, y2: ax, stroke: 'var(--muted)' }, s); const tx = svgEl('text', { x: x(t), y: ax + 13, 'text-anchor': 'middle' }, s); tx.textContent = mmss(t); }
+  }
+  function drawTables() {
+    const R = S.R, a = S.A; if (!R) return;
+    const hasRef = a.ref && a.ref.intervals.length > 1;
+    const head = '<tr><th>Decoder</th><th>predicted changes</th>' + (a.ref ? '<th>true changes</th>' : '') + (hasRef ? '<th>P@5</th><th>R@5</th><th>F@5</th><th>F@10</th>' : '') + (a.ref ? '<th>frame acc.</th>' : '') + '</tr>';
+    const rows = Object.keys(R.metrics).map((d) => { const m = R.metrics[d]; return '<tr class="' + (d === S.dec ? 'sel' : '') + '"><td>' + d + '</td><td>' + m.n_pred + '</td>' + (a.ref ? '<td>' + m.n_ref + '</td>' : '') + (hasRef ? '<td>' + f3(m.P5) + '</td><td>' + f3(m.R5) + '</td><td>' + f3(m.F5) + '</td><td>' + f3(m.F10) + '</td>' : '') + (a.ref ? '<td>' + f3(m.frame_acc) + '</td>' : '') + '</tr>'; });
+    $('mt').innerHTML = head + rows.join('');
+    $('st').innerHTML = '<tr><th>#</th><th>start</th><th>end</th><th>length</th><th>raga</th><th>mean window prob.</th></tr>' + R.segments.map((g, i) => '<tr><td>' + (i + 1) + '</td><td>' + mmss(g.start) + '</td><td>' + mmss(g.end) + '</td><td>' + Math.round(g.end - g.start) + ' s</td><td style="text-align:left"><i style="display:inline-block;width:9px;height:9px;border-radius:2px;background:' + col(g.raga) + ';margin-right:6px"></i>' + g.raga.replace(/[<>&]/g, '') + '</td><td>' + (g.p == null ? '–' : g.p.toFixed(2)) + '</td></tr>').join('');
+  }
+  function info(t) {
+    const a = S.A, R = S.R; if (!a) return;
+    const i = a.centres.reduce((b, c, k) => (Math.abs(c - t) < Math.abs(a.centres[b] - t) ? k : b), 0);
+    const top = a.top_idx[i].map((j, k) => a.ragas[j] + ' ' + a.top_p[i][k].toFixed(2)).join(', ');
+    const lab = (segs, key) => { const g = segs.find((q) => t >= q.start && t < q.end); return g ? g.raga : '–'; };
+    const ref = a.ref ? a.ref.intervals.map((iv, k) => ({ start: iv[0], end: iv[1], raga: a.ref.labels[k] })) : null;
+    const el = $('info'); el.replaceChildren();
+    const b = (s) => { const e = document.createElement('b'); e.textContent = s; return e; };
+    const add = (...p) => p.forEach((x) => el.append(typeof x === 'string' ? document.createTextNode(x) : x));
+    add('At ', b(mmss(t)), (a.valid[i] ? '' : ' (silent window)'), ': window top-5 ', b(top));
+    if (ref) add(' · reference ', b(lab(ref)));
+    if (R && R.segments) add(' · ', S.dec, ' ', b(lab(R.segments)));
+  }
+  function pointer(ev, click) {
+    if (!S.A) return;
+    const r = $('plots').getBoundingClientRect(), w = r.width, iw = w - M - 8, px = ev.clientX - r.left;
+    if (px < M || px > M + iw) return;
+    const t = (px - M) / iw * S.A.duration_s;
+    if (click) S.pin = S.pin == null ? t : null;
+    const at = S.pin != null ? S.pin : t, xh = $('xh');
+    xh.style.display = 'block'; xh.style.left = (M + at / S.A.duration_s * iw) + 'px'; info(at);
+  }
+  $('plots').addEventListener('pointermove', (e) => { if (S.pin == null) pointer(e, false); });
+  $('plots').addEventListener('click', (e) => pointer(e, true));
+  $('plots').addEventListener('pointerleave', () => { if (S.pin == null) $('xh').style.display = 'none'; });
+  window.addEventListener('resize', () => { if (S.A) { drawPlots(); } });
+
+  // ---------- controls ----------
+  function setParamsFromFrozen() { const z = frozen(); if (z) { S.P = Object.assign({}, z); showParams(); } }
+  function bindSlider(id, key, conv) { $(id).addEventListener('input', () => { S.P[key] = conv($(id).value); showParams(); later(); }); }
+  bindSlider('eps', 'eps', (v) => Math.pow(10, parseFloat(v)));
+  bindSlider('md', 'min_dur_s', (v) => parseInt(v, 10));
+  bindSlider('beta', 'beta', (v) => parseFloat(v));
+  bindSlider('w1w', 'd1_width', (v) => parseInt(v, 10));
+  bindSlider('thr', 'd2_thr', (v) => parseFloat(v));
+  $('reset').onclick = () => { setParamsFromFrozen(); decode(); };
+  $('decTabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; S.dec = b.dataset.d; [...$('decTabs').children].forEach((x) => x.setAttribute('aria-pressed', String(x === b))); showParams(); decode(); });
+  $('model').addEventListener('change', () => { S.model = $('model').value; setParamsFromFrozen(); if (S.src) analyse({ source: S.A.key, model: S.model }); });
+  $('srcTabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (!b) return; S.kind = b.dataset.k; [...$('srcTabs').children].forEach((x) => x.setAttribute('aria-pressed', String(x === b))); ['B1', 'B2', 'Rec', 'Up'].forEach((k) => { $('src' + k).hidden = k.toLowerCase() !== (S.kind === 'up' ? 'up' : S.kind); }); pickCurrent(); });
+
+  function fillSelect(sel, items) { sel.replaceChildren(...items.map((i) => new Option(i.name, i.id))); }
+  function fillB1() { const [split, label] = $('b1f').value.split('|'); fillSelect($('b1s'), S.srcs.b1.filter((i) => i.split === split && i.label === label)); }
+  function fillRec() {
+    const t = $('rct').value.toLowerCase(), sp = $('rcf').value;
+    fillSelect($('rcs'), S.srcs.rec.filter((i) => i.split === sp && (!t || i.name.toLowerCase().includes(t))).slice(0, 400));
+  }
+  function pickCurrent() {
+    const sel = { b1: 'b1s', b2: 'b2s', rec: 'rcs' }[S.kind];
+    if (sel && $(sel).value) analyse({ source: $(sel).value, model: S.model });
+  }
+  ['b1s', 'b2s', 'rcs'].forEach((id) => $(id).addEventListener('change', pickCurrent));
+  $('b1f').addEventListener('change', () => { fillB1(); pickCurrent(); });
+  $('rcf').addEventListener('change', () => { fillRec(); pickCurrent(); });
+  $('rct').addEventListener('input', () => { fillRec(); });
+  $('upgo').onclick = async () => {
+    const f = $('upf').files[0], tonic = parseFloat($('upt').value);
+    if (!f || !(tonic > 0)) { status('Choose a pitch file and enter the tonic in Hz.', true); return; }
+    const text = await f.text();
+    S.upBody = { source: 'upload:new', model: S.model, upload: { pitch_text: text, tonic_hz: tonic, name: f.name } };
+    analyse(S.upBody);
+  };
+  $('csv').onclick = () => {
+    if (!S.R) return;
+    const lines = ['start_s,end_s,raga,mean_window_prob'].concat(S.R.segments.map((g) => [g.start, g.end, g.raga, g.p == null ? '' : g.p].join(',')));
+    const u = URL.createObjectURL(new Blob([lines.join('\n')], { type: 'text/csv' }));
+    const l = document.createElement('a'); l.href = u; l.download = 'predicted_segments.csv'; l.click(); URL.revokeObjectURL(u);
+  };
+
+  // ---------- start ----------
+  (async function init() {
+    try {
+      S.cfg = await api('/api/config'); S.srcs = await api('/api/sources');
+      if (!S.cfg.models.length) { status('No trained models found in models/. See the README to train or copy them.', true); return; }
+      $('model').replaceChildren(...S.cfg.models.map((m) => new Option(m.label, m.id)));
+      S.model = (S.cfg.models.find((m) => m.id === 'w2') || S.cfg.models[0]).id; $('model').value = S.model;
+      setParamsFromFrozen();
+      const groups = []; ['test', 'val'].forEach((sp) => ['easy', 'hard', 'mid'].forEach((lb) => { if (S.srcs.b1.some((i) => i.split === sp && i.label === lb)) groups.push([sp + '|' + lb, 'B1 ' + sp + ', ' + lb]); }));
+      $('b1f').replaceChildren(...groups.map((g) => new Option(g[1], g[0])));
+      fillB1(); fillSelect($('b2s'), S.srcs.b2); fillRec();
+      if (!S.srcs.b1.length && !S.srcs.b2.length && !S.srcs.rec.length) status('No cached data found in data/. Upload a pitch file, or see the README to rebuild the cache.', false);
+      else pickCurrent();
+    } catch (e) { status('Could not start: ' + e.message, true); }
+  })();
+})();
+</script>
+</body>
+</html>

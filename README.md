@@ -29,6 +29,20 @@ Obtain it from the original sources and respect their licences:
 
 Formats we found in the real files (hop size, units, unvoiced = 0 Hz, rÄga spellings) are in `docs/data_formats.md`.
 
+## Interactive explorer (local web app)
+
+```bash
+python app/serve.py --open        # or: make app   ->  http://127.0.0.1:8765
+```
+
+A small web interface on top of the real pipeline (standard-library server, no extra dependencies, binds to 127.0.0.1 only). Pick a B1 splice, a B2 concert,
+a cached recording, or upload a CMD-style two-column pitch file (time in s, frequency in Hz, 0 = unvoiced) plus its tonic. Choose the window classifier
+(W1, or W2 at 10/20/30/60 s) and a decoder (D0 to D3, or D3 online), then move the sliders for the D3 switch probability, minimum segment length and posterior exponent,
+the D1 width and the D2 threshold: the repository's own decoders re-run on the cached window posteriors in milliseconds and the boundary and frame metrics are recomputed.
+You see the pitch-class heat map, the window posteriors, the reference, the prediction and where they agree, with a hover read-out and a CSV export of the segments.
+At the frozen settings it reproduces the numbers in `results/e2_per_sequence.csv` exactly (checked for several sequences and a full concert). It needs the trained models in `models/`
+and the cached data in `data/`. It writes nothing to `results/`. Moving sliders on test sequences is for understanding only: do not choose settings from test performance.
+
 ## Reproduce
 
 `make` targets wrap the scripts (on Windows without `make`, run the commands in the Makefile directly).
@@ -52,6 +66,7 @@ Every file in `results/` states the command and commit that produced it in its h
 configs/      default.yaml (paths, seeds, window, model params), raga_set.yaml (K = 40), raga_aliases.yaml, scales.yaml (with sources),
               decoders_frozen.yaml, window_length_frozen.yaml
 manifests/    B1 and B2 manifests (IDs + cut times + seeds): enough to rebuild the benchmarks from the raw data
+app/           interactive explorer (serve.py + index.html)
 src/raga_tracking/   io, pitch, windows, features/{histogram,tdms}, models/{linear,calibration,posterior}, decode/{argmax,majority,novelty,hmm},
                      bench/{synthetic,concerts}, eval/{metrics,bootstrap,latency}
 scripts/      numbered entry points 01 ... 12, run_final.py (E2), run_e3_e4.py (E3/E4), check_e2_independent.py, check_release.py
