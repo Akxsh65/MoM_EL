@@ -1,0 +1,46 @@
+_header: 'Produced by: python scripts/11_tune_window_length.py --freeze | commit b85143c+uncommitted
+  | tuned on B1-val only (W2)'
+L10:
+  model: w2_L10
+  L: 10
+  d1_width: 5
+  d3:
+    eps: 0.001
+    min_dur_s: 60
+    beta: 0.5
+    prior: uniform
+  val_F5: 0.670673076923077
+  val_D1_F5: 0.14862681744749598
+L20:
+  model: w2_L20
+  L: 20
+  d1_width: 5
+  d3:
+    eps: 0.01
+    min_dur_s: 60
+    beta: 0.25
+    prior: uniform
+  val_F5: 0.5504358655043586
+  val_D1_F5: 0.17222402071867918
+L30:
+  model: w2
+  L: 30
+  d1_width: 5
+  d3:
+    eps: 0.01
+    min_dur_s: 60
+    beta: 0.25
+    prior: uniform
+  val_F5: 0.4724602203182374
+  val_D1_F5: 0.20080645161290325
+L60:
+  model: w2_L60
+  L: 60
+  d1_width: 5
+  d3:
+    eps: 0.1
+    min_dur_s: 60
+    beta: 0.25
+    prior: uniform
+  val_F5: 0.2840236686390532
+  val_D1_F5: 0.1795918367346939

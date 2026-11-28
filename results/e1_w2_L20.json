@@ -1,0 +1,145 @@
+{
+  "_header": "Produced by: python scripts/05_train_w2.py --L 20 --tag _L20 --fix 0.3,24 | commit b85143c+uncommitted | splits used: ('train', 'val')",
+  "model": "w2",
+  "tau_s": 0.3,
+  "n_bins": 24,
+  "alpha": 0.75,
+  "sigma": 1.0,
+  "L_s": 20.0,
+  "hop_s": 5,
+  "K": 40,
+  "chance": 0.025,
+  "best_C": 0.01,
+  "class_weight": "balanced",
+  "stage1_grid": [
+    {
+      "tau_s": 0.2,
+      "n_bins": 24,
+      "C": 1.0,
+      "val_window_acc": 0.6136501079913607
+    },
+    {
+      "tau_s": 0.2,
+      "n_bins": 40,
+      "C": 1.0,
+      "val_window_acc": 0.5849676025917927
+    },
+    {
+      "tau_s": 0.2,
+      "n_bins": 60,
+      "C": 1.0,
+      "val_window_acc": 0.5922246220302376
+    },
+    {
+      "tau_s": 0.3,
+      "n_bins": 24,
+      "C": 1.0,
+      "val_window_acc": 0.6260907127429806
+    },
+    {
+      "tau_s": 0.3,
+      "n_bins": 40,
+      "C": 1.0,
+      "val_window_acc": 0.5965442764578833
+    },
+    {
+      "tau_s": 0.3,
+      "n_bins": 60,
+      "C": 1.0,
+      "val_window_acc": 0.605183585313175
+    },
+    {
+      "tau_s": 0.5,
+      "n_bins": 24,
+      "C": 1.0,
+      "val_window_acc": 0.5820302375809935
+    },
+    {
+      "tau_s": 0.5,
+      "n_bins": 40,
+      "C": 1.0,
+      "val_window_acc": 0.5505831533477322
+    },
+    {
+      "tau_s": 0.5,
+      "n_bins": 60,
+      "C": 1.0,
+      "val_window_acc": 0.5533477321814255
+    }
+  ],
+  "stage2_C_grid": [
+    {
+      "C": 0.01,
+      "val_window_acc": 0.6135111876075732
+    },
+    {
+      "C": 0.03,
+      "val_window_acc": 0.6067125645438899
+    },
+    {
+      "C": 0.1,
+      "val_window_acc": 0.592340791738382
+    },
+    {
+      "C": 1,
+      "val_window_acc": 0.5696213425129087
+    },
+    {
+      "C": 10,
+      "val_window_acc": 0.5664371772805508
+    },
+    {
+      "C": 100,
+      "val_window_acc": 0.5657487091222031
+    }
+  ],
+  "val_window_acc": 0.6135111876075732,
+  "val_macro_f1": 0.5624152133610998,
+  "val_recording_majority_acc": 0.851063829787234,
+  "n_train_windows": 39767,
+  "n_val_windows": 11620,
+  "n_val_recordings": 94,
+  "per_raga_recall_val": {
+    "anandabhairavi": 0.652027027027027,
+    "atana": 0.3958333333333333,
+    "begada": 0.7715877437325905,
+    "behag": 0.6666666666666666,
+    "bhairavi": 0.68762278978389,
+    "bilahari": 0.6470588235294118,
+    "devagandhari": 0.4797297297297297,
+    "dhanyasi": 0.7513416815742398,
+    "gaula": 0.8954248366013072,
+    "harikambhoji": 0.1799163179916318,
+    "husseni": 0.6885813148788927,
+    "kalyani": 0.46296296296296297,
+    "kamas": 0.2153846153846154,
+    "kamavardani": 0.8625,
+    "kambhoji": 0.2966101694915254,
+    "kanada": 0.26859504132231404,
+    "kapi": 0.620253164556962,
+    "karaharapriya": 0.5933333333333334,
+    "kedaragaula": 0.56875,
+    "madhyamavati": 0.13157894736842105,
+    "mayamalavagaula": 0.8041002277904328,
+    "mohanam": 0.6164383561643836,
+    "mukhari": 0.632768361581921,
+    "nata": 0.9865771812080537,
+    "natakurinji": 0.6768558951965066,
+    "purvikalyani": 0.8366666666666667,
+    "ritigaula": 0.0,
+    "sahana": 0.7411764705882353,
+    "sama": 0.6198630136986302,
+    "sankarabharanam": 0.5177304964539007,
+    "saveri": 0.9314079422382672,
+    "sencurutti": 0.6976744186046512,
+    "shanmukhapriya": 0.24324324324324326,
+    "sindhubhairavi": 0.8555555555555555,
+    "sri": 0.5379537953795379,
+    "sriranjani": 0.5806451612903226,
+    "surati": 0.5845070422535211,
+    "todi": 0.6816666666666666,
+    "varali": 0.7685459940652819,
+    "yadukulakamboji": 0.3925925925925926
+  },
+  "min_raga_recall": 0.0
+}
