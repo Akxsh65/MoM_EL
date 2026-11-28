@@ -1,7 +1,7 @@
 # Tracking rāga over time in Carnatic recordings: window classifiers, temporal decoders and benchmarks
 
 *Draft for the team. Authors, affiliations and venue: to be confirmed. Every number below comes from a file in `results/` (named in brackets);
-commands and commit hashes are in those files' headers. The related-work claims rest on abstracts and metadata only (see Section 2).*
+commands and commit hashes are in those files' headers. The related-work claims rest mostly on abstracts and metadata (see Section 2).*
 
 ## Abstract
 
@@ -28,11 +28,12 @@ Contributions: (1) a pipeline with four decoders compared under one protocol; (2
 ## 2. Related work
 
 *Whole-recording recognition.* Chordia and Rae (ISMIR 2007) and Koduri, Gulati, Rao and Serra (JNMR 2012) classify by pitch-class distributions; Gulati et al. (ISMIR 2016) introduce the time-delayed melody surface (TDMS) and report 87% on the 480-recording, 40-rāga CMD Carnatic set and 98% on a 300-recording, 30-rāga Hindustani set, which we reuse as W2 on windows.
-Sequential pitch distributions (Narasinh and Senthil Raja, AIMC 2023) keep note-transition direction and report 88.13% on Carnatic; deep sequence models (DeepSRGM, arXiv 2402.10168; a TDNN+LSTM model, arXiv 2405.16000; a preprocessing/architecture comparison, arXiv 2212.05335) likewise classify whole recordings or clips.
-*Real-time systems.* Chordia and Rae (NIME 2008) describe real-time raag recognition that shows how likely each raag is as time passes, and Rāgawise (Gulati, Ganguli, Gupta and Srinivasamurthy, ISMIR 2015 hackathon) plots the evolving likelihood of each rāga from live vocals (Hindustani, demo no longer maintained).
-From their abstracts, neither scores where a rāga *changes*.
+Sequential pitch distributions (Narasinh and Senthil Raja, AIMC 2023) keep note-transition direction and report 88.13% (Carnatic) and 99% (Hindustani) with a k-NN and leave-one-out evaluation on the same CMD sets; deep sequence models (DeepSRGM, arXiv 2402.10168; a TDNN+LSTM model, arXiv 2405.16000; a preprocessing/architecture comparison, arXiv 2212.05335) likewise classify whole recordings or clips.
+*Real-time systems.* Chordia and Rae (NIME 2008) run a pitch-class-distribution classifier in real time and display the posterior over 31 raags as it evolves; their evaluation is qualitative (12 raags played on sarod, 8 vocal recordings), reporting that the correct raag was usually found within about 15 s and stable within 30 to 40 s of a single-raga performance, plus an anecdote of a quick shift when the performer introduced another raag's phrase.
+Rāgawise (Gulati, Ganguli, Gupta and Srinivasamurthy, ISMIR 2015 late-breaking demo) plots the evolving likelihood of each rāga from live vocals (Hindustani) and states that formal evaluation remains to be done.
+Neither scores where a rāga *changes* or handles recordings with several rāgas. Their convergence times are of the same order as our online latencies (Section 5, E4) but measure something different (time to settle at the start of a single-rāga performance, informally).
 *Segmentation.* Sarala and Murthy (ISMIR 2013) and Padi and Murthy (Sādhanā 2018) segment concerts into items using applause and merge segments by rāga classification, assuming one rāga per item; structural segmentation of Dhrupad alap (Rao, Vinutha and Rohit, TISMIR 2020) and of Carnatic music (Kulkarni 2014) does not identify rāgas.
-In a literature pass of 16 papers (`docs/related_work.md`; web search of abstracts and metadata, no full texts read) we found none that performs windowed rāga recognition with temporal decoding and evaluates rāga-change boundaries within recordings.
+In a literature pass of 16 papers (`docs/related_work.md`; abstracts and metadata, and the full texts of Chordia and Rae 2008, Rāgawise and Narasinh and Senthil Raja 2023) we found none that performs windowed rāga recognition with temporal decoding and evaluates rāga-change boundaries within recordings.
 This is an absence in a limited search, not proof, and should be re-checked with full-text Scholar and ISMIR-archive searches before submission.
 
 ## 3. Data and benchmarks
@@ -130,10 +131,10 @@ On the frozen W2 + D3 (L = 30) predictions [`results/e6_errors.md`, `results/e6_
 - **Synthetic sharpness.** B1 splices excerpts from different items, so transitions are abrupt compared with within-item rāga changes in a rāgamālika, and B1's sequences reuse a few source items (hence the concert-level intervals).
 - **Closed set.** The classifier cannot say "none of the 40". B2 `other` items and any rāga outside the set produce spurious switches; an explicit `other` class was not part of the plan. B2 itself is small: 8 concerts, 53 boundaries, so its intervals are wide.
 - **Provided tonic.** Tonics come from the datasets; a wrong tonic would shift every pitch class. We checked Sa/Pa peaks per recording and excluded recordings with a bad tonic (`configs/excluded_recordings.yaml`), but we did not study tonic-estimation errors.
-- **Scale labels.** The easy/hard labels use `configs/scales.yaml`: 17 of 40 entries from memory were corrected against external sources, 11 still carry a `verify` flag and one (sencurutti) is unresolved.
+- **Scale labels.** The easy/hard labels use `configs/scales.yaml`: 17 of 40 entries from memory were corrected against external sources, and a second-source check on 2026-11-28 left no svara set changed and cleared the flag on 7 entries; 4 (sama, husseni, atana: one source each; sencurutti: unresolved, parent set used) keep it.
 - **Window-length and latency conventions.** Latency uses the window-end convention and a 60 s cutoff; D3 online is forward filtering without back-tracking, so it does not enforce the minimum duration.
 - **Absolute accuracy** is modest, and the results rely on a single seed/split; test was used once per frozen configuration (E2, E3/E4), and the error analysis is descriptive.
-- **Related work** is a limited web search of abstracts and metadata (16 papers, no full texts read); the claim that no prior work evaluates rāga-change boundaries is an absence of evidence in that search.
+- **Related work** is a limited web search (abstracts and metadata, three papers read in full) (16 papers; three read in full); the claim that no prior work evaluates rāga-change boundaries is an absence of evidence in that search.
 
 ## 8. Conclusion and status
 
